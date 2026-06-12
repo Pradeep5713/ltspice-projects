@@ -63,20 +63,15 @@ A capacitor is like a small rechargeable tank. At **low frequencies** it barely 
 
 ## 4. Circuit Diagram
 
-```
-         R1 = 1 kΩ
-Vin ───[/\/\/\]─────┬──── Vout
-                    │
-                  ──┤── C1 = 159 nF
-                    │
-                   GND (0 V)
-```
+![Circuit Schematic](results/schematic.png)
 
-- **Vin** — input signal from the voltage source
-- **Vout** — output signal we measure (connected to C1's top end)
-- **GND** — ground (0 V reference, like the negative terminal of a battery)
+- **V1** (sine wave symbol, left) — AC voltage source, generates the input signal
+- **R1** (zigzag, top) — 1 kΩ resistor in the signal path
+- **C1** (two parallel lines, right) — 159 nF capacitor connected from the output node to ground
+- **Vout** — the output node, measured between R1 and C1
+- **GND** (ground symbol, bottom right) — 0 V reference
 
-Signal travels left → right. C1 is connected between the output node and ground. At high frequencies C1 becomes a low-resistance short to ground, draining the signal away before it reaches Vout.
+Signal travels left → right through R1. C1 sits between the output and ground. At high frequencies C1 becomes a low-resistance short to ground, draining the signal away before it reaches Vout.
 
 ---
 

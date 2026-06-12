@@ -66,22 +66,15 @@ High-pass filters are used in:
 
 ## 4. Circuit Diagram
 
-```
-      C1 = 159 nF
-Vin ───┤├──────────┬──── Vout
-                   │
-               [/\/\/\] R1 = 1 kΩ
-                   │
-                  GND (0 V)
-```
+![Circuit Schematic](results/schematic.png)
 
-- **Vin** — input signal from the voltage source
-- **C1** — series capacitor in the signal path (the key filtering element)
-- **Vout** — output signal we measure (between C1 and R1)
-- **R1** — resistor from Vout to ground
-- **GND** — ground (0 V reference)
+- **V1** (sine wave symbol, left) — AC voltage source, generates the input signal
+- **C1** (two parallel lines, top) — 159 nF capacitor in the signal path (the key filtering element)
+- **R1** (zigzag, right) — 1 kΩ resistor connected from the output node to ground
+- **Vout** — the output node, measured between C1 and R1
+- **GND** (ground symbol, bottom right) — 0 V reference
 
-Signal must pass through C1 to reach Vout. At low frequencies C1 blocks the path. At high frequencies C1 is transparent and the signal appears at Vout across R1.
+Signal must pass through C1 to reach Vout. At low frequencies C1 blocks the path. At high frequencies C1 is transparent and the signal appears across R1 at Vout.
 
 ---
 

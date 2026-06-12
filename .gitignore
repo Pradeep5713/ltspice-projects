@@ -1,0 +1,12 @@
+# Claude Code internal files
+.claude/
+
+# LTspice simulation outputs (binary/generated)
+*.raw
+*.op.raw
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

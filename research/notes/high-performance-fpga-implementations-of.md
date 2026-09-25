@@ -3,7 +3,10 @@ title: High-Performance FPGA Implementations of
 id: high-performance-fpga-implementations-of
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- ascon-lightweight-crypto
+- artix-7
 created: '2026-09-25T03:34:22.159378Z'
+updated: '2026-09-25T03:36:12.340234Z'
 source: https://eprint.iacr.org/2025/825.pdf
 source_domain: eprint.iacr.org
 fetched_at: '2026-09-25T03:34:22.158109Z'
@@ -13,6 +16,20 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'IEEE-style paper (Ahmet Malal, ASELSAN/METU, eprint 2025/825) presents a
+  VHDL FPGA implementation of NIST-standard ASCON-128/ASCON-128a lightweight AEAD,
+  optimized for throughput-to-area ratio via multi-round-per-cycle permutation (6
+  rounds/cycle for ASCON-128, GCD-derived; 4 rounds/cycle for ASCON-128a). Implemented
+  on Artix-7 (xc7a200tfbg676-2), Kintex-7 (xc7k160tfbg676-3), and Spartan-7 (xc7s100fgga676-2)
+  using Vivado 2023.2. Key results: on Artix-7, ASCON-128 reaches 3535.91 Mbps throughput
+  at 1.19 Mbps/LUT efficiency (vs. 792.56 Mbps/0.208 Mbps/LUT for a prior 6-round
+  design); ASCON-128a reaches 5333.3 Mbps at 2.44 Mbps/LUT. On Kintex-7, ASCON-128
+  hits 5925.92 Mbps (2.01 Mbps/LUT) and ASCON-128a hits 10158 Mbps (3.32 Mbps/LUT).
+  Claimed novelty/improvement: 34.16% better throughput-to-area on Artix-7, 137.58%
+  better on Kintex-7, and 98.63% better vs Spartan-6 designs, driven by the round-folding
+  architecture and modern Vivado toolchain. Directly relevant as a template for an
+  undergraduate FPGA+crypto Verilog/VHDL project with publishable resource/throughput
+  comparison tables.'
 raw_file: raw/high-performance-fpga-implementations-of.pdf
 ---
 

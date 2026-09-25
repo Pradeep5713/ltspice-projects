@@ -3,7 +3,11 @@ title: Hardware-Efficient Accurate 4-bit Multiplier for Xilinx 7 Series FPGAs
 id: hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- fpga-arithmetic
+- lut-multiplier
+- publishable-project-example
 created: '2026-09-25T03:34:13.975963Z'
+updated: '2026-09-25T03:35:47.831267Z'
 source: https://arxiv.org/pdf/2510.21533
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:34:13.975234Z'
@@ -13,6 +17,23 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'Kida & Sato (Shinshu University), arXiv:2510.21533 (Oct 2025). Proposes
+  a hand-optimized exact 4-bit unsigned multiplier for AMD Xilinx 7-series FPGAs (Arty
+  A7 / Artix-7 35T, Vivado 2024.2, area-optimized synthesis), using 11 LUTs and 2
+  CARRY4 blocks versus the prior best 12-LUT design (Yao & Zhang 2022). Novelty claim:
+  algebraic simplification of carry-logic dominance (e.g. reducing C1 to A1B2*A2B1)
+  removes redundant signals and shaves one LUT off the previous minimum while also
+  shortening critical path; a plain ''a*b'' RTL description in Vivado does not synthesize
+  to this structure, so the manual LUT-mapping is the paper''s contribution. Reports
+  full post-place-and-route comparison tables: Proposed=11 LUTs/2 CARRY4/2.750ns CPD
+  (1.302ns logic + 1.448ns net) vs LM[Yao]=12 LUTs/3.299ns, Acc[Ullah]=15 LUTs/3.979ns,
+  LOAM=13 LUTs/3.301ns, Exact(AreaOpt)=15 LUTs/2.728ns, Exact(PerfOpt)=20 LUTs/2.533ns,
+  Vivado IP(AreaOpt)=13 LUTs/3.739ns, Vivado IP(PerfOpt)=15 LUTs/3.393ns. Gives per-LUT
+  INIT hex values and Boolean functions (Table I) enabling direct HDL replication.
+  Illustrates a publishable-scale, easily reproducible B.Tech-level FPGA arithmetic
+  project: single building block, clear baseline comparison, exhaustive-simulation
+  verification, and a concrete novelty angle (LUT-count/critical-path reduction via
+  manual logic remapping) suitable for an IEEE conference short paper.'
 raw_file: raw/hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas.pdf
 doi: arXiv:2510.21533
 ---

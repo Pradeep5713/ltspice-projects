@@ -1,0 +1,44 @@
+[
+{
+  "claim": "Scopus's Content Selection and Advisory Board (CSAB) continually re-evaluates already-indexed journals and can discontinue coverage if they become predatory or decline in quality.",
+  "stance": "supports",
+  "stance_target": "students must actively verify current Scopus indexing status, not rely on a journal's past reputation",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "global, Scopus database, as of 2021",
+  "quoted_support": "Scopus is curated by a Content Selection and Advisory Board (CSAB)... these experts determine whether journals are eligible for indexing in Scopus, and they continually re-evaluate these titles to make sure quality is maintained.",
+  "numbers": ["7,000+ publishers indexed", "65 percent of flagged 2017 titles discontinued"],
+  "entities": ["Scopus", "Elsevier", "CSAB", "Jörg-Rüdiger Sack", "Beall's List"],
+  "time_period": "2017-2021",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "the-guardians-of-scopus"
+},
+{
+  "claim": "There is no universally agreed-upon definition of a predatory journal; predatory behavior exists on a spectrum and can develop over time in a previously legitimate title.",
+  "stance": "supports",
+  "stance_target": "predatory-journal risk is not a one-time check but requires ongoing verification even for previously-indexed venues",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "global academic publishing",
+  "quoted_support": "There is no universally agreed upon definition of a predatory journal or publisher... a journal can become predatory over time.",
+  "numbers": [],
+  "entities": ["Scopus", "Jörg-Rüdiger Sack"],
+  "time_period": "2021",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "the-guardians-of-scopus"
+},
+{
+  "claim": "The Nature/Scientometrics research on predatory journals being indexed in Scopus, which this Elsevier article responds to, was itself retracted on September 6, 2021.",
+  "stance": "neutral",
+  "stance_target": "reliability of predatory-journal-in-Scopus studies",
+  "evidence_type": "historical",
+  "scope_conditions": "2017-2021",
+  "quoted_support": "The research referred to here on alleged predatory journals being indexed in Scopus was retracted on September 6, 2021.",
+  "numbers": ["September 6, 2021"],
+  "entities": ["Nature", "Scientometrics", "Beall's List"],
+  "time_period": "2021",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "the-guardians-of-scopus"
+}
+]

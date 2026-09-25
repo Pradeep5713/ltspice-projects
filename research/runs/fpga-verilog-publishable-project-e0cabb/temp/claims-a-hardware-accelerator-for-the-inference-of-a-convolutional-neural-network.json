@@ -1,0 +1,67 @@
+[
+  {
+    "claim": "A Verilog RTL (hand-coded, not HLS) LeNet-5 CNN inference accelerator on a Zynq-7000 SoC achieves 97.59% accuracy on MNIST using only 12-bit fixed-point representation.",
+    "stance": "supports",
+    "stance_target": "low-precision fixed-point RTL CNN accelerators can achieve near-full accuracy with minimal bit-width, a strong reproducible undergraduate result",
+    "evidence_type": "empirical",
+    "scope_conditions": "Digilent Arty Z7-20, Xilinx Zynq-7000, MNIST dataset, Vivado 2018.4",
+    "quoted_support": "Our implementation achieved a of accuracy for the MNIST database using only a 12-bits fixed-point format... Nuestra implementación logró una precisión del 97,59 % para la base de datos MNIST utilizando tan solo 12 bits en el formato de punto fijo.",
+    "numbers": ["97.59%", "12-bit"],
+    "entities": ["LeNet-5", "Zynq-7000", "MNIST"],
+    "time_period": "2020",
+    "confidence": "high",
+    "source_note_id": "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network"
+  },
+  {
+    "claim": "The co-processing scheme running at a conservative 100 MHz classifies about 441 images per second, roughly 17% faster than a 650 MHz software-only implementation.",
+    "stance": "supports",
+    "stance_target": "hardware/software co-design can outperform a much higher-clocked pure-software baseline",
+    "evidence_type": "empirical",
+    "scope_conditions": "Zynq-7000 SoC, ARM Cortex-A9 (650 MHz) + Artix-7 FPGA (100 MHz)",
+    "quoted_support": "Results show that the co-processing scheme operating at a conservative speed of 100 MHz can identify around 441 images per second, which is about 17% times faster than a 650 MHz - software implementation.",
+    "numbers": ["441 images/sec", "100 MHz", "650 MHz", "17%", "2.268 ms/image", "440,917 images/sec throughput figure in text"],
+    "entities": ["LeNet-5", "Zynq-7000", "ARM Cortex-A9"],
+    "time_period": "2020",
+    "confidence": "high",
+    "source_note_id": "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network"
+  },
+  {
+    "claim": "The paper's MATH_ENGINE performs 150 multiplications in parallel using 150 DSP slices (plus 3 elsewhere), constant across all tested word-length configurations.",
+    "stance": "neutral",
+    "stance_target": "specific resource-sharing architecture detail reproducible for a student project",
+    "evidence_type": "empirical",
+    "scope_conditions": "Zynq-7000, fixed-point word length sweep",
+    "quoted_support": "As the MATH ENGINE performs 150 multiplications in parallel, the amount of Digital Signal Processors (DSPs) used in all cases is constant. In this case, 150 DSPs in the MATH ENGINE and 3 DSPs are used in the rest of the design.",
+    "numbers": ["150 DSPs", "3 DSPs"],
+    "entities": ["LeNet-5", "Zynq-7000"],
+    "time_period": "2020",
+    "confidence": "high",
+    "source_note_id": "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network"
+  },
+  {
+    "claim": "The authors claim their hand-written RTL/HDL (Verilog) approach yields lower hardware resource utilization than prior HLS-based LeNet-5 FPGA accelerators.",
+    "stance": "supports",
+    "stance_target": "RTL-first design (vs HLS) as a novelty/quality angle for a publishable FPGA CNN paper",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "comparison against HLS-based prior works cited in the paper",
+    "quoted_support": "It is important to note that most of the works mentioned above have used High-Level Synthesis (HLS) software... However, HLS software generally causes higher hardware resource utilization, which explains why our implementation required less logical resources than previous works.",
+    "numbers": [],
+    "entities": ["LeNet-5", "HLS", "Verilog RTL"],
+    "time_period": "2020",
+    "confidence": "medium",
+    "source_note_id": "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network"
+  },
+  {
+    "claim": "The paper is published in Ciencia e Ingenieria Neogranadina (Universidad Militar Nueva Granada), a Scopus-indexed journal, vol. 30, no. 1, pp. 107-116, 2020, DOI 10.18359/rcin.4194.",
+    "stance": "neutral",
+    "stance_target": "demonstrates an achievable Scopus-journal publication venue and format for a similar undergraduate FPGA CNN project",
+    "evidence_type": "historical",
+    "scope_conditions": "publication metadata",
+    "quoted_support": "Ciencia e Ingeniería Neogranadina, vol. 30, no. 1, pp. 107-116, 2020 Universidad Militar Nueva Granada... DOI: https://doi.org/10.18359/rcin.4194",
+    "numbers": ["vol.30", "no.1", "pp.107-116", "2020"],
+    "entities": ["Ciencia e Ingenieria Neogranadina", "Universidad Militar Nueva Granada"],
+    "time_period": "2020",
+    "confidence": "high",
+    "source_note_id": "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network"
+  }
+]

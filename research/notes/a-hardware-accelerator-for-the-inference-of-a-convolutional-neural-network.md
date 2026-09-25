@@ -3,7 +3,10 @@ title: A Hardware Accelerator for The Inference of a Convolutional Neural Networ
 id: a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- cnn-accelerator
+- zynq
 created: '2026-09-25T03:34:40.858667Z'
+updated: '2026-09-25T03:36:13.862923Z'
 source: https://www.redalyc.org/journal/911/91164537008/html/
 source_domain: www.redalyc.org
 fetched_at: '2026-09-25T03:34:40.857316Z'
@@ -13,6 +16,22 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: Peer-reviewed paper (Gonzalez, Villamizar Luna, Fajardo Ariza, Universidad
+  Industrial de Santander, Colombia; Ciencia e Ingenieria Neogranadina vol.30 no.1,
+  2020, DOI 10.18359/rcin.4194 — Scopus-indexed Redalyc journal) implements a Verilog
+  RTL (not HLS) hardware accelerator for LeNet-5 CNN inference in an ARM+FPGA co-processing
+  scheme on a Digilent Arty Z7-20 (Xilinx Zynq-7000, ARM Cortex-A9 at 650MHz + Artix-7
+  FPGA at 100MHz), Vivado 2018.4. Uses a reusable MATH_ENGINE (CONV_DOT, BIAS_&_ReLU,
+  SUB_SAMPLING submodules) with a two-BRAM ping-pong memory reuse strategy to minimize
+  resource usage. Achieved 97.59% MNIST accuracy using only 12-bit fixed-point representation;
+  execution time of 2.268 ms/image, i.e., throughput of 440,917 images/second (paper
+  abstract states ~441 images/sec at conservative wording), about 17% faster than
+  a 650MHz software-only implementation. MATH_ENGINE performs 150 multiplications
+  in parallel using 150 DSPs (+3 elsewhere) constant across word-length variants.
+  Explicitly claims novelty in using hand-written RTL/HDL (Verilog) instead of HLS
+  to achieve lower resource utilization than prior HLS-based LeNet-5 FPGA accelerators.
+  Directly useful as a publishable, reproducible B.Tech-scale CNN-on-FPGA project
+  template with accuracy-vs-bitwidth and resource-utilization tables.
 ---
 
 A Hardware Accelerator for The Inference of a Convolutional Neural Network

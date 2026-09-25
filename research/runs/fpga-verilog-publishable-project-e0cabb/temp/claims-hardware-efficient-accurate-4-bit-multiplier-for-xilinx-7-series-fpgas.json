@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "A hand-optimized exact 4-bit multiplier can be implemented on Xilinx 7-series FPGAs using only 11 LUTs and 2 CARRY4 blocks, one LUT fewer than the prior best 12-LUT design.",
+    "stance": "supports",
+    "stance_target": "small FPGA arithmetic-circuit projects can achieve genuine, publishable novelty via LUT-level redesign",
+    "evidence_type": "empirical",
+    "scope_conditions": "AMD Xilinx 7-series FPGA (Artix-7 35T, Arty A7 board), Vivado 2024.2, area-optimized synthesis",
+    "quoted_support": "This paper proposes a hardware-efficient accurate 4-bit multiplier design for AMD Xilinx 7-series FPGAs using only 11 LUTs and two CARRY4 blocks... Evaluation confirms that the circuit attains minimal resource usage and a critical-path delay of 2.750 ns.",
+    "numbers": ["11 LUTs", "2 CARRY4", "2.750 ns critical-path delay", "1.302 ns logic delay", "1.448 ns net delay"],
+    "entities": ["Xilinx 7-series FPGA", "Arty A7", "Artix-7 35T", "Vivado 2024.2", "CARRY4", "LUT6_2"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas"
+  },
+  {
+    "claim": "Standard RTL multiplication (a*b) synthesized directly in Vivado 2024.2 does not produce the resource-minimal LUT mapping; manual/structural HDL design is required to reach the optimum.",
+    "stance": "supports",
+    "stance_target": "manual logic design (not just behavioral Verilog) is a viable novelty axis for undergraduate FPGA papers",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vivado 2024.2 synthesis of 4-bit multiplication",
+    "quoted_support": "in Xilinx's Vivado 2024.2 toolchain, an RTL description written simply as a product (e.g., p = a*b) does not infer our proposed structure. A central contribution of this work is to show that a carefully manually designed 4-bit multiplier achieves higher performance than the automatically synthesized counterpart.",
+    "numbers": [],
+    "entities": ["Vivado 2024.2"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas"
+  },
+  {
+    "claim": "Comparison table shows the proposed 11-LUT/2-CARRY4 design has the lowest resource usage among 8 compared multiplier designs while ranking second-lowest in critical-path delay (2.750 ns), only slightly behind an Exact/PerfOpt design that uses far more LUTs.",
+    "stance": "supports",
+    "stance_target": "resource-vs-delay tradeoff comparison tables are a standard, reproducible evaluation format for FPGA arithmetic papers",
+    "evidence_type": "empirical",
+    "scope_conditions": "post place-and-route estimates, 4-bit exact multipliers",
+    "quoted_support": "the proposed multiplier con- sists of 11 LUTs and 2 CARRY4 units, exhibiting the low- est resource usage compared to other multipliers. Regard- ing delay, the critical path delay of the proposed multiplier is 2.750 ns, the second smallest after both Exact config- urations.",
+    "numbers": ["Proposed: 11 LUTs, 2 CARRY4, 2.750 ns", "LM[1]: 12 LUTs, 1 CARRY4, 3.299 ns", "Acc[2]: 15 LUTs, 3 CARRY4, 3.979 ns", "LOAM[6]: 13 LUTs, 1 CARRY4, 3.301 ns", "Exact(AreaOpt): 15 LUTs, 2 CARRY4, 2.728 ns", "Exact(PerfOpt): 20 LUTs, 2 CARRY4, 2.533 ns", "Vivado IP(AreaOpt): 13 LUTs, 3.739 ns", "Vivado IP(PerfOpt): 15 LUTs, 3.393 ns"],
+    "entities": ["Yao & Zhang", "Ullah", "LOAM", "Vivado IP"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas"
+  },
+  {
+    "claim": "Algebraic simplification of carry-dominance logic (C1 = A1B2*A2B1 replacing a longer OR-of-AND expression) is the specific mechanism enabling the 1-LUT reduction.",
+    "stance": "supports",
+    "stance_target": "small, well-documented Boolean simplifications constitute legitimate, presentable novelty in a short conference paper",
+    "evidence_type": "theoretical",
+    "scope_conditions": "carry computation for 4-bit partial-product addition in the S1 column",
+    "quoted_support": "By observing logical dominance, this can be simplified to C1 = A1B2 * A2B1, thereby reducing the number of required signals and, in turn, the number of LUTs.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas"
+  }
+]

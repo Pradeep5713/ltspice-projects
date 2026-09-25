@@ -1,0 +1,44 @@
+[
+{
+  "claim": "CS conferences' emphasis on low acceptance rates (often near 10%) as a quality signal creates a reviewing culture oriented toward finding reasons to reject rather than reasons to accept.",
+  "stance": "refutes",
+  "stance_target": "low acceptance rate as a valid proxy for venue quality",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "computer science conference peer review",
+  "quoted_support": "We have come to value as a quality metric for conferences a low acceptance rate. This feeds a culture of shooting each other down rather than growing and nurturing a community.",
+  "numbers": ["10 percent acceptance rate"],
+  "entities": ["Edward Lee", "ACM SIGBED"],
+  "time_period": "2022",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "the-toxic-culture-of-rejection-in-computer-science-acm-sigbed"
+},
+{
+  "claim": "Systems/engineering papers are structurally disadvantaged by novelty-based rejection because they necessarily integrate substantial prior art, making them look unoriginal to reviewers even when they demonstrate strong engineering and evaluation methodology.",
+  "stance": "refutes",
+  "stance_target": "novelty (a single new fact) as the primary criterion for accepting engineering/systems papers",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "computer science systems research",
+  "quoted_support": "We reject nearly all systems papers because building any system requires integrating a lot of prior art, and all that prior art looks familiar to the reviewers... such papers can teach us how to pursue excellence in engineering and design.",
+  "numbers": [],
+  "entities": ["Edward Lee"],
+  "time_period": "2022",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "the-toxic-culture-of-rejection-in-computer-science-acm-sigbed"
+},
+{
+  "claim": "Program committee members reviewing papers while also having their own papers in the same submission pool creates a built-in conflict of interest that biases toward rejection of competing work.",
+  "stance": "neutral",
+  "stance_target": "structural fairness of double-blind conference peer review",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "computer science conference peer review",
+  "quoted_support": "Another problem is the built-in conflict of interest that arises from the combination of the low acceptance rates with the fact that many (if not most) program committee members also have papers in the pool being considered.",
+  "numbers": [],
+  "entities": ["Edward Lee"],
+  "time_period": "2022",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "the-toxic-culture-of-rejection-in-computer-science-acm-sigbed"
+}
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "SIMON-128 implemented on Xilinx Artix-7 (xc7a35tcsg324-1) uses only 45 LUTs (0.22% of 20,800 available), 12 LUTRAM, and 27 FFs (0.06% of 4,600).",
+    "stance": "supports",
+    "stance_target": "extremely lightweight FPGA cipher cores are feasible undergraduate projects with tiny resource footprint",
+    "evidence_type": "empirical",
+    "scope_conditions": "Artix-7 xc7a35tcsg324-1, Vivado 2018.2",
+    "quoted_support": "The xc7a35tcsg324−1 FPGA contains 20800 LUT, 4600 Flip Flip and 9600 LUTRAM modules... LUT 45 20800 0.22",
+    "numbers": ["45 LUT", "0.22%", "27 FF", "0.06%", "12 LUTRAM"],
+    "entities": ["SIMON-128", "Artix-7", "Xilinx Vivado"],
+    "time_period": "2018-2023",
+    "confidence": "high",
+    "source_note_id": "fpga-implementation-of-simon-128"
+  },
+  {
+    "claim": "The SIMON-128 Artix-7 implementation consumes only 0.072 W total on-chip power, a 69.87% reduction vs Zynq-7000 (239 mW) and 70.56% reduction vs Virtex-7 (248 mW).",
+    "stance": "supports",
+    "stance_target": "low-cost Artix-7 platform gives strong power efficiency for lightweight crypto cores versus larger FPGA families",
+    "evidence_type": "empirical",
+    "scope_conditions": "comparison against SIMON on Zynq-7000 and Virtex-7 from cited prior work [21]",
+    "quoted_support": "We note a gain in power consumption of 69.87% compared to Zynq-7000 and 70.56% compared to Virtex-7, a gain in delay of 26.69% compared to Zynq-7000 and 8.95% compared to Virtex-7.",
+    "numbers": ["0.072 W", "239 mW", "248 mW", "69.87%", "70.56%"],
+    "entities": ["SIMON-128", "Artix-7", "Zynq-7000", "Virtex-7"],
+    "time_period": "n/a",
+    "confidence": "high",
+    "source_note_id": "fpga-implementation-of-simon-128"
+  },
+  {
+    "claim": "The Artix-7 SIMON-128 implementation achieves a delay of 4.020 ns, an improvement of 26.69% over Zynq-7000 (5.448 ns) and 8.95% over Virtex-7 (4.415 ns).",
+    "stance": "supports",
+    "stance_target": "performance/delay superiority claim of Artix-7 low-cost platform for lightweight ciphers",
+    "evidence_type": "empirical",
+    "scope_conditions": "Table V comparison, same cipher across three FPGA families",
+    "quoted_support": "Metric SIMON Zynq-7000 [21] SIMON Virtex-7 [21] SIMON Artix-7 Power (mW) 239 248 72 Delay (ns) 5.448 4.415 4.020 Area (LUT) 73 73 45",
+    "numbers": ["4.020 ns", "5.448 ns", "4.415 ns", "73 LUT", "45 LUT"],
+    "entities": ["SIMON-128", "Artix-7", "Zynq-7000", "Virtex-7"],
+    "time_period": "n/a",
+    "confidence": "high",
+    "source_note_id": "fpga-implementation-of-simon-128"
+  },
+  {
+    "claim": "SIMON-128 is a Feistel-network symmetric block cipher designed by NSA researchers, prioritizing minimal hardware footprint for constrained embedded systems.",
+    "stance": "neutral",
+    "stance_target": "background on SIMON algorithm as a project topic",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general algorithm description",
+    "quoted_support": "One of SIMON's security goals was to keep a reasonable level of security in an environment where power, memory and processors are severely limited.",
+    "numbers": ["128-bit block", "192/256-bit key options"],
+    "entities": ["SIMON", "NSA"],
+    "time_period": "n/a",
+    "confidence": "medium",
+    "source_note_id": "fpga-implementation-of-simon-128"
+  }
+]

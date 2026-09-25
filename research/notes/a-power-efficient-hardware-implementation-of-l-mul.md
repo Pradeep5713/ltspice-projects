@@ -3,7 +3,11 @@ title: A Power-Efficient Hardware Implementation of L-Mul
 id: a-power-efficient-hardware-implementation-of-l-mul
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- fpga-arithmetic
+- fp8-multiplier
+- publishable-project-example
 created: '2026-09-25T03:34:21.850429Z'
+updated: '2026-09-25T03:36:08.217310Z'
 source: https://arxiv.org/pdf/2412.18948
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:34:21.849681Z'
@@ -13,6 +17,31 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'Chen, Lyu, Bao, da Silva (Vrije Universiteit Brussel, ETRO), arXiv:2412.18948
+  (Dec 2024). First reported FPGA hardware implementation of the L-Mul (linear-complexity
+  multiplication) algorithm, targeting the emerging FP8 (E4M3) format used in LLM/NN
+  inference. Design uses AMD Xilinx UltraScale/UltraScale+ dynamically reconfigurable
+  LUT and CARRY8 carry-chain primitives, built from CLB-level primitives (LUT_A-E)
+  to compute exponent-add, mantissa-add, and post-processing (rounding/carry-based
+  mantissa correction per Table II, bias constants per Table III) without full multiplication,
+  exploiting L-Mul''s approximation that multiplication can be replaced by mantissa
+  addition. Implemented in Verilog, synthesized with Vivado 2022.2, deployed on a
+  ZCU104 UltraScale+ board; multiple synthesis iterations under different critical-path
+  constraints for accurate area/Fmax measurement, with Vivado power analysis for dynamic
+  power. Key resource numbers (Table V/VI, E4M3 format): design uses on average fewer
+  than 23 LUTs, and the reported point design (''Ours FP8 E4M3'') achieves 22 LUTs,
+  617 MHz max frequency, 4.85 ns critical-path delay, and low dynamic power in mW
+  versus AMD''s IP core and prior FPGA-based INT8 approximate multipliers -- claimed
+  as the highest accuracy, energy efficiency, and lowest latency among compared 8-bit
+  designs, with resource consumption reduced by an average of 10% versus prior FPGA-based
+  8-bit approximate multipliers. System-level validation: integrated into a CNN accelerator
+  (INT8 exact baseline: 117,067 LUTs, 1,156 DSPs) achieving a DSP-free implementation
+  with 14.59% power reduction at matched 250 MHz operating frequency, and into a GCN
+  inference accelerator (LW-GCN, INT8) also achieving DSP-free implementation with
+  reduced power. Demonstrates a novel, publishable niche: hardware-izing a very recent
+  (2024) approximate-multiplication algorithm for the FP8 datatype, with full accuracy
+  (Table IV, EP/MAE/MRE/MSE) and resource/power comparison tables against named baselines
+  -- a template for a B.Tech capstone with a clear, current novelty hook.'
 raw_file: raw/a-power-efficient-hardware-implementation-of-l-mul.pdf
 doi: arXiv:2412.18948
 ---

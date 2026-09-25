@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "This paper is the first reported FPGA hardware implementation of the L-Mul (linear-complexity multiplication) algorithm, targeting the FP8 (E4M3) data format used in LLM/NN inference.",
+    "stance": "supports",
+    "stance_target": "implementing a very recent (2024) approximate-multiplication algorithm in hardware is a viable, current novelty angle for a student FPGA project",
+    "evidence_type": "empirical",
+    "scope_conditions": "FPGA implementation of L-Mul, FP8 E4M3 format",
+    "quoted_support": "To the best of our knowledge, this is the first FPGA-based FP8 approximate multiplier design.",
+    "numbers": [],
+    "entities": ["L-Mul", "FP8", "E4M3"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "a-power-efficient-hardware-implementation-of-l-mul"
+  },
+  {
+    "claim": "The proposed FP8 E4M3 L-Mul hardware design uses 22 LUTs, achieves a maximum frequency of 617 MHz with a critical-path delay of 4.85 ns, and reduces resource consumption by an average of 10% versus prior FPGA-based 8-bit approximate multipliers.",
+    "stance": "supports",
+    "stance_target": "concrete LUT/Fmax/delay numbers define what a 'publishable result' looks like for an FPGA arithmetic paper",
+    "evidence_type": "empirical",
+    "scope_conditions": "AMD Xilinx UltraScale+ (ZCU104 board), Vivado 2022.2 synthesis, FP8 E4M3 format",
+    "quoted_support": "Compared to previous FPGA-based 8-bit approximate multiplier designs, our approach reduces resource consumption by an average of 10% while maintaining comparable performance.",
+    "numbers": ["22 LUTs", "617 MHz max frequency", "4.85 ns delay", "10% average resource reduction"],
+    "entities": ["ZCU104", "UltraScale+", "Vivado 2022.2", "L-Mul", "FP8 E4M3"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "a-power-efficient-hardware-implementation-of-l-mul"
+  },
+  {
+    "claim": "Integrating the L-Mul FP8 approximate multiplier into a CNN accelerator achieves a DSP-free implementation and reduces power consumption by 14.59% at the same 250 MHz operating frequency compared to an exact INT8 CNN accelerator baseline (117,067 LUTs, 1,156 DSPs).",
+    "stance": "supports",
+    "stance_target": "system-level (accelerator-integration) evaluation with power numbers strengthens the publishability of an arithmetic-unit paper",
+    "evidence_type": "empirical",
+    "scope_conditions": "CNN inference accelerator, 250 MHz operating frequency, INT8 exact baseline vs L-Mul FP8 E4M3 replacement",
+    "quoted_support": "Thanks to the approximate multiplier design, we achieve a DSP-free implementation and reduce power consumption by 14.59% at the same operating frequency (250 MHz).",
+    "numbers": ["117,067 LUTs (exact INT8 CNN baseline)", "1,156 DSPs (exact INT8 CNN baseline)", "14.59% power reduction", "250 MHz"],
+    "entities": ["CNN accelerator", "L-Mul", "FP8 E4M3"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "a-power-efficient-hardware-implementation-of-l-mul"
+  },
+  {
+    "claim": "The design was also integrated into a GCN inference accelerator (based on LW-GCN, INT8), achieving a DSP-free implementation and reduced power consumption at matched operating frequency.",
+    "stance": "supports",
+    "stance_target": "demonstrating cross-domain applicability (CNN and GCN) of a single arithmetic-unit design broadens a paper's contribution scope",
+    "evidence_type": "empirical",
+    "scope_conditions": "GCN inference accelerator based on LW-GCN, INT8 baseline replaced with L-Mul FP8 E4M3",
+    "quoted_support": "we implement a GCN inference accelerator based on L-Mul (FP8, E4M3) using LW-GCN (INT8)... This design also achieves a DSP-free implementation at the same operating frequency and reduces overall power consumption.",
+    "numbers": [],
+    "entities": ["LW-GCN", "GCN accelerator", "L-Mul"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "a-power-efficient-hardware-implementation-of-l-mul"
+  },
+  {
+    "claim": "The L-Mul hardware design was built using CLB-level primitives (LUT_A through LUT_E and CARRY8 chains) to implement exponent addition, mantissa addition with carry-dependent mantissa correction, and post-processing, avoiding a full multiplier datapath.",
+    "stance": "supports",
+    "stance_target": "primitive-level (not behavioral) HDL design is a recurring theme across publishable FPGA arithmetic papers in this space",
+    "evidence_type": "theoretical",
+    "scope_conditions": "AMD Xilinx UltraScale/UltraScale+ CLB structure (LUT6_2, 4-bit carry chains grouped into CARRY8)",
+    "quoted_support": "By analyzing the CLB structure of AMD FPGAs, we achieve fine-grained optimization through primitive-based design.",
+    "numbers": [],
+    "entities": ["CARRY8", "LUT6_2", "UltraScale+"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "a-power-efficient-hardware-implementation-of-l-mul"
+  }
+]

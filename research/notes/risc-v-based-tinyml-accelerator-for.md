@@ -3,7 +3,10 @@ title: RISC-V Based TinyML Accelerator for
 id: risc-v-based-tinyml-accelerator-for
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- tinyml-accelerator
+- artix-7
 created: '2026-09-25T03:34:37.779908Z'
+updated: '2026-09-25T03:36:13.467931Z'
 source: https://arxiv.org/pdf/2511.21232
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:34:37.779012Z'
@@ -13,6 +16,24 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'arXiv paper (Yildirim, Bilkent Univ.; Ozturk, Sabanci Univ., Nov 2025) proposes
+  a RISC-V Custom Function Unit (CFU) accelerator for MobileNetV2-style Depthwise
+  Separable Convolutions using a novel ''fused pixel-wise dataflow'' that eliminates
+  intermediate feature-map buffers entirely (computing one output pixel through expansion,
+  depthwise conv, and projection stages in a single tightly-coupled pipeline), cutting
+  data movement up to 87% vs conventional layer-by-layer execution. Evaluated on Xilinx
+  Artix-7 XC7A100T (Digilent Nexys A7-100T, Vivado, 100 MHz) with resources available:
+  63,400 LUTs, 126,800 FFs, 240 DSPs, 135 BRAM(36Kb). Iterative pipeline versions:
+  v1 (sequential) uses 20,922 LUTs, 17,752 FFs, 97 BRAM, 178 DSP, 1.275 W and gives
+  27.4x speedup on layer 3 vs unaccelerated baseline; v2 (3-stage inter-stage pipeline,
+  identical resources) reaches 46.3x speedup at 1.303 W; v3 (5-stage intra-stage pipeline,
+  identical resources) reaches the paper''s headline 59.3x speedup at 1.121 W (lower
+  power than v1/v2 due to clock gating). ASIC synthesis (Cadence Genus + CACTI) projects
+  0.284 mm^2 / 910 mW at 2 GHz in 28nm, and 1.20 mm^2 / 233 mW at 300 MHz in 40nm.
+  Novelty claim: zero-buffer/zero-DRAM-write dataflow for DSC layers is the first
+  to eliminate intermediate buffers entirely rather than just shrinking them. Strong
+  source for a TinyML/edge-AI accelerator angle with rigorous resource/power/speedup
+  tables (long source, >9000 words — candidate for source-analyst deep dive).'
 raw_file: raw/risc-v-based-tinyml-accelerator-for.pdf
 doi: arXiv:2511.21232
 ---

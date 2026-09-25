@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "DyRecMul, an INT8 approximate multiplier using AMD-Xilinx dynamically reconfigurable LUT primitives (CFGLUT5), reduces LUT utilization by 64% for signed multiplication and 67% for multiply-accumulate versus the standard Xilinx multiplier core.",
+    "stance": "supports",
+    "stance_target": "dynamic LUT reconfiguration is a strong, quantifiable novelty axis for FPGA approximate-arithmetic papers",
+    "evidence_type": "empirical",
+    "scope_conditions": "Xilinx Kintex UltraScale+ (xcku5p, speed grade -3), Vivado ML 2022.2, DSP resources disabled, INT8 precision",
+    "quoted_support": "Implementation results on an AMD-Xilinx Kintex Ultrascale+ FPGA demonstrate remarkable savings of 64% and 67% in LUT utilization for signed multiplication and multiply-and-accumulation configurations, respectively, when compared to the standard Xilinx multiplier core.",
+    "numbers": ["64% LUT reduction (signed)", "80% LUT reduction (unsigned)", "67% LUT reduction (MAC)", "xcku5p speed grade -3"],
+    "entities": ["DyRecMul", "Xilinx Kintex UltraScale+", "CFGLUT5", "Vivado ML 2022.2"],
+    "time_period": "2023",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "arxiv231010053v1-csar-16-oct-2023"
+  },
+  {
+    "claim": "DyRecMul achieves higher maximum clock frequency than all compared exact and approximate multipliers, up to 5.5% higher (signed) and 34.6% higher (MAC) than the exact 8x8 multiplier.",
+    "stance": "supports",
+    "stance_target": "approximate/reconfigurable multipliers can simultaneously improve area and timing over exact baselines",
+    "evidence_type": "empirical",
+    "scope_conditions": "Kintex UltraScale+, DSP-disabled synthesis",
+    "quoted_support": "it can support clock frequencies that are up to 5.5% and 34.6% higher than an exact 8x8 multiplier in signed and MAC setups, respectively.",
+    "numbers": ["5.5% higher Fmax (signed)", "34.6% higher Fmax (MAC)"],
+    "entities": ["DyRecMul"],
+    "time_period": "2023",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "arxiv231010053v1-csar-16-oct-2023"
+  },
+  {
+    "claim": "Deploying DyRecMul for post-training inference (no retraining) on four CNN benchmarks (ResNet18, ResNet50, VGG19, and a fourth network) yields an average accuracy loss of less than 0.29% and a worst-case loss of less than 0.33% versus exact INT8 multiplication.",
+    "stance": "supports",
+    "stance_target": "approximate multipliers can be deployed in real DNN inference pipelines with negligible accuracy cost, giving undergraduate projects a credible application-level evaluation story",
+    "evidence_type": "statistical",
+    "scope_conditions": "post-training deployment, no fine-tuning/retraining, four DL benchmark models",
+    "quoted_support": "DyRecMul provides an average accuracy that is only 0.29% lower than that of 8x8 exact multipliers... The worst-case accuracy distance from the exact 8x8 multiplier is only 0.33%.",
+    "numbers": ["0.29% average accuracy degradation", "0.33% worst-case accuracy degradation"],
+    "entities": ["ResNet18", "ResNet50", "VGG19", "DyRecMul"],
+    "time_period": "2023",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "arxiv231010053v1-csar-16-oct-2023"
+  },
+  {
+    "claim": "The DyRecMul encoder converts an 8-bit fixed-point operand to a compact float(1,2,5) format using only seven LUT5 elements, and the decoder likewise uses seven LUT5 units with a critical path of a single LUT5.",
+    "stance": "supports",
+    "stance_target": "low-cost format-conversion logic is a reproducible design detail useful for a student project replication",
+    "evidence_type": "empirical",
+    "scope_conditions": "INT8-to-float(1,2,5) conversion logic",
+    "quoted_support": "The conversion logic from INT8 to float (1, 2, 5) is designed to be low-cost and efficient, requiring only seven LUT5 elements... Since all LUT5 units function in parallel, the critical path is only one LUT5.",
+    "numbers": ["7 LUT5 (encoder)", "7 LUT5 (decoder)"],
+    "entities": ["CFGLUT5", "float(1,2,5) format"],
+    "time_period": "2023",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "arxiv231010053v1-csar-16-oct-2023"
+  },
+  {
+    "claim": "The DyRecMul source code (Verilog/VHDL) was released publicly on GitHub, supporting open reproducibility.",
+    "stance": "neutral",
+    "stance_target": "open-sourcing FPGA project code strengthens a paper's reproducibility for IEEE/Scopus review",
+    "evidence_type": "empirical",
+    "scope_conditions": null,
+    "quoted_support": "The source code of this work is available on GitHub.",
+    "numbers": [],
+    "entities": ["GitHub", "INRS-ECCoLe/DyRecMul"],
+    "time_period": "2023",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "arxiv231010053v1-csar-16-oct-2023"
+  }
+]

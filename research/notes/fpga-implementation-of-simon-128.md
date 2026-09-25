@@ -3,7 +3,10 @@ title: FPGA Implementation of SIMON-128
 id: fpga-implementation-of-simon-128
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- simon-lightweight-crypto
+- artix-7
 created: '2026-09-25T03:34:24.806641Z'
+updated: '2026-09-25T03:36:12.711008Z'
 source: https://arxiv.org/pdf/2301.01889
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:34:24.805750Z'
@@ -13,6 +16,19 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'IEEE conference-style paper (Ghayoula, Fattahi, Smida, El Gmati, Pricop,
+  Ziadia) implements the NSA-designed SIMON-128 lightweight Feistel block cipher on
+  a low-cost Xilinx Artix-7 (xc7a35tcsg324-1, Arty board) using Vivado 2018.2. Reports
+  exact post-synthesis/post-implementation resource use: only 45 LUTs (0.22% of 20,800
+  available), 12 LUTRAM (0.13%), 27 FFs (0.06% of 4,600), 5 IO, 1 BUFG. Power: 0.072
+  W total on-chip power (dynamic <0.001 W signals/logic, 0.070 W static PL power),
+  junction temp 25.3C. Comparison table (Table V) vs SIMON on Zynq-7000 and Virtex-7
+  from prior work [21]: Artix-7 achieves 72 mW power vs 239 mW (Zynq) and 248 mW (Virtex-7)
+  — a 69.87% and 70.56% power reduction; delay of 4.020 ns vs 5.448 ns and 4.415 ns
+  (26.69% and 8.95% improvement); and only 45 LUTs vs 73 LUTs for both comparators.
+  This is an extremely lightweight, easily-reproducible Verilog/VHDL crypto core suitable
+  as a B.Tech capstone with a clear resource/power/delay comparison table for a publishable
+  paper.'
 raw_file: raw/fpga-implementation-of-simon-128.pdf
 doi: arXiv:2301.01889
 ---

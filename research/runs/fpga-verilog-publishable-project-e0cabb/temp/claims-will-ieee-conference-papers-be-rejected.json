@@ -1,0 +1,58 @@
+[
+{
+  "claim": "IEEE conference acceptance rates typically range from 20% to 50%, varying with conference prestige and topic relevance.",
+  "stance": "supports",
+  "stance_target": "students should expect substantial rejection risk even at ordinary IEEE conferences",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "IEEE conferences, general",
+  "quoted_support": "IEEE conferences maintain rigorous standards. Acceptance rates can vary widely, typically ranging from 20% to 50%.",
+  "numbers": ["20 to 50 percent"],
+  "entities": ["IEEE"],
+  "time_period": "2025",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "will-ieee-conference-papers-be-rejected"
+},
+{
+  "claim": "Lack of novelty/significant contribution is the single most common reason IEEE conference papers are rejected.",
+  "stance": "supports",
+  "stance_target": "novelty is the top selection criterion reviewers apply to IEEE conference submissions",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "IEEE conference review",
+  "quoted_support": "Lack of Novelty or Significant Contribution: The most common reason. Your paper must present a clear, new idea or a significant improvement over existing work.",
+  "numbers": [],
+  "entities": ["IEEE"],
+  "time_period": "2025",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "will-ieee-conference-papers-be-rejected"
+},
+{
+  "claim": "Major formatting and guideline violations (wrong template, page limits, missing required sections) can cause desk rejection without technical review at IEEE conferences.",
+  "stance": "supports",
+  "stance_target": "formatting compliance as a precondition for review at IEEE venues",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "IEEE conference submission process",
+  "quoted_support": "Major Formatting and Guideline Violations: Ignoring page limits, using the wrong template, or missing required sections (like abstracts or keywords) can lead to a desk rejection without technical review.",
+  "numbers": [],
+  "entities": ["IEEE"],
+  "time_period": "2025",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "will-ieee-conference-papers-be-rejected"
+},
+{
+  "claim": "Insufficient comparison with state-of-the-art methods and lack of statistical significance are cited as common evaluation weaknesses leading to rejection.",
+  "stance": "supports",
+  "stance_target": "rigorous evaluation/benchmarking is required for IEEE paper acceptance",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "IEEE conference review",
+  "quoted_support": "Poor Experimental Design or Evaluation: Flawed methodology, inadequate data, insufficient comparisons with state-of-the-art methods, or lack of statistical significance can lead to immediate rejection.",
+  "numbers": [],
+  "entities": ["IEEE"],
+  "time_period": "2025",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "will-ieee-conference-papers-be-rejected"
+}
+]

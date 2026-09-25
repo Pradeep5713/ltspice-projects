@@ -3,7 +3,10 @@ title: The guardians of Scopus
 id: the-guardians-of-scopus
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- scopus-verification
+- predatory-journals
 created: '2026-09-25T03:34:37.412318Z'
+updated: '2026-09-25T03:35:43.436305Z'
 source: https://www.elsevier.com/connect/the-guardians-of-scopus
 source_domain: www.elsevier.com
 fetched_at: '2026-09-25T03:34:37.411064Z'
@@ -13,6 +16,18 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Elsevier Connect (Feb 2021) explains Scopus''s Content Selection and Advisory
+  Board (CSAB), a panel of independent subject experts who apply title-selection criteria
+  to admit and continually re-evaluate journals, discontinuing coverage of titles
+  that become predatory or decline in quality. Chair Jörg-Rüdiger Sack states there
+  is no universally agreed definition of a predatory journal — predation exists on
+  a spectrum and can develop over time even in journals correctly admitted, driven
+  by volume spikes, editorial-board changes, or shifts in scope/publisher. Of journals
+  flagged for re-evaluation in 2017 (including Beall''s List titles), the CSAB discontinued
+  coverage of 65 percent. Key caveat: an editor''s note states the Nature/Scientometrics
+  research on predatory journals in Scopus that prompted this piece was itself retracted
+  on Sept 6, 2021 — useful for framing how contested predatory-journal classification
+  is.'
 ---
 
 The guardians of Scopus

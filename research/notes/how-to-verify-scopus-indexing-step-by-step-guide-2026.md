@@ -3,7 +3,10 @@ title: 'How to Verify Scopus Indexing: Step-by-Step Guide (2026)'
 id: how-to-verify-scopus-indexing-step-by-step-guide-2026
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- scopus-verification
+- predatory-journals
 created: '2026-09-25T03:34:39.924740Z'
+updated: '2026-09-25T03:35:44.497995Z'
 source: https://www.aischolar.com/news/article/how-to-verify-scopus-indexing
 source_domain: www.aischolar.com
 fetched_at: '2026-09-25T03:34:39.923955Z'
@@ -13,6 +16,19 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'AiScholar (2026) gives a practical 3-step process for students to verify
+  Scopus indexing before submitting/paying: (1) use the free Scopus Preview at Scopus.com/sources,
+  searching by ISSN (more reliable than title) rather than trusting a conference''s
+  self-reported logo; (2) check ''Scopus Coverage Years'' — ''from [year] to Present''
+  is safe, but an end year in the past (e.g., ''2010 to 2023'') means the title was
+  discontinued/dropped and should not be trusted; (3) for conference proceedings specifically,
+  identify the actual publisher (IEEE/Springer/ACM/IOP) and proceedings series name
+  (e.g., IEEE Conference Proceedings, LNCS) since Scopus indexes the series, not the
+  event website — a legitimate organizer can supply an ISBN or a link to last year''s
+  indexed volume. Lists 4 red flags of fake Scopus conferences: guaranteed acceptance
+  before peer review, unrealistically fast review (e.g., 3-day acceptance), organizer
+  using Gmail/Hotmail instead of institutional email, and lack of transparency on
+  fees.'
 ---
 
 How to Verify Scopus Indexing: Step-by-Step Guide (2026)

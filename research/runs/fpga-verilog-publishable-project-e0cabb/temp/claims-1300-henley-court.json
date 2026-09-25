@@ -1,0 +1,58 @@
+[
+{
+  "claim": "The Basys3 board uses a Xilinx Artix-7 XC7A35T-1CPG236C FPGA with 33,280 logic cells in 5,200 slices, 1,800 Kbits of block RAM, 90 DSP slices, five clock management tiles with PLLs, and internal clock speeds exceeding 450 MHz.",
+  "stance": "neutral",
+  "stance_target": "Basys3 hardware capacity for student FPGA-Verilog projects",
+  "evidence_type": "empirical",
+  "scope_conditions": "Basys3 rev. C hardware, Aug 2014 manual",
+  "quoted_support": "33,280 logic cells in 5200 slices (each slice contains four 6-input LUTs and 8 flip-flops)... 1,800 Kbits of fast block RAM... 90 DSP slices... Internal clock speeds exceeding 450MHz.",
+  "numbers": ["33,280 logic cells", "5,200 slices", "1,800 Kbits block RAM", "90 DSP slices", "450 MHz", "five CMTs"],
+  "entities": ["Digilent", "Xilinx", "Artix-7", "XC7A35T-1CPG236C", "Basys3"],
+  "time_period": "2014",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "1300-henley-court"
+},
+{
+  "claim": "The Basys3 includes an onboard set of I/O sufficient to complete many student digital designs without additional hardware: 16 switches, 16 LEDs, 5 pushbuttons, a 4-digit 7-segment display, three Pmod connectors plus a dedicated XADC Pmod, 12-bit VGA output, USB-UART bridge, and serial flash.",
+  "stance": "supports",
+  "stance_target": "Basys3 is a viable low-cost, self-contained platform for a final-year FPGA-Verilog project",
+  "evidence_type": "empirical",
+  "scope_conditions": "Basys3 rev. C hardware",
+  "quoted_support": "It includes enough switches, LEDs, and other I/O devices to allow a large number of designs to be completed without the need for any additional hardware, and enough uncommitted FPGA I/O pins to allow designs to be expanded using Digilent Pmods or other custom boards.",
+  "numbers": ["16 switches", "16 LEDs", "5 pushbuttons", "4-digit 7-segment display", "3 Pmod connectors", "12-bit VGA"],
+  "entities": ["Digilent", "Basys3", "Pmod", "XADC"],
+  "time_period": "2014",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "1300-henley-court"
+},
+{
+  "claim": "The Basys3 works with Xilinx's free WebPACK edition of the Vivado Design Suite, meaning students can develop and program designs at no additional software cost.",
+  "stance": "supports",
+  "stance_target": "low-cost accessibility of FPGA tooling for student projects",
+  "evidence_type": "empirical",
+  "scope_conditions": "Basys3 board, Vivado Design Suite",
+  "quoted_support": "the free WebPACK™ version allows Basys3 designs to be created at no additional cost.",
+  "numbers": [],
+  "entities": ["Xilinx", "Vivado", "WebPACK", "Basys3"],
+  "time_period": "2014",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "1300-henley-court"
+},
+{
+  "claim": "The Basys3 can be powered via its USB-JTAG port or an external 5V supply delivering at least 1A (5W minimum), selectable via jumper JP2.",
+  "stance": "neutral",
+  "stance_target": "Basys3 power requirements for standalone/demo operation",
+  "evidence_type": "empirical",
+  "scope_conditions": "Basys3 rev. C power circuit",
+  "quoted_support": "The supply must deliver 4.5VDC to 5.5VDC and at least 1A of current (i.e., at least 5W of power).",
+  "numbers": ["4.5V to 5.5V", "1A", "5W"],
+  "entities": ["Digilent", "Basys3", "LTC3633"],
+  "time_period": "2014",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "1300-henley-court"
+}
+]

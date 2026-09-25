@@ -3,7 +3,10 @@ title: 'TinyCNN: A Tiny Modular CNN Accelerator for Embedded FPGA'
 id: tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- cnn-accelerator
+- zynq
 created: '2026-09-25T03:34:32.072050Z'
+updated: '2026-09-25T03:36:13.087357Z'
 source: https://arxiv.org/pdf/1911.06777
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:34:32.071296Z'
@@ -13,6 +16,20 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'Ali Jahanshahi (UC Riverside) arXiv preprint proposes TinyCNN, an automated
+  framework (Python/Keras software backend + CHISEL hardware backend + Scala-based
+  precision-adjustment backend) that generates modular, resource-aware CNN accelerator
+  hardware for embedded FPGAs. Evaluated on a PYNQ board (Xilinx Zynq-7000 XC7Z020
+  SoC + ARM Cortex-A9) using a small CNN (4 conv layers, 3x3 filters, 292,566 params)
+  trained on grayscale CIFAR-10. Reports per-image comparison: software (32-bit float,
+  ARM 650MHz) gets 65.54% accuracy at 42.54 ms/image; hardware shared-mode (16-bit
+  fixed) gets 62.28% accuracy at 8.12 ms; hardware exclusive-mode (16-bit fixed) gets
+  62.28% accuracy at 2.7 ms — i.e., up to 15.75x speedup with only ~3% accuracy loss
+  versus floating-point software. Notes convolution units can run in ''shared'' (resource-saving)
+  or ''exclusive'' (higher throughput) mode and memory (BRAM) is the binding resource
+  constraint on embedded FPGAs. Good template for a B.Tech project on lightweight
+  CNN/tiny accelerator design-space tooling with reproducible speedup/accuracy tradeoff
+  tables.'
 raw_file: raw/tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga.pdf
 doi: arXiv:1911.06777
 ---

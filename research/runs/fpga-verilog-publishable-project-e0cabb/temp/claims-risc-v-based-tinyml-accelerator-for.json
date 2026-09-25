@@ -1,0 +1,67 @@
+[
+  {
+    "claim": "A fused pixel-wise dataflow CFU accelerator for MobileNetV2 depthwise separable convolutions eliminates intermediate feature-map buffers entirely, cutting data movement up to 87% versus conventional layer-by-layer execution.",
+    "stance": "supports",
+    "stance_target": "novel dataflow restructuring (not just quantization) is a publishable novelty angle for edge-AI FPGA accelerators",
+    "evidence_type": "empirical",
+    "scope_conditions": "MobileNetV2 depthwise separable convolution blocks, RISC-V CFU architecture",
+    "quoted_support": "Implemented as a Custom Function Unit (CFU) for a RISC-V processor, our architecture eliminates the need for intermediate buffers entirely, reducing the data movement up to 87% compared to conventional layer-by-layer execution.",
+    "numbers": ["87%"],
+    "entities": ["RISC-V", "MobileNetV2", "CFU"],
+    "time_period": "2025",
+    "confidence": "high",
+    "source_note_id": "risc-v-based-tinyml-accelerator-for"
+  },
+  {
+    "claim": "On Xilinx Artix-7 XC7A100T, the final 5-stage intra-stage-pipelined accelerator (v3) achieves up to 59.3x speedup over unaccelerated RISC-V software baseline at the same resource cost as the initial design (20,922 LUTs, 17,752 FFs, 97 BRAM, 178 DSP).",
+    "stance": "supports",
+    "stance_target": "pipelining architecture alone (no added hardware) can deliver order-of-magnitude speedups, a strong empirical result for a publishable paper",
+    "evidence_type": "empirical",
+    "scope_conditions": "Digilent Nexys A7-100T, Artix-7 XC7A100T, Vivado, 100 MHz clock",
+    "quoted_support": "The final 5-stage intra-stage pipeline (v3) achieves the highest throughput by minimizing hardware idle time, resulting in a maximum speedup of 59.3x for the 3rd layer.",
+    "numbers": ["59.3x", "20,922 LUTs", "17,752 FFs", "97 BRAM", "178 DSP", "1.121 W"],
+    "entities": ["RISC-V", "Artix-7", "MobileNetV2"],
+    "time_period": "2025",
+    "confidence": "high",
+    "source_note_id": "risc-v-based-tinyml-accelerator-for"
+  },
+  {
+    "claim": "The v3 pipelined design shows lower power (1.121 W) than v1 (1.275 W) and v2 (1.303 W) despite equal resource usage, attributed to more efficient clock gating and reduced signal toggling.",
+    "stance": "supports",
+    "stance_target": "deeper pipelining can reduce dynamic power alongside improving throughput, useful discussion point for a project's discussion/results section",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vivado power estimation at 100 MHz",
+    "quoted_support": "The v3 design shows a slight power reduction compared to v1 and v2, which we attribute to more efficient clock gating and reduced signal toggling in the deeply pipelined, continuously active datapath.",
+    "numbers": ["1.275 W", "1.303 W", "1.121 W"],
+    "entities": ["Artix-7", "RISC-V CFU"],
+    "time_period": "2025",
+    "confidence": "high",
+    "source_note_id": "risc-v-based-tinyml-accelerator-for"
+  },
+  {
+    "claim": "ASIC synthesis of the accelerator projects a 0.284 mm^2 footprint at 910 mW at 2 GHz in 28nm, and 1.20 mm^2 at 233 mW at 300 MHz in 40nm.",
+    "stance": "neutral",
+    "stance_target": "scalability beyond FPGA prototyping, relevant if a project wants to discuss ASIC-porting feasibility",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cadence Genus logic synthesis + CACTI memory modeling, 28nm and 40nm nodes",
+    "quoted_support": "ASIC synthesis projects a compact 0.284 mm2 footprint with 910 mW power at 2 GHz in 28 nm, and a 1.20 mm2 footprint with 233 mW power at 300 MHz in 40 nm.",
+    "numbers": ["0.284 mm^2", "910 mW", "2 GHz", "28nm", "1.20 mm^2", "233 mW", "300 MHz", "40nm"],
+    "entities": ["RISC-V CFU", "ASIC"],
+    "time_period": "2025",
+    "confidence": "medium",
+    "source_note_id": "risc-v-based-tinyml-accelerator-for"
+  },
+  {
+    "claim": "Storing the intermediate feature map of a representative MobileNetV2 layer at 8-bit precision (TFLite) consumes about 38 KB of on-chip SRAM, illustrating the memory-wall bottleneck this accelerator targets.",
+    "stance": "supports",
+    "stance_target": "motivates the memory-wall problem that justifies the proposed buffer-free architecture",
+    "evidence_type": "empirical",
+    "scope_conditions": "TensorFlow Lite 8-bit MobileNetV2, representative layer measurement",
+    "quoted_support": "in our measurements of a representative layer in TensorFlow Lite (TFLite) implementation of MobileNetV2 with 8-bit data, just storing the intermediate feature map used about 38 KB of on-chip SRAM.",
+    "numbers": ["38 KB"],
+    "entities": ["MobileNetV2", "TFLite"],
+    "time_period": "2025",
+    "confidence": "medium",
+    "source_note_id": "risc-v-based-tinyml-accelerator-for"
+  }
+]

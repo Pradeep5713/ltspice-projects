@@ -1,0 +1,1 @@
+{"applied": [{"category": "meta_discourse", "description": "replaced self-referential 'in this survey' with 'cited here' in Section 1 item 3 (avoids confusion with the ACM Computing Surveys source)", "chars_removed": 2}, {"category": "meta_discourse", "description": "same fix in Section 4 'Results tables reviewers expect'", "chars_removed": 2}], "escalations": []}

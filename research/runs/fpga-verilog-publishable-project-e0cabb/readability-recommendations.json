@@ -1,0 +1,127 @@
+{
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "category": "add-whitespace",
+      "severity": "moderate",
+      "section": "## 3. Recommended Project: Scope, Tools, and Novelty Angle",
+      "current": "Strong extensions, if time allows:\n- **Energy per bit and throughput per LUT**",
+      "recommended": "**Strong extensions, if time allows:**\n\n- **Energy per bit and throughput per LUT**",
+      "rationale": "Without a blank line before the list, pandoc-style PDF renderers merge the bullets into the preceding paragraph as run-on text. Bolding the lead-in matches the report's other list lead-ins such as **Predatory red flags**."
+    },
+    {
+      "id": "rec-2",
+      "category": "add-whitespace",
+      "severity": "moderate",
+      "section": "## 5. Where to Publish: IEEE Conferences and Scopus Journals",
+      "current": "**Predatory red flags** [[how-to-verify-scopus-indexing-step-by-step-guide-2026]]:\n- Guaranteed acceptance before peer review.",
+      "recommended": "**Predatory red flags** [[how-to-verify-scopus-indexing-step-by-step-guide-2026]]:\n\n- Guaranteed acceptance before peer review.",
+      "rationale": "A blank line before the list keeps the red-flag bullets from collapsing into one line of inline text in the PDF render."
+    },
+    {
+      "id": "rec-3",
+      "category": "make-list",
+      "severity": "moderate",
+      "section": "## 5. Where to Publish: IEEE Conferences and Scopus Journals",
+      "current": "**Scopus journals.** Verify every journal yourself using the free Scopus Preview source list, searching **by ISSN, not title**. A coverage range ending in a past year means the title has likely been discontinued, so do not submit there [[how-to-verify-scopus-indexing-step-by-step-guide-2026]]. Scopus re-evaluates titles continually through an independent selection board and discontinues journals flagged for poor practice [[the-guardians-of-scopus]]. Re-check the status at acceptance, not only at submission.",
+      "recommended": "**Scopus journals.** Verify every journal yourself before submitting:\n\n- **Search by ISSN, not title,** in the free Scopus Preview source list [[how-to-verify-scopus-indexing-step-by-step-guide-2026]].\n- **Check the coverage range.** A range ending in a past year means the title has likely been discontinued, so do not submit there [[how-to-verify-scopus-indexing-step-by-step-guide-2026]].\n- **Re-check at acceptance, not only at submission.** Scopus re-evaluates titles continually through an independent selection board and discontinues journals flagged for poor practice [[the-guardians-of-scopus]].",
+      "rationale": "The paragraph is a three-step verification procedure, so a bold-labelled checklist lets a student follow it step by step. All citations are kept, and the shared citation appears on both steps it supports."
+    },
+    {
+      "id": "rec-4",
+      "category": "break-paragraph",
+      "severity": "moderate",
+      "section": "## 3. Recommended Project: Scope, Tools, and Novelty Angle (### Runner-up: approximate multiplier plus application)",
+      "current": "average accuracy loss on deep-learning benchmarks [[arxiv231010053v1-csar-16-oct-2023]]. A B.Tech paper could compose an 8-bit multiplier from optimised 4-bit blocks, add one approximation, and report the LUT and delay savings together with output quality on an image-smoothing filter or small network, all on the Basys-3.",
+      "recommended": "average accuracy loss on deep-learning benchmarks [[arxiv231010053v1-csar-16-oct-2023]].\n\nA B.Tech paper could compose an 8-bit multiplier from optimised 4-bit blocks and add one approximation. It would then report the LUT and delay savings together with output quality on an image-smoothing filter or small network, all on the Basys-3.",
+      "rationale": "The roughly 1,000-character paragraph moves from prior-work evidence to the student's project plan. Splitting at that point makes the actionable plan stand alone, and it also splits the plan's 230-character closing sentence."
+    },
+    {
+      "id": "rec-5",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 1. What Makes an FPGA Project Both Easy and Publishable",
+      "current": "Lack of novelty is the most common reason IEEE conference papers are rejected, followed by weak evaluation: flawed methodology,",
+      "recommended": "Lack of novelty is the most common reason IEEE conference papers are rejected. Weak evaluation comes next: flawed methodology,",
+      "rationale": "This splits a roughly 200-character sentence so the report's main point, that novelty is the top rejection reason, stands on its own."
+    },
+    {
+      "id": "rec-6",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 1. What Makes an FPGA Project Both Easy and Publishable",
+      "current": "As one senior computer-science researcher puts it, building any system requires integrating a lot of prior art, and all that prior art looks familiar to the reviewers",
+      "recommended": "As one senior computer-science researcher puts it, building any system requires integrating a lot of prior art. All that prior art looks familiar to the reviewers",
+      "rationale": "This sentence runs past the 150-character limit. Splitting it gives the reviewer-familiarity point its own emphasis."
+    },
+    {
+      "id": "rec-7",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Ranked FPGA Verilog Project Ideas",
+      "current": "ASCON, by contrast, was standardised in 2023, and the most recent high-performance Artix-7 study targets",
+      "recommended": "ASCON, by contrast, was standardised in 2023. The most recent high-performance Artix-7 study targets",
+      "rationale": "This splits a roughly 165-character sentence at its natural conjunction, separating the recency point from the gap on the target device."
+    },
+    {
+      "id": "rec-8",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 3. Recommended Project: Scope, Tools, and Novelty Angle (### What ASCON is)",
+      "current": "was declared winner of the NIST Lightweight Cryptography competition in February 2023, with the official NIST standard published on 16 June 2023",
+      "recommended": "was declared winner of the NIST Lightweight Cryptography competition in February 2023. The official NIST standard was published on 16 June 2023",
+      "rationale": "This splits a roughly 220-character opening sentence into two clear milestones: the competition win and the standard's publication."
+    },
+    {
+      "id": "rec-9",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 3. Recommended Project: Scope, Tools, and Novelty Angle (### What ASCON is)",
+      "current": "reviews its hardware implementations and side-channel attacks and countermeasures, and is the starting point for the literature review [[arxiv230406222v1-cscr-13-apr-2023]].",
+      "recommended": "reviews its hardware implementations, side-channel attacks and countermeasures. It is the starting point for the literature review [[arxiv230406222v1-cscr-13-apr-2023]].",
+      "rationale": "This removes a chain of three 'and's in a roughly 170-character sentence and turns the practical instruction into its own sentence."
+    },
+    {
+      "id": "rec-10",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 5. Where to Publish: IEEE Conferences and Scopus Journals",
+      "current": "(for example IEEE conference proceedings), not the event website, so ask the organiser for the ISBN or last year's volume [[",
+      "recommended": "(for example IEEE conference proceedings), not the event website. Ask the organiser for the ISBN or last year's volume [[",
+      "rationale": "This splits a roughly 210-character sentence so the step students need to take stands as a separate imperative."
+    },
+    {
+      "id": "rec-11",
+      "category": "bold-keyterms",
+      "severity": "minor",
+      "section": "## 6. Timeline for a 4th-Year Team",
+      "current": "This scope also serves accreditation. NBA's",
+      "recommended": "**This scope also serves accreditation.** NBA's",
+      "rationale": "This matches the bold lead-sentence pattern used in Sections 2 and 5, so readers scanning the page can spot the closing accreditation point."
+    },
+    {
+      "id": "rec-12",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 6. Timeline for a 4th-Year Team",
+      "current": "scores capstone project quality at 25 points and asks institutions to justify",
+      "recommended": "scores capstone project quality at 25 points. It also asks institutions to justify",
+      "rationale": "This splits a roughly 165-character sentence into its two separate requirements: the score weight and the justification of outcomes."
+    }
+  ],
+  "summary": {
+    "total_recommendations": 12,
+    "by_category": {
+      "merge-paragraphs": 0,
+      "break-paragraph": 1,
+      "make-list": 1,
+      "make-table": 0,
+      "bold-keyterms": 1,
+      "split-sentence": 7,
+      "remove-hr": 0,
+      "add-whitespace": 2
+    },
+    "highest_severity": "moderate",
+    "expected_net_char_delta": 105
+  }
+}

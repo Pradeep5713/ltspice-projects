@@ -36,6 +36,8 @@ summary: 'Kida & Sato (Shinshu University), arXiv:2510.21533 (Oct 2025). Propose
   manual logic remapping) suitable for an IEEE conference short paper.'
 raw_file: raw/hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas.pdf
 doi: arXiv:2510.21533
+citation_count: 1
+venue: arXiv.org
 ---
 
 Hardware-Efficient Accurate 4-bit Multiplier for Xilinx 7 Series FPGAs

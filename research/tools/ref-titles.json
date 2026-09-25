@@ -19,5 +19,22 @@
   "leveraging-inexpensive-lab-tools": "Gonzalez, Zajdel and Carley, Leveraging Inexpensive Lab Tools for Hands-on RF Systems Course, arXiv:2607.23911 (2026)",
   "introductory-tutorial-for-sdr": "M. Sever, Introductory Tutorial for SDR and GNU Radio Beginners, GNU Radio Conference 2023",
   "eece-2510-circuits-and-signals-biomedical": "Northeastern University EECE 2510 Lab 10: LTspice Analysis of Active Filters",
-  "iot-enabled-hemodynamic-surveillance-system-ad8232": "IoT-Enabled Hemodynamic Surveillance System Using AD8232 and ESP32, arXiv:2505.18173 (2025)"
+  "iot-enabled-hemodynamic-surveillance-system-ad8232": "IoT-Enabled Hemodynamic Surveillance System Using AD8232 and ESP32, arXiv:2505.18173 (2025)",
+  "1300-henley-court": "Digilent, Basys 3 FPGA Board Reference Manual (Artix-7 XC7A35T)",
+  "high-performance-fpga-implementations-of": "A. Malal, High-Performance FPGA Implementations of Lightweight ASCON-128 and ASCON-128a with Enhanced Throughput-to-Area Efficiency, IACR ePrint 2025/825",
+  "fpga-implementation-of-simon-128": "FPGA Implementation of SIMON-128 Cryptographic Algorithm Using Artix-7, arXiv:2301.01889 (2023)",
+  "submission-to-nist": "C. Dobraunig, M. Eichlseder, F. Mendel and M. Schläffer, Ascon v1.2: Submission to NIST (final-round specification)",
+  "arxiv230406222v1-cscr-13-apr-2023": "A Comprehensive Survey on Implementations, Attacks, and Countermeasures of the Current NIST Lightweight Cryptography Standard, arXiv:2304.06222 (2023)",
+  "arxiv231010053v1-csar-16-oct-2023": "S. Vakili et al., DyRecMul: Fast and Low-Cost Approximate Multiplier for FPGAs using Dynamic Reconfiguration, arXiv:2310.10053 (2023)",
+  "a-power-efficient-hardware-implementation-of-l-mul": "A Power-Efficient Hardware Implementation of L-Mul, arXiv:2412.18948 (2024)",
+  "addition-is-all-you-need": "H. Luo and W. Sun, Addition Is All You Need for Energy-Efficient Language Models, arXiv:2410.00907 (2024)",
+  "hardware-efficient-accurate-4-bit-multiplier-for-xilinx-7-series-fpgas": "Kida and Sato, Hardware-Efficient Accurate 4-bit Multiplier for Xilinx 7 Series FPGAs, arXiv:2510.21533 (2025)",
+  "risc-v-based-tinyml-accelerator-for": "RISC-V Based TinyML Accelerator for Depthwise Separable Convolutions in Edge AI, arXiv:2511.21232 (2025)",
+  "cfu-playground-full-stack-open-source": "S. Prakash et al., CFU Playground: Full-Stack Open-Source Framework for Tiny Machine Learning Acceleration on FPGAs, ISPASS 2023 (arXiv:2201.01863)",
+  "a-hardware-accelerator-for-the-inference-of-a-convolutional-neural-network": "A Hardware Accelerator for the Inference of a Convolutional Neural Network, Ciencia e Ingeniería Neogranadina 30(1):107-116 (2020), doi:10.18359/rcin.4194",
+  "how-to-verify-scopus-indexing-step-by-step-guide-2026": "AI Scholar, How to Verify Scopus Indexing: Step-by-Step Guide (2026)",
+  "the-guardians-of-scopus": "Elsevier, The Guardians of Scopus",
+  "will-ieee-conference-papers-be-rejected": "AI Scholar, Will IEEE Conference Papers Be Rejected?",
+  "understanding-the-reasons-for-paper-rejection": "L. Nacke, Understanding the Reasons for Paper Rejection",
+  "the-toxic-culture-of-rejection-in-computer-science-acm-sigbed": "E. A. Lee, The Toxic Culture of Rejection in Computer Science, ACM SIGBED Blog (2022)"
 }

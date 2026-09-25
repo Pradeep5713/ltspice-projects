@@ -36,6 +36,8 @@ summary: 'arXiv paper (Yildirim, Bilkent Univ.; Ozturk, Sabanci Univ., Nov 2025)
   tables (long source, >9000 words — candidate for source-analyst deep dive).'
 raw_file: raw/risc-v-based-tinyml-accelerator-for.pdf
 doi: arXiv:2511.21232
+citation_count: 2
+venue: arXiv.org
 ---
 
 RISC-V Based TinyML Accelerator for

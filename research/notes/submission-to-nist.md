@@ -3,7 +3,11 @@ title: Submission to NIST
 id: submission-to-nist
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- ascon-lightweight-crypto
+- primary-source
+- algorithm-specification
 created: '2026-09-25T03:38:22.318966Z'
+updated: '2026-09-25T03:39:04.512621Z'
 source: https://csrc.nist.gov/CSRC/media/Projects/lightweight-cryptography/documents/finalist-round/updated-spec-doc/ascon-spec-final.pdf
 source_domain: csrc.nist.gov
 fetched_at: '2026-09-25T03:38:22.317664Z'
@@ -13,6 +17,20 @@ type: note
 tier: ground_truth
 content_type: paper
 deprecated: false
+summary: The official Ascon v1.2 NIST submission specification (Dobraunig, Eichlseder,
+  Mendel, Schlaffer, IAIK/TU Graz, May 31 2021) is the primary formal algorithm definition
+  underlying every ASCON FPGA implementation paper in this research batch. Defines
+  the Ascon cipher suite (authenticated encryption modes ASCON-128/128a, hashing,
+  XOF), the recommended parameter sets, the 320-bit sponge-based state with five 64-bit
+  words, initialization/associated-data/plaintext-ciphertext/finalization stage structure,
+  the 5x5 S-box substitution layer, and the linear diffusion layer bit-rotation constants,
+  plus formal security claims (confidentiality/integrity bounds) and design rationale
+  for round-number and parameter choices. This is the ground-truth reference specification
+  (114,725-word document with full contents/spec/security-claims/design-rationale
+  sections) that any B.Tech FPGA+Verilog ASCON project must implement against and
+  cite as the primary source rather than relying on secondary papers' summarized descriptions.
+  Long/dense source — candidate for source-analyst deep dive if the drafter needs
+  exact round-constant tables or security-bound derivations.
 raw_file: raw/submission-to-nist.pdf
 ---
 

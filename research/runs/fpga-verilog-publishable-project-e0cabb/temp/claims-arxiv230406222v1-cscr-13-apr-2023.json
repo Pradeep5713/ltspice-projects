@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "ASCON's lightweight design uses a 320-bit permutation bit-sliced into five 64-bit register words, providing 128-bit level security, and was declared the NIST Lightweight Cryptography standard winner in February 2023.",
+    "stance": "neutral",
+    "stance_target": "establishes ASCON's algorithmic structure and standardization status as background for any student ASCON-on-FPGA project",
+    "evidence_type": "historical",
+    "scope_conditions": "NIST Lightweight Cryptography standardization, finalized Feb 2023",
+    "quoted_support": "ASCON's lightweight design utilizes a 320-bit permutation which is bit-sliced into five 64-bit register words, providing 128-bit level security... in Feb. 2023, the competition ended with ASCON as the winner.",
+    "numbers": ["320-bit", "five 64-bit words", "128-bit security"],
+    "entities": ["ASCON", "NIST"],
+    "time_period": "2023",
+    "confidence": "high",
+    "source_note_id": "arxiv230406222v1-cscr-13-apr-2023"
+  },
+  {
+    "claim": "This survey is described by its authors as the first comprehensive academic review specifically covering the finalized 2023 NIST lightweight cryptography standard.",
+    "stance": "neutral",
+    "stance_target": "positions this as the authoritative up-to-date related-work citation for a 2024-2026 ASCON FPGA student project",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "self-described survey scope claim",
+    "quoted_support": "This survey is the first work on the current standard for lightweight cryptography, standardized in 2023.",
+    "numbers": [],
+    "entities": ["ASCON", "NIST LWC"],
+    "time_period": "2023",
+    "confidence": "medium",
+    "source_note_id": "arxiv230406222v1-cscr-13-apr-2023"
+  },
+  {
+    "claim": "The survey systematically compares ASCON FPGA and ASIC hardware implementations on area, power, throughput, energy, and efficiency, alongside a review of differential and side-channel attacks (algebraic, cube/cube-like, forgery, fault injection, power analysis) and their countermeasures.",
+    "stance": "neutral",
+    "stance_target": "gives a student project ready-made related-work framing dimensions (area/power/throughput/energy/efficiency) and security-analysis angle needed for IEEE/Scopus publishability",
+    "evidence_type": "theoretical",
+    "scope_conditions": "survey scope across ASCON implementation and cryptanalysis literature",
+    "quoted_support": "This work summarizes the different implementations of ASCON on field-programmable gate array (FPGA) and ASIC hardware platforms on the basis of area, power, throughput, energy, and efficiency overheads. The presented work also reviews various differential and side-channel analysis attacks (SCAs)... as well as the countermeasures for these attacks.",
+    "numbers": [],
+    "entities": ["ASCON", "FPGA", "ASIC", "side-channel attacks"],
+    "time_period": "2023",
+    "confidence": "high",
+    "source_note_id": "arxiv230406222v1-cscr-13-apr-2023"
+  },
+  {
+    "claim": "ASCON is positioned as the lightweight dual to the legacy AES-GCM NIST standard for symmetric-key cryptography, targeting deeply-embedded systems such as implantable/wearable medical devices, smart fabrics, smart homes, and RFID tags.",
+    "stance": "supports",
+    "stance_target": "motivates real-world application framing (medical/IoT) for a student ASCON project's introduction/motivation section",
+    "evidence_type": "theoretical",
+    "scope_conditions": "application-domain framing",
+    "quoted_support": "This lightweight cryptographic standard will be used in deeply-embedded architectures to provide security through confidentiality and integrity/authentication (the dual of the legacy AES-GCM block cipher which is the NIST standard for symmetric key cryptography).",
+    "numbers": [],
+    "entities": ["ASCON", "AES-GCM", "NIST"],
+    "time_period": "2023",
+    "confidence": "medium",
+    "source_note_id": "arxiv230406222v1-cscr-13-apr-2023"
+  }
+]

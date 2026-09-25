@@ -32,6 +32,8 @@ summary: 'Ali Jahanshahi (UC Riverside) arXiv preprint proposes TinyCNN, an auto
   tables.'
 raw_file: raw/tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga.pdf
 doi: arXiv:1911.06777
+citation_count: 11
+venue: arXiv.org
 ---
 
 TinyCNN: A Tiny Modular CNN Accelerator for Embedded FPGA

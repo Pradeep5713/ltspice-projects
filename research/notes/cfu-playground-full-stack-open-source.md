@@ -36,6 +36,8 @@ summary: 'CFU Playground (Prakash, Callahan, Bushagour, Banbury, Green, Warden, 
   paper.'
 raw_file: raw/cfu-playground-full-stack-open-source.pdf
 doi: arXiv:2201.01863
+citation_count: 48
+venue: IEEE International Symposium on Performance Analysis of Systems and Software
 ---
 
 *Suggested by [[risc-v-based-tinyml-accelerator-for]] — CFU Playground is the baseline accelerator/framework the RISC-V TinyML paper directly compares against*

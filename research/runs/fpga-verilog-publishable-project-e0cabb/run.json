@@ -20,9 +20,9 @@
     "15",
     "16"
   ],
-  "status": "running",
+  "status": "done",
   "started_at": "2026-09-25T03:33:06.922978+00:00",
-  "updated_at": "2026-09-25T03:33:25.464716+00:00",
+  "updated_at": "2026-09-25T03:46:53.814836+00:00",
   "budget_usd": null,
   "blocked_on": null,
   "steps": {
@@ -32,8 +32,23 @@
       "finished_at": "2026-09-25T03:33:25.160330+00:00"
     },
     "2": {
-      "status": "running",
-      "started_at": "2026-09-25T03:33:25.464026+00:00"
+      "status": "done",
+      "started_at": "2026-09-25T03:33:25.464026+00:00",
+      "finished_at": "2026-09-25T03:41:56.291745+00:00"
+    },
+    "10": {
+      "status": "done",
+      "started_at": "2026-09-25T03:41:56.586518+00:00",
+      "finished_at": "2026-09-25T03:43:18.229721+00:00"
+    },
+    "15": {
+      "status": "done",
+      "started_at": "2026-09-25T03:43:24.042997+00:00",
+      "finished_at": "2026-09-25T03:44:07.970441+00:00"
+    },
+    "16": {
+      "status": "done",
+      "finished_at": "2026-09-25T03:45:59.772351+00:00"
     }
   },
   "chapters": {},
@@ -47,5 +62,10 @@
     "register": "advocate",
     "inference_depth": "standard",
     "domain_notes": "Sourcing: IEEE Xplore/arXiv/open-access papers showing published undergraduate-scale FPGA work with resource/power/timing tables; vendor docs (AMD Xilinx Vivado, Intel Quartus, open-source Yosys); publication-ethics sources (IEEE author center, Scopus source list, UGC-CARE/predatory-journal guidance). Evidence norms: prefer published FPGA papers with measurable LUT/Fmax/power/latency results and comparisons. Recency: last 3 years for novelty angles."
+  },
+  "verify": {
+    "passed": true,
+    "at": "2026-09-25T03:46:53.814169+00:00",
+    "failed_checks": []
   }
 }

@@ -3,16 +3,28 @@ title: Guidelines | Department of Electronics & Communication Engineering
 id: guidelines-department-of-electronics-communication-engineering
 tags:
 - btech-ece-projects-259aee
+- institutional-rubric
+- india
+- source-hub
 created: '2026-09-25T03:15:35.235332Z'
+updated: '2026-09-25T03:16:46.454905Z'
 source: https://ece.gndec.ac.in/?q=node%2F4
 source_domain: ece.gndec.ac.in
 fetched_at: '2026-09-25T03:15:35.234450Z'
 fetch_provider: builtin
-status: draft
+status: deprecated
 type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Navigation/directory page from GNDEC ECE department listing available guideline
+  documents for M.Tech and B.Tech students: rubrics (M.Tech Project/Pre-Thesis Rubrics;
+  Major Project and Minor Project Rubrics for B.Tech), report/thesis format guidelines,
+  IEEE citation reference, training report formats, and seminar synopsis guidelines.
+  Confirms that B.Tech projects are split into ''Major Project'' and ''Minor Project''
+  tracks each with separate rubric and report-format documents, and links to national
+  bodies (UGC, NBA, AICTE, MHRD) as reference points for accreditation-linked standards.
+  Thin content; functions as a link index rather than a standalone source.'
 ---
 
 Guidelines | Department of Electronics & Communication Engineering

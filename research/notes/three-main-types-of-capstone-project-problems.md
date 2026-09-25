@@ -3,16 +3,23 @@ title: Three Main Types of Capstone Project Problems
 id: three-main-types-of-capstone-project-problems
 tags:
 - btech-ece-projects-259aee
+- paywalled
+- low-value
 created: '2026-09-25T03:15:44.920661Z'
+updated: '2026-09-25T03:16:48.277954Z'
 source: https://www.philsimon.com/blog/project-management/capstone-project-problems/
 source_domain: www.philsimon.com
 fetched_at: '2026-09-25T03:15:44.919731Z'
 fetch_provider: builtin
-status: draft
+status: deprecated
 type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: Blog teaser page; substantive content ('three main types of capstone project
+  problems' from ~150 projects the author indirectly supervised, likely at ASU) is
+  behind a free-account paywall and was not retrievable. Only the intro paragraph
+  and site navigation/footer content were fetched.
 ---
 
 Three Main Types of Capstone Project Problems

@@ -3,7 +3,11 @@ title: 'EECE 2510 – Circuits and Signals: Biomedical'
 id: eece-2510-circuits-and-signals-biomedical
 tags:
 - btech-ece-projects-259aee
+- ltspice-tutorial
+- ekg-biomedical
+- active-filters
 created: '2026-09-25T03:15:29.973857Z'
+updated: '2026-09-25T03:16:26.764264Z'
 source: https://ece.northeastern.edu/courses/eece2150/dimarzio/labs/Lab10_OpAmpFilterLTSpiceDesign-9-21.pdf
 source_domain: ece.northeastern.edu
 fetched_at: '2026-09-25T03:15:29.972961Z'
@@ -13,6 +17,17 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'Northeastern University EECE 2510 (Circuits and Signals: Biomedical Applications)
+  Lab 10 handout: an LTspice-based active-filter design exercise built around an EKG
+  signal chain. Students build a first-order active low-pass filter in LTspice using
+  the LT1490 op-amp (Rf=100kOhm, Cf=10nF, Rs=20kOhm, +/-10V rails, RL=1kOhm), run
+  an AC sweep (.ac dec 100 1 1000000) to find cutoff frequency and compare to the
+  RC time constant prediction, then apply a 200Hz/0.5Vpp pulse source (transient analysis)
+  to observe square-wave distortion and its frequency content via FFT. Repeats the
+  exercise for a first-order active high-pass filter (Rs=100kOhm, Cs=10nF, Rf=200kOhm)
+  to find in-band gain, fc, and explain roll-off at high frequency. Directly usable
+  as a step-by-step LTspice tutorial/rubric for a B.Tech ECE biomedical (EKG amplifier/filter)
+  project.'
 raw_file: raw/eece-2510-circuits-and-signals-biomedical.pdf
 ---
 

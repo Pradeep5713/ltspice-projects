@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Keyword spotting (limited-vocabulary speech recognition) requires a dedicated dataset distinct from conventional full-sentence ASR corpora because its goal is detecting a single word from a small target set with minimal false positives from background noise.",
+    "stance": "supports",
+    "stance_target": "need for purpose-built datasets for embedded/TinyML voice-command recognition projects",
+    "evidence_type": "theoretical",
+    "scope_conditions": "keyword-spotting task, small target vocabulary (ten or fewer words)",
+    "quoted_support": "Its primary goal is to provide a way to build and test small models that detect when a single word is spoken, from a set of ten or fewer target words, with as few false positives as possible from background noise or unrelated speech.",
+    "numbers": ["ten or fewer target words"],
+    "entities": ["Google Speech Commands Dataset", "Pete Warden", "Google Brain"],
+    "time_period": "2018",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "arxiv180403209v1-cscl-9-apr-2018"
+  },
+  {
+    "claim": "The Speech Commands Dataset was released under a Creative Commons BY 4.0 license specifically to broaden access beyond traditional academic/corporate speech-research groups and enable reproducible comparisons.",
+    "stance": "supports",
+    "stance_target": "open datasets as an enabler of academic and student-level embedded ML projects",
+    "evidence_type": "historical",
+    "scope_conditions": null,
+    "quoted_support": "To reach a wider audience of researchers and developers, this dataset has been released under the Creative Commons BY 4.0 license.",
+    "numbers": [],
+    "entities": ["Creative Commons BY 4.0"],
+    "time_period": "2018",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "arxiv180403209v1-cscl-9-apr-2018"
+  }
+]

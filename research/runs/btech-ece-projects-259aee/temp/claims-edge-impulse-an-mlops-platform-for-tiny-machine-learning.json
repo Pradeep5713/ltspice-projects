@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "The embedded ML (TinyML) market was projected to reach US$44.3 billion by 2027, and the installed base of edge-AI-chipset devices was projected to exceed 5 billion by 2025.",
+    "stance": "supports",
+    "stance_target": "growing commercial/industry relevance of TinyML and edge-AI as an ECE project area",
+    "evidence_type": "statistical",
+    "scope_conditions": "market projections per ABI Research, as cited in the paper",
+    "quoted_support": "the \"installed base of devices with edge AI chipset will exceed 5 billion by 2025.\" Additionally, the embedded ML market is expected to reach US$44.3 billion by 2027.",
+    "numbers": ["5 billion devices by 2025", "$44.3 billion market by 2027"],
+    "entities": ["ABI Research", "Edge Impulse"],
+    "time_period": "2025-2027 (projection published 2022/2023)",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "edge-impulse-an-mlops-platform-for-tiny-machine-learning"
+  },
+  {
+    "claim": "Current TinyML development workflows are hampered by fragmented software stacks and heterogeneous deployment hardware, making ML model optimization difficult and unportable across embedded targets.",
+    "stance": "supports",
+    "stance_target": "the practical difficulty of embedded ML deployment that platforms like Edge Impulse aim to solve, relevant context for students choosing tooling for embedded-AI ECE projects",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": null,
+    "quoted_support": "Current TinyML workflows are plagued by fragmented software stacks and heterogeneous deployment hardware, making ML model optimizations difficult and unportable.",
+    "numbers": [],
+    "entities": ["TinyML"],
+    "time_period": "2022-2023",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "edge-impulse-an-mlops-platform-for-tiny-machine-learning"
+  },
+  {
+    "claim": "As of October 2022, the Edge Impulse platform hosted 118,185 projects from 50,953 developers, indicating broad real-world adoption of accessible TinyML tooling.",
+    "stance": "supports",
+    "stance_target": "Edge Impulse's suitability and popularity as a tool for student/educational embedded ML projects",
+    "evidence_type": "statistical",
+    "scope_conditions": "self-reported platform usage statistics as of Oct 2022",
+    "quoted_support": "As of Oct. 2022, Edge Impulse hosts 118,185 projects from 50,953 developers.",
+    "numbers": ["118,185 projects", "50,953 developers"],
+    "entities": ["Edge Impulse"],
+    "time_period": "October 2022",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "edge-impulse-an-mlops-platform-for-tiny-machine-learning"
+  }
+]

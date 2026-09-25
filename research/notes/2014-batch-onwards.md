@@ -3,7 +3,12 @@ title: 2014 batch onwards
 id: 2014-batch-onwards
 tags:
 - btech-ece-projects-259aee
+- institutional-rubric
+- nba-outcomes-mapping
+- india
+- project-evaluation-weightage
 created: '2026-09-25T03:15:31.613956Z'
+updated: '2026-09-25T03:16:45.721024Z'
 source: https://ece.gndec.ac.in/sites/default/files/rubrics%20for%20major%20project.pdf
 source_domain: ece.gndec.ac.in
 fetched_at: '2026-09-25T03:15:31.612982Z'
@@ -13,6 +18,17 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'GNDEC (Guru Nanak Dev Engineering College) ECE department''s formal rubric
+  set for B.Tech Major Project evaluation. Defines a 5-review assessment structure
+  worth 200 total marks: Review 1 Project Synopsis/Proposal (Rubric R1, 18 marks/9%),
+  Review 2 Mid-Term Evaluation (R2, 18 marks/9%), Review 3 End-Semester Evaluation
+  (R3, 30 marks/15%), Review 4 Project Report Evaluation (R4, 30 marks/15%), Review
+  5 Guide Evaluation (R5, 24 marks/12%) — summing to 60% internal weightage (120 marks)
+  plus 40% external evaluation (80 marks). Each rubric scores students on a 5-level
+  achievement scale (Excellent/Good/Average/Acceptable/Unacceptable, scored 6-2) across
+  criteria such as Problem Identification, Study of Existing Systems and Feasibility,
+  Objectives/Methodology, Design Methodology, Project Planning and Team Structure,
+  and Demonstration/Presentation quality (eye contact, voice, arranged content).'
 raw_file: raw/2014-batch-onwards.pdf
 ---
 

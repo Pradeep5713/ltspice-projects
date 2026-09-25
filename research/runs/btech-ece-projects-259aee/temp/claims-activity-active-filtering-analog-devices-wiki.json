@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Active filters use one or more amplifiers to overcome the loading and gain limitations of passive RC/RL/RLC filters.",
+    "stance": "supports",
+    "stance_target": "active filters are preferable to passive filters for signal-conditioning student projects",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general analog circuit design",
+    "quoted_support": "the high input impedance of the amplifier prevents excessive loading on the filter's output.",
+    "numbers": [],
+    "entities": ["op-amp", "active filter"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "activity-active-filtering-analog-devices-wiki"
+  },
+  {
+    "claim": "The lab activity specifies an active low-pass filter with gain control built from precision op-amps OP27/OP37 and an ADALM2000 module.",
+    "stance": "neutral",
+    "stance_target": "reference BOM for an active filter mini-project",
+    "evidence_type": "empirical",
+    "scope_conditions": "Analog Devices University Program lab kit",
+    "quoted_support": "5 - precision op amp (OP37, OP27)",
+    "numbers": ["4x 1kOhm", "3x 10kOhm", "1x 470Ohm", "2x 1nF", "2x 10nF", "1x 1uF"],
+    "entities": ["ADALM2000", "OP27", "OP37"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "activity-active-filtering-analog-devices-wiki"
+  },
+  {
+    "claim": "The lab covers a progression from first-order active LPF/HPF/bandpass/band-stop through second-order Sallen-Key topologies to state-variable and Tow-Thomas and Twin-T notch filters.",
+    "stance": "neutral",
+    "stance_target": "curriculum scope for an active-filter design project",
+    "evidence_type": "empirical",
+    "scope_conditions": "undergraduate electronics lab",
+    "quoted_support": "Sallen Key Second Order Low Pass Filter ... Sallen Key Second Order High Pass Filter ... Sallen Key Bandpass Filter ... State Variable Filters ... Tow-Thomas Filter ... Twin-T Notch Filter",
+    "numbers": [],
+    "entities": ["Sallen-Key filter", "Tow-Thomas filter", "Twin-T notch filter", "state-variable filter"],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "activity-active-filtering-analog-devices-wiki"
+  }
+]

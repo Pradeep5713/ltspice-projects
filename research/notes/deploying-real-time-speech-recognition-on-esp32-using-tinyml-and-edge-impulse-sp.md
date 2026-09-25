@@ -4,7 +4,11 @@ title: Deploying Real-Time Speech Recognition on ESP32 Using TinyML and Edge Imp
 id: deploying-real-time-speech-recognition-on-esp32-using-tinyml-and-edge-impulse-sp
 tags:
 - btech-ece-projects-259aee
+- tinyml
+- esp32
+- edge-ai
 created: '2026-09-25T03:15:38.314841Z'
+updated: '2026-09-25T03:16:42.807188Z'
 source: https://link.springer.com/chapter/10.1007/978-3-031-97907-1_17
 source_domain: link.springer.com
 fetched_at: '2026-09-25T03:15:38.313893Z'
@@ -14,6 +18,19 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Springer conference chapter (COMIA 2025, Universidad Panamericana/Tecnun)
+  on deploying a real-time TinyML speech-recognition system on ESP32 using Edge Impulse.
+  Pipeline: MFCC feature extraction, model trained on a curated subset of the Google
+  Speech Commands Dataset with background-noise augmentation for robustness, quantized/optimized
+  via Edge Impulse''s EON Compiler, inference via TensorFlow Lite for Microcontrollers
+  (TFLM). Reported results: 37% RAM reduction, 27% ROM reduction from quantization,
+  87.14% test accuracy, 97.1% average classification confidence in real-time inference,
+  99.6% noise rejection, and 266 ms latency. Positioned as a low-power on-device alternative
+  to cloud-based ASR, targeted at battery-powered IoT, robotics, and embedded automation.
+  Abstract only available (paywalled beyond abstract); references list benchmark TinyML
+  papers (MicroNets, TFLite Micro, Edge Impulse MLOps platform) and related voice-controlled
+  wheelchair projects (CNN/LSTM/SVM-based) that are directly relevant prior-art for
+  ECE embedded speech-control projects.'
 doi: 10.1007/978-3-031-97907-1_17
 ---
 

@@ -3,7 +3,11 @@ title: Top 100 Power Electronics Projects for Engineering Students
 id: top-100-power-electronics-projects-for-engineering-students
 tags:
 - btech-ece-projects-259aee
+- project-ideas-listicle
+- power-electronics
+- low-authority
 created: '2026-09-25T03:15:33.403146Z'
+updated: '2026-09-25T03:16:28.175010Z'
 source: https://instrumentationtools.com/top-100-power-electronics-projects-for-engineering-students/
 source_domain: instrumentationtools.com
 fetched_at: '2026-09-25T03:15:33.401372Z'
@@ -13,6 +17,20 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: Listicle-style catalog (instrumentationtools.com) of 100 power-electronics
+  project titles for final-year/mini-project engineering students, each with a one-line
+  description. Covers converter topologies (buck, boost, flyback, forward, LLC resonant,
+  dual active bridge, quasi Z-source, matrix converter, phase-shifted full bridge,
+  interleaved/synchronous buck), inverters (single/three-phase, IGBT-based, current-source,
+  solid-state transformer), motor drives (PWM DC motor control, V/F induction motor
+  control, sensorless BLDC/PMSM, switched reluctance drive), renewable/grid applications
+  (solar MPPT, grid-tied solar inverter, wireless power transfer, piezoelectric energy
+  harvesting, microgrid load sharing, dynamic voltage restorer, EV fast charger),
+  and protection/monitoring circuits (fault detection in converters, solid-state breaker,
+  active power factor correction, battery management system, remote power monitoring,
+  home energy management system). Low-authority source (SEO listicle, no implementation
+  detail or citations) but useful only as evidence of which power-electronics project
+  categories are commonly assigned/searched by engineering students.
 ---
 
 Top 100 Power Electronics Projects for Engineering Students

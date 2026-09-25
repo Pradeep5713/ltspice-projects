@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "NBA's GAPC v4.0 (Revised NBA SAR 2025) defines 11 Program Outcomes for accredited Indian undergraduate engineering programmes, down from 12 under GAPC v3.",
+    "stance": "neutral",
+    "stance_target": "current accreditation-mandated learning outcomes framework for Indian B.Tech programmes including ECE",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "India, NBA-accredited UG engineering programmes, GAPC v4.0 aligned to Washington Accord 2021 review",
+    "quoted_support": "NBA defines 11 Program Outcomes (POs) for undergraduate engineering programmes under the GAPC v4.0 framework (Revised NBA SAR 2025).",
+    "numbers": ["11 POs (was 12 under GAPC v3)"],
+    "entities": ["NBA", "GAPC v4.0", "Washington Accord"],
+    "time_period": "2025 revision",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "the-11-program-outcomes-pos-of-nba-gapc-v40-explained"
+  },
+  {
+    "claim": "The 12-to-11 PO reduction merged the old 'Society' PO and the old 'Environment and Sustainability' PO into a single new PO6, 'The Engineer and the World.'",
+    "stance": "neutral",
+    "stance_target": "how NBA's outcome taxonomy changed between GAPC versions",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "NBA GAPC v3 to v4.0 transition",
+    "quoted_support": "This PO merges the old PO6 (Society) and old PO7 (Environment and Sustainability) into one.",
+    "numbers": [],
+    "entities": ["PO6", "old PO7"],
+    "time_period": "GAPC v3 to v4.0",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "the-11-program-outcomes-pos-of-nba-gapc-v40-explained"
+  },
+  {
+    "claim": "PO3, PO4, PO5, and PO10 explicitly require an engineering project/design experience to demonstrate: design of solutions, investigation using research methods, tool usage including modelling, and project management/economic decision-making.",
+    "stance": "supports",
+    "stance_target": "the major/capstone project is the primary curricular vehicle for demonstrating several NBA Program Outcomes",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "NBA GAPC v4.0 PO definitions",
+    "quoted_support": "Design creative solutions for complex engineering problems and design systems, components, or processes to meet identified needs ... Conduct investigations of complex engineering problems using research-based knowledge and research methods ...",
+    "numbers": [],
+    "entities": ["PO3", "PO4", "PO5", "PO10"],
+    "time_period": "current (2025 GAPC v4.0)",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "the-11-program-outcomes-pos-of-nba-gapc-v40-explained"
+  },
+  {
+    "claim": "POs sit as a middle layer between Program Educational Objectives (career outcomes 3-5 years post-graduation) and Course Outcomes (single-course achievement), with attainment rolling upward.",
+    "stance": "neutral",
+    "stance_target": "the layered outcome-based education model Indian accreditation rubrics are built on",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "NBA outcome-based education model",
+    "quoted_support": "Program Educational Objectives (PEOs) describe career accomplishments 3-5 years after graduation, and Course Outcomes (COs) describe what a student achieves in a single course. POs are the bridge",
+    "numbers": [],
+    "entities": ["PEO", "PO", "CO"],
+    "time_period": "current",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "the-11-program-outcomes-pos-of-nba-gapc-v40-explained"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "A 5-year study found a civil engineering technology capstone design course has curricular merit but fails as an effective outcomes-assessment tool.",
+    "stance": "refutes",
+    "stance_target": "using a single capstone/major project course to measure program-level outcome attainment (as NBA/ABET-style frameworks do)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Southern Polytechnic State University, civil engineering technology, 5-year longitudinal study",
+    "quoted_support": "The study clearly demonstrated that the course has merit in the curriculum but fails as an outcomes assessment tool.",
+    "numbers": ["5-year study"],
+    "entities": ["Southern Polytechnic State University", "Thomas R. Currin"],
+    "time_period": "5-year study period (paper published 2002, ASEE PEER)",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "the-capstone-design-course-and-its-failure-to-serve-as"
+  },
+  {
+    "claim": "The primary obstacle to using capstone projects for outcomes assessment is quantification: findings remain anecdotal because many relevant outcomes are intangible and not readily measurable.",
+    "stance": "supports",
+    "stance_target": "capstone/major projects are structurally weak instruments for rigorous, comparable outcome measurement",
+    "evidence_type": "empirical",
+    "scope_conditions": "Southern Polytechnic State University capstone assessment study",
+    "quoted_support": "It is shown that the primary difficulty faced when attempting to use a capstone design course as an assessment tool lies with the quantification of findings.",
+    "numbers": [],
+    "entities": ["capstone design course"],
+    "time_period": "5-year study",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "the-capstone-design-course-and-its-failure-to-serve-as"
+  },
+  {
+    "claim": "Outcomes assessment is frequently and incorrectly conflated with faculty evaluation by both faculty and administrators, undermining its intended curricular-improvement purpose.",
+    "stance": "neutral",
+    "stance_target": "institutional dynamics around project-based outcome assessment",
+    "evidence_type": "empirical",
+    "scope_conditions": "US engineering technology accreditation context",
+    "quoted_support": "the words 'outcomes assessment' are often interpreted as 'faculty evaluation' regardless of what administrators or others may say.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "5-year study",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "the-capstone-design-course-and-its-failure-to-serve-as"
+  },
+  {
+    "claim": "An effective outcomes-assessment tool must be easy to administer, or institutions become reluctant to run it and instead perform assessment only to satisfy accreditation checkboxes.",
+    "stance": "neutral",
+    "stance_target": "design requirements for a workable outcomes-assessment mechanism",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US ABET/accreditation-driven assessment practice",
+    "quoted_support": "an effective outcomes assessment tool must be easy to administer. If great difficulty is encountered gathering and analyzing data two mindsets develop... It is suggested that many schools conduct assessment activities because of accreditation requirements not because they think the activities will lead to a better curriculum.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "5-year study",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "the-capstone-design-course-and-its-failure-to-serve-as"
+  }
+]

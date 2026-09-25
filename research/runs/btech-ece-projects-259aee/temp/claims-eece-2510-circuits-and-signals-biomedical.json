@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "A B.Tech-level LTspice active-filter design exercise for a biomedical EKG amplifier chain specifies exact component values for a first-order low-pass filter: Rf=100kOhm, Cf=10nF, Rs=20kOhm, LT1490 op-amp, +/-10V rails, RL=1kOhm.",
+    "stance": "neutral",
+    "stance_target": "reproducible LTspice project spec for EKG signal-conditioning filter",
+    "evidence_type": "empirical",
+    "scope_conditions": "Northeastern EECE 2510 biomedical circuits lab, LTspice simulation",
+    "quoted_support": "Use Rf=100kΩ ,Cf=10nF ,∧Rs=20kΩ. Use +− 10V DC power supplies for the op-amp",
+    "numbers": ["Rf=100kOhm", "Cf=10nF", "Rs=20kOhm", "RL=1kOhm", "+/-10V"],
+    "entities": ["LT1490", "LTspice"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "eece-2510-circuits-and-signals-biomedical"
+  },
+  {
+    "claim": "The lab specifies an AC sweep simulation directive '.ac dec 100 1 1000000' to characterize filter cutoff frequency from 1Hz to 1MHz at 100 points per decade.",
+    "stance": "neutral",
+    "stance_target": "standard LTspice AC-analysis procedure for filter characterization",
+    "evidence_type": "empirical",
+    "scope_conditions": "LTspice simulation methodology",
+    "quoted_support": ".ac dec 100 1 1000000",
+    "numbers": ["1 Hz to 1,000,000 Hz", "100 points/decade"],
+    "entities": ["LTspice", ".ac directive"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "eece-2510-circuits-and-signals-biomedical"
+  },
+  {
+    "claim": "A companion active high-pass filter for the same EKG chain uses Rs=100kOhm, Cs=10nF, Rf=200kOhm and is analyzed for in-band gain and cutoff frequency over the same 1Hz-1MHz sweep.",
+    "stance": "neutral",
+    "stance_target": "reproducible LTspice project spec for EKG high-pass stage",
+    "evidence_type": "empirical",
+    "scope_conditions": "Northeastern EECE 2510 lab",
+    "quoted_support": "change your circuit so that it is an active high pass filter shown in Figure 3 with RS=100kΩ ,CS = 10nF ,Rf=200kΩ",
+    "numbers": ["Rs=100kOhm", "Cs=10nF", "Rf=200kOhm"],
+    "entities": ["LTspice", "active high-pass filter"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "eece-2510-circuits-and-signals-biomedical"
+  },
+  {
+    "claim": "A 200Hz, 0.5Vpp square-wave pulse source is used in transient analysis to observe filter distortion of a square wave, with FFT used to view frequency-domain content up to 5kHz.",
+    "stance": "neutral",
+    "stance_target": "time-domain/FFT validation method for active filter projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "LTspice transient + FFT analysis",
+    "quoted_support": "use a pulsed source to produce a 200 Hz square wave with 0.5V p-p ... displaying the FFT up to 5 kHz is about right.",
+    "numbers": ["200 Hz", "0.5 Vpp", "5 kHz FFT range"],
+    "entities": ["LTspice", "FFT"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "eece-2510-circuits-and-signals-biomedical"
+  }
+]

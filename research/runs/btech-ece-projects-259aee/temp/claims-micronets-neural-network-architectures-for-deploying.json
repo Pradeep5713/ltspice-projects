@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "On average, neural network model latency on MCUs varies approximately linearly with the model's operation (op) count under a uniform prior over models in the search space, allowing op count to serve as a cheap proxy for latency/energy during neural architecture search.",
+    "stance": "supports",
+    "stance_target": "feasibility of efficient neural architecture search for MCU-targeted TinyML models without expensive hardware-in-the-loop latency measurement",
+    "evidence_type": "empirical",
+    "scope_conditions": "MCU-class hardware, differentiable NAS search spaces",
+    "quoted_support": "we observe an intriguing property of NAS search spaces for MCU model design: on average, model latency varies linearly with model operation (op) count under a uniform prior over models in the search space.",
+    "numbers": [],
+    "entities": ["MicroNets", "differentiable NAS (DNAS)", "TensorFlow Lite Micro"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "micronets-neural-network-architectures-for-deploying"
+  },
+  {
+    "claim": "MicroNet models achieve state-of-the-art results on all three MLPerf Tiny industry-standard benchmark tasks: visual wake words, audio keyword spotting, and anomaly detection.",
+    "stance": "supports",
+    "stance_target": "viability of NAS-derived compact architectures for audio/vision TinyML tasks relevant to ECE embedded projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "TinyMLperf/MLPerf Tiny benchmark suite",
+    "quoted_support": "MicroNets demonstrate state-of-the-art results for all three TinyMLperf industry-standard benchmark tasks: visual wake words, audio keyword spotting, and anomaly detection.",
+    "numbers": [],
+    "entities": ["MicroNets", "MLPerf Tiny", "visual wake words", "audio keyword spotting", "anomaly detection"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "micronets-neural-network-architectures-for-deploying"
+  }
+]

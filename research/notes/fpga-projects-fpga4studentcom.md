@@ -3,7 +3,10 @@ title: FPGA Projects - FPGA4student.com
 id: fpga-projects-fpga4studentcom
 tags:
 - btech-ece-projects-259aee
+- fpga-projects
+- source-code-repository
 created: '2026-09-25T03:15:02.295957Z'
+updated: '2026-09-25T03:16:24.007335Z'
 source: https://www.fpga4student.com/p/fpga-projects.html
 source_domain: www.fpga4student.com
 fetched_at: '2026-09-25T03:15:02.295063Z'
@@ -13,6 +16,16 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: fpga4student.com index page listing 69 FPGA project tutorials with full Verilog/VHDL
+  source code, spanning digital-logic building blocks (full adder, ALU, multiplexers,
+  decoders, D flip-flop, ring counter, FIFO) through processor design (single-cycle
+  and 3-part pipelined MIPS processor, RISC processor design), applications (traffic
+  light controller, digital/alarm clock, car parking system with FSM, license plate
+  recognition, image processing on FPGA, OV7670 camera interfacing on Basys 3), and
+  peripheral interfacing (seven-segment display, mouse interfacing, button debouncing,
+  PWM generator, clock divider, FIR filter). Practical source-code repository rather
+  than an explanatory article; useful for concrete, buildable FPGA project topics
+  with reference implementations.
 ---
 
 FPGA Projects - FPGA4student.com

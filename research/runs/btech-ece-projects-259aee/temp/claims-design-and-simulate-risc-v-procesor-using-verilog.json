@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "A 32-bit RISC-V processor with a classic 5-stage pipeline (IF, ID, EX, MEM, WB) was fully designed, implemented in Verilog, and functionally verified in ModelSim, demonstrating RISC-V processor design as a viable, documented ECE/electronic-systems final project.",
+    "stance": "supports",
+    "stance_target": "feasibility of RISC-V processor design as an ECE capstone/final-year project",
+    "evidence_type": "empirical",
+    "scope_conditions": "Master of Engineering in Electronic Systems dissertation, UTAR, Malaysia, Aug 2023",
+    "quoted_support": "In this project, RISC-V processor is designed and simulated using Verilog... the designed RISC-V processor will be using 5-stage pipeline techniques to improve the overall performance of the processor.",
+    "numbers": ["32-bit", "5-stage pipeline"],
+    "entities": ["RISC-V", "Verilog", "ModelSim", "UTAR"],
+    "time_period": "2023",
+    "region": "Malaysia",
+    "confidence": "high",
+    "source_note_id": "design-and-simulate-risc-v-procesor-using-verilog"
+  },
+  {
+    "claim": "The processor's hazard unit implements both data forwarding (for register conflicts between EX/MEM and MEM/WB pipeline stages against ID/EX source registers) and pipeline stalling to resolve hazards forwarding alone cannot cover.",
+    "stance": "neutral",
+    "stance_target": "hazard-handling mechanisms in the pipelined RISC-V implementation",
+    "evidence_type": "empirical",
+    "scope_conditions": "5-stage pipelined RV32I implementation, this dissertation",
+    "quoted_support": "forwardMuxA: Handle following 2 hazard conditions: 1. EX/MEM.RegisterRd = ID/EX.RegisterRs 2. MEM/WB.RegisterRd = ID/EX.RegisterRs",
+    "numbers": [],
+    "entities": ["hazard unit", "forwarding", "stalling", "pipeline registers"],
+    "time_period": "2023",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "design-and-simulate-risc-v-procesor-using-verilog"
+  },
+  {
+    "claim": "The implemented RISC-V processor supports only the base integer instruction set and lacks floating-point, bit-manipulation, vector, and cryptography extensions, and it has no branch prediction, causing pipeline-flush penalties on every branch misprediction.",
+    "stance": "neutral",
+    "stance_target": "feasibility scope and limitations of a base-ISA RISC-V final-project implementation",
+    "evidence_type": "empirical",
+    "scope_conditions": "this specific 32-bit RV32I 5-stage pipeline implementation",
+    "quoted_support": "if the prediction is wrong, the processor had to flush the pipeline and fetch instructions from the correct branch, which causes a performance penalty.",
+    "numbers": [],
+    "entities": ["RV32I", "branch prediction", "floating-point extension", "cryptography extension"],
+    "time_period": "2023",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "design-and-simulate-risc-v-procesor-using-verilog"
+  },
+  {
+    "claim": "RISC-V is positioned in the dissertation as a free and open instruction set architecture (ISA) offering an alternative to proprietary CISC/RISC processor designs for both academic and industrial processor design work.",
+    "stance": "supports",
+    "stance_target": "RISC-V's value proposition relative to proprietary ISAs for academic project use",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general framing in dissertation introduction",
+    "quoted_support": "The design of RISC-V processor provides an alternative for software and hardware design to the computer designers as it provides free and open instruction set architecture (ISA).",
+    "numbers": [],
+    "entities": ["RISC-V", "ISA", "CISC", "RISC"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "design-and-simulate-risc-v-procesor-using-verilog"
+  },
+  {
+    "claim": "By 2030 more than 22.7 billion devices are projected to be connected via IoT networks, cited as motivation for VLSI/processor research relevance.",
+    "stance": "neutral",
+    "stance_target": "IoT device growth projection motivating VLSI/embedded research",
+    "evidence_type": "statistical",
+    "scope_conditions": "cited from W. Wang et al., 2021, global projection to 2030",
+    "quoted_support": "By 2030, more than 22.7 billion devices will be connected by IoT networks (W. Wang et al., 2021).",
+    "numbers": ["22.7 billion devices by 2030"],
+    "entities": ["IoT"],
+    "time_period": "2030 (projection, cited 2021)",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "design-and-simulate-risc-v-procesor-using-verilog"
+  }
+]

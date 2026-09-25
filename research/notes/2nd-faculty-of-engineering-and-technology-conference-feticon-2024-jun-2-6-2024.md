@@ -4,7 +4,11 @@ title: 2nd Faculty of Engineering and Technology Conference (FETiCON 2024), Jun.
 id: 2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024
 tags:
 - btech-ece-projects-259aee
+- antenna-design
+- 5g-mmwave
+- microstrip-patch
 created: '2026-09-25T03:15:15.010992Z'
+updated: '2026-09-25T03:16:41.340815Z'
 source: https://arxiv.org/pdf/2412.20400
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:15:15.010268Z'
@@ -14,6 +18,18 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'IEEE-style conference paper (FETiCON 2024, University of Ilorin, Nigeria)
+  presenting an improved 28 GHz microstrip patch antenna for 5G mmWave applications.
+  Design uses Roger RT5880LZ substrate (0.762mm thickness, permittivity 1.96), a quarter-wave
+  transformer feed for 50-ohm impedance match, and a U-shaped parasitic element added
+  to the ground plane to boost gain/bandwidth. Simulated in CST Microwave Studio.
+  Reported results: return loss -21.4 dB, VSWR 1.18, bandwidth 2.026 GHz (27.185-29.211
+  GHz), gain 8.19 dBi. Table 1 benchmarks against four prior published 28 GHz antenna
+  designs (Gaid et al. 2024, Farahat & Hussein 2022, Raheel et al. 2021), claiming
+  better bandwidth/gain balance than most. Includes full transmission-line-model design
+  equations (patch width/length, effective dielectric constant, fringing length extension,
+  edge impedance, quarter-wave transformer impedance) as a reusable design method
+  for undergraduate/graduate antenna projects.'
 raw_file: raw/2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024.pdf
 doi: arXiv:2412.20400
 ---

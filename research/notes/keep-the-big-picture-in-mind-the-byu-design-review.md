@@ -3,7 +3,11 @@ title: Keep the Big Picture in Mind — The BYU Design Review
 id: keep-the-big-picture-in-mind-the-byu-design-review
 tags:
 - btech-ece-projects-259aee
+- capstone-failure-mode
+- project-planning
+- practitioner-advice
 created: '2026-09-25T03:15:42.937783Z'
+updated: '2026-09-25T03:16:47.534346Z'
 source: https://www.designreview.byu.edu/collections/keep-the-big-picture-in-mind
 source_domain: www.designreview.byu.edu
 fetched_at: '2026-09-25T03:15:42.936708Z'
@@ -13,6 +17,22 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Blog post by Terri Bateman, a 17-year BYU Capstone Coach (28 projects coached),
+  listing common failure patterns observed in undergraduate engineering capstone/major
+  project teams: (1) ignoring a requirement because others seem more important, disappointing
+  the end customer; (2) ordering parts too late given multi-week lead times; (3) not
+  budgeting time for things to fail, since debugging unseen failures is inherent to
+  the process; (4) failing to build multiple prototype copies before destructive testing,
+  and forgetting to photograph prototypes beforehand; (5) over-researching mundane
+  component choices instead of quickly picking something workable; (6) deferring housing/enclosure
+  design for a mechanical device, causing poor final results. Recommends four countermeasures:
+  weekly/monthly team review of every requirement against current design status; maintaining
+  both a year-long project schedule and a rolling few-week detailed schedule (updated
+  weekly, ~10-15 min), with built-in slack for failure/debugging since teams systematically
+  underestimate time; setting explicit time limits on mundane decisions (e.g. paint
+  color, fasteners, switches) to avoid analysis paralysis; and creating an explicit
+  prototype plan defining each prototype''s test purpose, documentation (photos/video),
+  and a written test procedure.'
 ---
 
 Keep the Big Picture in Mind — The BYU Design Review

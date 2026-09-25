@@ -3,7 +3,11 @@ title: The 11 Program Outcomes (POs) of NBA — GAPC v4.0 Explained
 id: the-11-program-outcomes-pos-of-nba-gapc-v40-explained
 tags:
 - btech-ece-projects-259aee
+- nba-outcomes-mapping
+- india
+- accreditation-framework
 created: '2026-09-25T03:15:36.449461Z'
+updated: '2026-09-25T03:16:46.807540Z'
 source: https://www.edhitch.com/nba-program-outcomes-11-pos.html
 source_domain: www.edhitch.com
 fetched_at: '2026-09-25T03:15:36.448330Z'
@@ -13,6 +17,24 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Explains India''s NBA (National Board of Accreditation) Graduate Attributes
+  and Professional Competencies (GAPC) framework version 4.0, which as of the 2025
+  revised NBA SAR (Self-Assessment Report) defines 11 Program Outcomes (POs) for accredited
+  undergraduate engineering programmes, down from the earlier 12-PO GAPC v3 framework
+  (old PO6 ''Society'' and PO7 ''Environment and Sustainability'' merged into new
+  PO6 ''The Engineer and the World''). The 11 POs, aligned to the Washington Accord
+  2021 review, are: PO1 Engineering Knowledge, PO2 Problem Analysis, PO3 Design/Development
+  of Solutions, PO4 Conduct Investigations of Complex Problems, PO5 Engineering Tool
+  Usage, PO6 The Engineer and the World, PO7 Ethics (now explicitly including diversity
+  and inclusion), PO8 Individual and Collaborative Team Work, PO9 Communication, PO10
+  Project Management and Finance, and PO11 Life-Long Learning. POs sit between Program
+  Educational Objectives (PEOs, 3-5 year post-graduation career outcomes) and Course
+  Outcomes (CO, per-course outcomes), with course-level learning rolling up to POs
+  and POs rolling up to PEOs. Directly relevant to B.Tech ECE capstone/major projects
+  because project evaluation rubrics in NBA-accredited Indian colleges (e.g. GNDEC)
+  are explicitly built to demonstrate attainment of these POs (design, investigation,
+  tool usage, teamwork, ethics, communication, project management, and lifelong learning)
+  through the project review process.'
 ---
 
 The 11 Program Outcomes (POs) of NBA — GAPC v4.0 Explained

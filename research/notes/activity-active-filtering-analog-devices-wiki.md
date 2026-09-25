@@ -3,7 +3,11 @@ title: 'Activity: Active Filtering [Analog Devices Wiki]'
 id: activity-active-filtering-analog-devices-wiki
 tags:
 - btech-ece-projects-259aee
+- active-filters
+- op-amp-lab
+- hardware-bom
 created: '2026-09-25T03:15:28.440454Z'
+updated: '2026-09-25T03:16:25.306977Z'
 source: https://wiki.analog.com/university/courses/electronics/electronics-lab-active-filter
 source_domain: wiki.analog.com
 fetched_at: '2026-09-25T03:15:28.439216Z'
@@ -13,6 +17,16 @@ type: note
 tier: unknown
 content_type: unknown
 deprecated: false
+summary: 'Analog Devices University Program lab activity (ADALM2000-based) walking
+  students through building and testing active filters on a breadboard: active low-pass
+  with gain control, inverting-amplifier low pass, active high-pass, bandpass, band-stop,
+  second-order Sallen-Key low-pass/high-pass/bandpass, state-variable filters, Tow-Thomas
+  filter, and Twin-T notch filter. Gives exact BOM (OP27/OP37 precision op-amps, specific
+  R/C values e.g. 1kOhm/10kOhm/470Ohm resistors, 1nF/10nF/1uF capacitors) and step-by-step
+  hardware/measurement procedures for each topology, plus the standard first-order
+  active LPF gain equation A(f) referencing cutoff frequency fc. Serves as a template
+  for an ECE B.Tech analog-filter-design mini-project using real components rather
+  than only LTspice simulation.'
 ---
 
 Activity: Active Filtering [Analog Devices Wiki]

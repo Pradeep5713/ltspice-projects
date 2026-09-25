@@ -3,7 +3,11 @@ title: The Capstone Design Course and Its Failure to serve as
 id: the-capstone-design-course-and-its-failure-to-serve-as
 tags:
 - btech-ece-projects-259aee
+- capstone-failure-mode
+- outcomes-assessment-critique
+- accreditation-framework
 created: '2026-09-25T03:15:41.077330Z'
+updated: '2026-09-25T03:16:47.170804Z'
 source: https://peer.asee.org/the-capstone-design-course-and-its-failure-to-serve-as-an-effective-outcome-assessment-tool.pdf
 source_domain: peer.asee.org
 fetched_at: '2026-09-25T03:15:41.076344Z'
@@ -13,6 +17,22 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: '5-year study (Thomas R. Currin, Southern Polytechnic State University, ASEE
+  PEER conference paper) examining whether a civil engineering technology capstone
+  design course can double as a program-level outcomes assessment tool. Conclusion:
+  the capstone course has curricular merit but FAILS as an effective outcomes-assessment
+  instrument. The core problem identified is quantification: findings from capstone
+  projects tend to stay anecdotal rather than becoming measurable, comparable data
+  usable for curriculum improvement, because many relevant outcomes (''intangibles'')
+  are not readily measurable within a single course''s project artifacts. The paper
+  distinguishes outcomes assessment (evaluating the curriculum) from faculty evaluation,
+  noting persistent confusion between the two among both faculty and administrators,
+  and states that an effective outcomes-assessment tool must be easy to administer
+  or it triggers reluctance to conduct it and produces assessment activity performed
+  only to satisfy accreditation requirements rather than genuine improvement. Directly
+  relevant to critiques of using capstone/major projects as NBA/ABET-style outcome-attainment
+  evidence: the mechanism by which a single end-of-program project is asked to prove
+  attainment of many POs simultaneously is structurally weak for rigorous measurement.'
 raw_file: raw/the-capstone-design-course-and-its-failure-to-serve-as.pdf
 ---
 

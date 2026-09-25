@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "RTL-SDR devices are commonly recommended as the entry-level SDR hardware for student GNU Radio projects (FM receiver, ADS-B, DSP/FFT lessons) because they are low-cost and receive-only, but cannot transmit and use an 8-bit ADC with limited bandwidth.",
+    "stance": "neutral",
+    "stance_target": "typical hardware progression for student SDR/GNU Radio projects",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "vendor buying-guide, not peer-reviewed; reflects common industry/hobbyist practice rather than an authoritative standard",
+    "quoted_support": "RTL-SDR Blog V3 or V4 USB-C is usually the best GNU Radio beginner SDR because it is affordable, receive-only, widely supported, and good for first flowgraphs such as FM reception, ADS-B, FFT displays, filters, and demodulation.",
+    "numbers": [],
+    "entities": ["RTL-SDR", "GNU Radio"],
+    "time_period": "2026",
+    "region": null,
+    "confidence": "low",
+    "source_note_id": "best-sdr-for-gnu-radio-projects-student-to-research-setups"
+  },
+  {
+    "claim": "USRP hardware (B210/X310) with the UHD software ecosystem is the commonly cited choice for research-grade GNU Radio wireless communications labs, including MIMO testbeds and private 5G/O-RAN experimentation.",
+    "stance": "neutral",
+    "stance_target": "hardware tier appropriate for advanced/graduate ECE wireless research projects",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "vendor buying-guide; low independent authority but reflects common academic SDR lab practice",
+    "quoted_support": "USRP hardware is one of the strongest choices for serious GNU Radio research because it has a mature UHD ecosystem, broad research adoption, and strong support in university and laboratory environments.",
+    "numbers": [],
+    "entities": ["USRP B210", "USRP X310", "UHD", "GNU Radio"],
+    "time_period": "2026",
+    "region": null,
+    "confidence": "low",
+    "source_note_id": "best-sdr-for-gnu-radio-projects-student-to-research-setups"
+  }
+]

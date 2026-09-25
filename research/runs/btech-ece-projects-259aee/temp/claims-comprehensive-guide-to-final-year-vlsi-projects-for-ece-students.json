@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Low-power VLSI circuit design projects commonly use dynamic voltage scaling, power gating, and clock gating as core techniques.",
+    "stance": "neutral",
+    "stance_target": "common techniques for final-year low-power VLSI projects",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE VLSI project selection, general",
+    "quoted_support": "Techniques such as dynamic voltage scaling, power gating, and clock gating can be used in these designs.",
+    "numbers": [],
+    "entities": ["VLSI", "dynamic voltage scaling", "power gating", "clock gating"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "comprehensive-guide-to-final-year-vlsi-projects-for-ece-students"
+  },
+  {
+    "claim": "ADC design and simulation is presented as a common final-year VLSI project that builds digital signal processing and circuit simulation tool skills.",
+    "stance": "neutral",
+    "stance_target": "common ECE final-year VLSI project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE VLSI projects",
+    "quoted_support": "This project will give you practical experience in digital signal processing and circuit simulation tools.",
+    "numbers": [],
+    "entities": ["ADC", "analog-to-digital converter"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "comprehensive-guide-to-final-year-vlsi-projects-for-ece-students"
+  },
+  {
+    "claim": "VLSI implementation of DSP algorithms such as FFT and digital filters using Verilog/VHDL is a recommended final-year project category.",
+    "stance": "neutral",
+    "stance_target": "common ECE final-year VLSI project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE VLSI projects",
+    "quoted_support": "students can design VLSI systems that implement common DSP algorithms like Fast Fourier Transform (FFT) or filters",
+    "numbers": [],
+    "entities": ["FFT", "DSP", "Verilog", "VHDL"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "comprehensive-guide-to-final-year-vlsi-projects-for-ece-students"
+  },
+  {
+    "claim": "FPGA-based VLSI design projects (custom processors, digital communication systems, encryption algorithm implementation) are recommended to showcase hardware design skills.",
+    "stance": "neutral",
+    "stance_target": "common ECE final-year VLSI/FPGA project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE VLSI/FPGA projects",
+    "quoted_support": "You can work on projects like creating a custom processor, digital communication system, or even implementing encryption algorithms.",
+    "numbers": [],
+    "entities": ["FPGA", "encryption"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "comprehensive-guide-to-final-year-vlsi-projects-for-ece-students"
+  }
+]

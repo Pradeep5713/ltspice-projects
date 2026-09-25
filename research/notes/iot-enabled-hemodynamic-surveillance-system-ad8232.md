@@ -3,7 +3,11 @@ title: 'IoT-Enabled Hemodynamic Surveillance System: AD8232'
 id: iot-enabled-hemodynamic-surveillance-system-ad8232
 tags:
 - btech-ece-projects-259aee
+- biomedical-electronics
+- ecg-monitoring
+- iot-esp32
 created: '2026-09-25T03:15:36.347401Z'
+updated: '2026-09-25T03:16:29.644565Z'
 source: https://arxiv.org/pdf/2505.18173
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:15:36.346575Z'
@@ -13,6 +17,25 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'arXiv preprint (2505.18173) describing an IoT-enabled ECG/hemodynamic monitoring
+  system built around the AD8232 single-lead ECG front-end IC and an ESP32 microcontroller
+  with onboard Wi-Fi/Bluetooth. Architecture: AD8232 (with AgCl gel electrodes) captures
+  ECG; body-temperature and alcohol sensors add supplementary vitals; ESP32 processes
+  and checks for anomalies (irregular heartbeat, high temperature, alcohol detection)
+  and streams data to the Blynk cloud dashboard for real-time viewing by clinicians/caregivers;
+  an AMOLED display shows live ECG and alerts (e.g., tachycardia); GSM is used for
+  alarms; an LM2596-class buck converter (labeled ''LM256'' in text, likely OCR error
+  for LM2596) supplies power. Literature review cites related low-cost IoT ECG systems:
+  an openMSP430-based system claiming 10x reduction in response time [9]; a low-cost
+  wireless ECG system with feature extraction and CVD diagnosis [10]; systems using
+  STM32F429 instead of PIC microcontrollers for lower power [14]; and a prior ESP32+AD8232
+  Bluetooth smartphone ECG monitor [15] noting accuracy/reliability limits needing
+  future noise-reduction filtering. Frames motivation with WHO cardiovascular-disease
+  mortality context and Bangladesh CVD risk-factor prevalence (99.6% male, 97.9% female
+  population with at least one CVD risk factor). Directly relevant as a documented,
+  published B.Tech/postgrad-level ECE biomedical electronics project (ECG monitor)
+  with a defined sensor-to-cloud architecture and low-cost component list (AD8232
+  + ESP32 + Blynk).'
 raw_file: raw/iot-enabled-hemodynamic-surveillance-system-ad8232.pdf
 doi: arXiv:2505.18173
 ---

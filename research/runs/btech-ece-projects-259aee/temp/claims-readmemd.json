@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The FemtoRV open-source RISC-V soft-core teaching project targets a hardware cost of about $40 per student and its smallest RV32I variant (quark) is implemented in roughly 400 lines of documented Verilog (about 100 lines without comments).",
+    "stance": "supports",
+    "stance_target": "low-cost, low-code-footprint feasibility of student RISC-V core projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "FemtoRV/learn-fpga open-source project, general",
+    "quoted_support": "Mission statement: create teaching material for FPGAs, processor design and RISC-V, using around $40 per students... The most elementary version (quark), an RV32I core, weights 400 lines of VERILOG (documented version), and 100 lines if you remove the comments.",
+    "numbers": ["$40 per student", "400 lines documented Verilog", "100 lines uncommented", "under 1280 LUTs"],
+    "entities": ["FemtoRV", "RISC-V", "Lattice IceStick", "RV32I"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "readmemd"
+  },
+  {
+    "claim": "The learn-fpga repository provides a structured two-episode tutorial that teaches building a RISC-V processor incrementally, from a blinking-LED design to a fully functional pipelined RISC-V core with graphics output.",
+    "stance": "supports",
+    "stance_target": "existence of structured, documented pedagogical pathways for RISC-V final-year projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "learn-fpga open-source teaching repository",
+    "quoted_support": "In Episode I, you will learn to build your own RISC-V processor, step by step, starting from the simplest design (that blinks a LED), to a fully functional RISC-V core that can compute and display graphics. In Episode II, you will learn how to design a pipelined processor.",
+    "numbers": [],
+    "entities": ["FemtoRV", "RISC-V", "pipeline"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "readmemd"
+  }
+]

@@ -3,7 +3,11 @@ title: DESIGN AND SIMULATE RISC-V PROCESOR USING VERILOG
 id: design-and-simulate-risc-v-procesor-using-verilog
 tags:
 - btech-ece-projects-259aee
+- risc-v
+- primary-source
+- academic-dissertation
 created: '2026-09-25T03:15:08.178618Z'
+updated: '2026-09-25T03:16:26.763898Z'
 source: http://eprints.utar.edu.my/5966/1/David_Ngu_Teck_Joung_21AGM06719.pdf
 source_domain: eprints.utar.edu.my
 fetched_at: '2026-09-25T03:15:08.177213Z'
@@ -13,6 +17,27 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'UTAR (Universiti Tunku Abdul Rahman) Master of Engineering dissertation
+  (David Ngu Teck Joung, supervised by Dr. Loh Siu Hong, Aug 2023) documenting the
+  design and Verilog implementation of a 32-bit RV32I RISC-V processor using classic
+  5-stage pipelining (IF-ID-EX-MEM-WB). Implements core modules — ALU, ALU decoder,
+  main decoder, instruction memory (imem), data memory (dmem), register file (regfile),
+  pipeline registers between each stage, result_mux, pc_mux, forwardMuxA/B — plus
+  a hazard unit implementing both data forwarding (for EX/MEM and MEM/WB register-destination
+  conflicts against ID/EX source registers) and stalling to resolve hazards the forwarding
+  paths cannot cover (e.g., load-use hazards). All modules were functionally verified
+  individually and in an integrated riscv_pip_27 top-level module using ModelSim waveform
+  simulation and a written testbench (Chapter 4 results, Table 5.1 summarizes each
+  module''s function). The dissertation explicitly frames RISC-V''s value proposition
+  as a free, open, extensible ISA alternative to proprietary architectures. Conclusion
+  (Chapter 5) identifies concrete limitations/future work: the design implements only
+  the base integer instruction set (no floating-point, bit-manipulation, vector, or
+  cryptography extensions) and uses no branch prediction, causing pipeline flush penalties
+  on every branch misprediction. This is the highest-authority, most technically detailed
+  source in the batch — a full documented implementation with methodology and verification
+  results, not a listicle — directly evidencing ''RISC-V processor design in Verilog''
+  as a real, defensible final-year/postgrad ECE project with concrete component list
+  and feasibility caveats.'
 raw_file: raw/design-and-simulate-risc-v-procesor-using-verilog.pdf
 ---
 

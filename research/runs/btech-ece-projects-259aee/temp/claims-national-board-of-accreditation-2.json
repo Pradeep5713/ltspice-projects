@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "NBA's official SAR (Tier-II, GAPC v4.0, January 2025) defines the same 11 Program Outcomes verbatim, each explicitly mapped to Knowledge and Attitude Profile codes WK1-WK9.",
+    "stance": "supports",
+    "stance_target": "the 11-PO GAPC v4.0 framework accurately describes India's current official accreditation outcome taxonomy",
+    "evidence_type": "legal",
+    "scope_conditions": "NBA Tier-II undergraduate engineering SAR, January 2025",
+    "quoted_support": "PO1: Engineering Knowledge: Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.",
+    "numbers": ["11 POs", "WK1-WK9 profile codes"],
+    "entities": ["NBA", "GAPC v4.0", "Annexure-II"],
+    "time_period": "January 2025",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "national-board-of-accreditation-2"
+  },
+  {
+    "claim": "The official NBA SAR allocates 25 of Criterion 2's points specifically to 'Quality of Student Capstone Project,' requiring institutions to document project identification/allotment/monitoring/evaluation processes and explicitly justify which POs and PSOs each project addresses.",
+    "stance": "supports",
+    "stance_target": "capstone/major projects are a formally weighted, explicitly outcome-mapped component of Indian engineering accreditation, not an informal add-on",
+    "evidence_type": "legal",
+    "scope_conditions": "NBA Tier-II SAR, Criterion 2 (Outcome-Based Teaching Learning)",
+    "quoted_support": "2.2. Quality of Student Capstone Project (25) (Quality of the capstone/major project is measured in terms of consideration to factors including, but not limited to, environment, sustainability, safety, ethics, cost, type (application, product, research, review etc.) and standards... Mention implementation details including details of POs and PSOs addressed through the projects with justification.)",
+    "numbers": ["25 points for capstone project quality sub-criterion"],
+    "entities": ["Criterion 2", "NBA"],
+    "time_period": "January 2025",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "national-board-of-accreditation-2"
+  },
+  {
+    "claim": "A separate 20-point NBA sub-criterion (2.7) requires institutions to show that project-based learning activities including capstone projects target UN Sustainable Development Goals (SDGs) while addressing complex engineering problems.",
+    "stance": "neutral",
+    "stance_target": "current Indian accreditation expectations link capstone/major projects to sustainability goals, not just technical outcomes",
+    "evidence_type": "legal",
+    "scope_conditions": "NBA Tier-II SAR, Criterion 2.7",
+    "quoted_support": "2.7. Solving Complex Engineering Problems Incorporating Sustainability Goals (20) (Provide details of core courses (Project based learning, problem-based learning), mini projects, integrated design projects, capstone projects, hackathon or any other activity-based learning towards solving complex engineering problems targeting relevant SDGs.)",
+    "numbers": ["20 points"],
+    "entities": ["Criterion 2.7", "SDGs"],
+    "time_period": "January 2025",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "national-board-of-accreditation-2"
+  },
+  {
+    "claim": "Indian NBA-accredited curricula distinguish major/capstone projects from smaller project types: internships (Criterion 2.3, 10 points) and seminar/mini/micro projects (Criterion 2.4, 10 points) are evaluated as separate, smaller-weighted categories.",
+    "stance": "neutral",
+    "stance_target": "the taxonomy of project types (major/capstone vs. mini/micro vs. internship) recognized in Indian engineering curricula",
+    "evidence_type": "legal",
+    "scope_conditions": "NBA Tier-II SAR Criterion 2",
+    "quoted_support": "2.3. Internship/Industrial Training (10) ... 2.4. Seminar and Mini/Micro Projects (10)",
+    "numbers": ["10 points each for internship and mini/micro projects vs 25 for capstone"],
+    "entities": ["Criterion 2.3", "Criterion 2.4"],
+    "time_period": "January 2025",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "national-board-of-accreditation-2"
+  }
+]

@@ -3,7 +3,11 @@ title: Journal of Technology Education
 id: journal-of-technology-education
 tags:
 - btech-ece-projects-259aee
+- capstone-curriculum-design
+- design-thinking-theory
+- empirical-study
 created: '2026-09-25T03:19:21.296290Z'
+updated: '2026-09-25T03:20:13.745160Z'
 source: https://files.eric.ed.gov/fulltext/EJ1005688.pdf
 source_domain: files.eric.ed.gov
 fetched_at: '2026-09-25T03:19:21.294281Z'
@@ -13,6 +17,18 @@ type: note
 tier: ground_truth
 content_type: paper
 deprecated: false
+summary: Lammi (2013), Journal of Technology Education vol. 24 no. 2 — an empirical
+  study of high-school students' systems-thinking cognition during a collaborative
+  engineering design challenge, using the Function-Behavior-Structure (FBS) cognitive
+  framework and exploratory triangulation mixed methods (verbal, video, computer-movement,
+  and sketch data). Opens by citing Dym, Agogino, Eris, Frey & Leifer (2005) defining
+  engineering design thinking as 'a complex cognitive process' involving divergence-convergence,
+  systems perspective, ambiguity, and collaboration, and notes systems thinking is
+  an emerging but under-researched engineering education trait, especially at pre-college
+  level. Provides secondary but citable confirmation of the Dym et al. 2005 definition
+  of design thinking that underpins why capstone/major-project pedagogy is used to
+  teach engineering design; does not itself study B.Tech-level or ECE-specific capstone
+  projects.
 raw_file: raw/journal-of-technology-education.pdf
 ---
 

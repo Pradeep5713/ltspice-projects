@@ -3,7 +3,13 @@ title: NATIONAL BOARD OF ACCREDITATION
 id: national-board-of-accreditation-2
 tags:
 - btech-ece-projects-259aee
+- nba-outcomes-mapping
+- india
+- institutional-rubric
+- accreditation-framework
+- official-primary-source
 created: '2026-09-25T03:19:19.927234Z'
+updated: '2026-09-25T03:20:13.356318Z'
 source: https://www.nbaind.org/files/2-SAR-UG-EG-T2-14-1-2025_Format_20250115122255.pdf
 source_domain: www.nbaind.org
 fetched_at: '2026-09-25T03:19:19.925824Z'
@@ -13,6 +19,23 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: Official NBA (National Board of Accreditation, India) Self-Assessment Report
+  (SAR) template for Tier-II undergraduate engineering programmes under GAPC v4.0,
+  dated January 2025 — the primary source behind the edhitch.com secondary explainer
+  of the 11 POs. Confirms the exact 11 Program Outcomes (PO1 Engineering Knowledge
+  through PO11 Life-Long Learning) verbatim, each mapped to specific Knowledge and
+  Attitude Profile codes (WK1-WK9) in Annexure II. Critically, Criterion 2 'Outcome-Based
+  Teaching Learning' includes sub-criterion 2.2 'Quality of Student Capstone Project'
+  worth 25 of the criterion's points, requiring institutions to document how projects
+  are evaluated on environment, sustainability, safety, ethics, cost, project type
+  (application/product/research/review), and standards, plus processes for project
+  identification, allotment, continuous monitoring, evaluation (including demonstration
+  of working prototypes), and explicit mapping of which POs/PSOs each project addresses
+  with justification. Sub-criterion 2.7 (20 points) separately requires demonstrating
+  that project-based/problem-based learning, mini projects, integrated design projects,
+  capstone projects, or hackathons address complex engineering problems targeting
+  UN Sustainable Development Goals (SDGs). This SAR format became mandatory for Tier-I
+  institutions from January 1, 2025.
 raw_file: raw/national-board-of-accreditation-2.pdf
 ---
 

@@ -6,8 +6,9 @@ tags:
 - risc-v
 - fpga-projects
 - open-source-teaching-resource
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:17:34.920738Z'
-updated: '2026-09-25T03:18:31.380313Z'
+updated: '2026-09-25T03:34:26.400679Z'
 source: https://raw.githubusercontent.com/filipkosecek/learn-fpga/master/README.md
 source_domain: raw.githubusercontent.com
 fetched_at: '2026-09-25T03:17:34.920113Z'

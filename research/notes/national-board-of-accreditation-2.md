@@ -8,8 +8,9 @@ tags:
 - institutional-rubric
 - accreditation-framework
 - official-primary-source
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:19:19.927234Z'
-updated: '2026-09-25T03:20:13.356318Z'
+updated: '2026-09-25T03:34:27.470853Z'
 source: https://www.nbaind.org/files/2-SAR-UG-EG-T2-14-1-2025_Format_20250115122255.pdf
 source_domain: www.nbaind.org
 fetched_at: '2026-09-25T03:19:19.925824Z'

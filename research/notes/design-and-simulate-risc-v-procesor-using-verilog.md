@@ -6,8 +6,9 @@ tags:
 - risc-v
 - primary-source
 - academic-dissertation
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:15:08.178618Z'
-updated: '2026-09-25T03:16:26.763898Z'
+updated: '2026-09-25T03:34:26.008325Z'
 source: http://eprints.utar.edu.my/5966/1/David_Ngu_Teck_Joung_21AGM06719.pdf
 source_domain: eprints.utar.edu.my
 fetched_at: '2026-09-25T03:15:08.177213Z'

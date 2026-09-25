@@ -7,8 +7,9 @@ tags:
 - nba-outcomes-mapping
 - india
 - project-evaluation-weightage
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:15:31.613956Z'
-updated: '2026-09-25T03:16:45.721024Z'
+updated: '2026-09-25T03:34:27.107750Z'
 source: https://ece.gndec.ac.in/sites/default/files/rubrics%20for%20major%20project.pdf
 source_domain: ece.gndec.ac.in
 fetched_at: '2026-09-25T03:15:31.612982Z'

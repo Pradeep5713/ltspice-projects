@@ -6,8 +6,9 @@ tags:
 - capstone-failure-mode
 - outcomes-assessment-critique
 - accreditation-framework
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:15:41.077330Z'
-updated: '2026-09-25T03:16:47.170804Z'
+updated: '2026-09-25T03:34:27.855298Z'
 source: https://peer.asee.org/the-capstone-design-course-and-its-failure-to-serve-as-an-effective-outcome-assessment-tool.pdf
 source_domain: peer.asee.org
 fetched_at: '2026-09-25T03:15:41.076344Z'

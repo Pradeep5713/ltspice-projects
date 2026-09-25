@@ -1,0 +1,36 @@
+{
+  "sub_questions": [
+    "Which FPGA/Verilog projects are easy enough for a 4th-year B.Tech ECE team (one or two semesters, low-cost board) yet offer genuine novelty?",
+    "What makes an FPGA project publishable — what contribution (comparison, optimization, new application, resource/power/latency improvement) do IEEE conferences and Scopus journals accept for such work?",
+    "Which specific project ideas rank best on the novelty vs ease vs publishability trade-off, with tools, board, and expected results?",
+    "How should students write and structure the research paper (IEEE format, results tables: LUTs/FFs/DSPs, Fmax, power, latency; comparison with prior work) and where to submit (IEEE conferences, Scopus-indexed journals) while avoiding predatory venues?"
+  ],
+  "entities": [
+    {"name": "Candidate FPGA Verilog projects", "type": "category", "required_fields": ["novelty angle", "difficulty/ease", "tools and board", "publishable result metrics"]},
+    {"name": "IEEE conference", "type": "venue-type", "required_fields": ["examples", "acceptance expectations"]},
+    {"name": "Scopus journal", "type": "venue-type", "required_fields": ["how to verify indexing", "predatory-journal risk"]}
+  ],
+  "required_formats": ["ranked comparison table of project ideas (novelty / ease / publishability)", "paper structure outline"],
+  "required_sections": [],
+  "required_section_headings": [
+    "## 1. What Makes an FPGA Project Both Easy and Publishable",
+    "## 2. Ranked FPGA Verilog Project Ideas",
+    "## 3. Recommended Project: Scope, Tools, and Novelty Angle",
+    "## 4. Writing the Research Paper",
+    "## 5. Where to Publish: IEEE Conferences and Scopus Journals",
+    "## 6. Timeline for a 4th-Year Team"
+  ],
+  "time_horizons": ["current (2023-2026) FPGA publication trends"],
+  "time_periods": [],
+  "scope_conditions": ["B.Tech 4th-year ECE students", "FPGA with Verilog HDL coding (not VHDL-only, not ASIC-only)", "must be the easiest feasible while still novel", "paper targeted at IEEE conference or Scopus-indexed journal"],
+  "pipeline_tier": "light",
+  "response_format": "structured",
+  "citation_style": "wikilink",
+  "levers": {
+    "register": "advocate",
+    "register_confidence": "high",
+    "domain_notes": "Sourcing: IEEE Xplore/arXiv/open-access papers showing published undergraduate-scale FPGA work with resource/power/timing tables; vendor docs (AMD Xilinx Vivado, Intel Quartus, open-source Yosys); publication-ethics sources (IEEE author center, Scopus source list, UGC-CARE/predatory-journal guidance). Evidence norms: prefer published FPGA papers with measurable LUT/Fmax/power/latency results and comparisons. Recency: last 3 years for novelty angles.",
+    "inference_depth": "standard",
+    "rationale": {"register": "user asks to be told the best easy+novel project to do, i.e. a recommendation", "inference_depth": "needs linking project ideas to publication evidence"}
+  }
+}

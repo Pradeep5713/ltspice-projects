@@ -5,8 +5,9 @@ tags:
 - btech-ece-projects-259aee
 - fpga-projects
 - source-code-repository
+- fpga-verilog-publishable-project-e0cabb
 created: '2026-09-25T03:15:02.295957Z'
-updated: '2026-09-25T03:16:24.007335Z'
+updated: '2026-09-25T03:34:26.754798Z'
 source: https://www.fpga4student.com/p/fpga-projects.html
 source_domain: www.fpga4student.com
 fetched_at: '2026-09-25T03:15:02.295063Z'

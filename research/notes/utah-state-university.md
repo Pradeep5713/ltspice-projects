@@ -4,11 +4,12 @@ id: utah-state-university
 tags:
 - btech-ece-projects-259aee
 created: '2026-09-25T03:15:09.119720Z'
+updated: '2026-09-25T03:16:09.652122Z'
 source: https://spaces.usu.edu/display/ece3710/Software%20Defined%20Radio:%20FM%20Receiver%20with%20GNU%20Radio%20and%20RTL-SDR
 source_domain: www.usu.edu
 fetched_at: '2026-09-25T03:15:09.118784Z'
 fetch_provider: builtin
-status: draft
+status: deprecated
 type: note
 tier: unknown
 content_type: unknown

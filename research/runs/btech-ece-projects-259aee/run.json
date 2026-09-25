@@ -20,9 +20,9 @@
     "15",
     "16"
   ],
-  "status": "running",
+  "status": "done",
   "started_at": "2026-09-25T03:13:19.862212+00:00",
-  "updated_at": "2026-09-25T03:27:43.606005+00:00",
+  "updated_at": "2026-09-25T03:31:09.879805+00:00",
   "budget_usd": null,
   "blocked_on": null,
   "steps": {
@@ -44,6 +44,10 @@
       "status": "done",
       "started_at": "2026-09-25T03:26:47.860503+00:00",
       "finished_at": "2026-09-25T03:27:43.605116+00:00"
+    },
+    "16": {
+      "status": "done",
+      "finished_at": "2026-09-25T03:30:27.841170+00:00"
     }
   },
   "chapters": {},
@@ -57,5 +61,10 @@
     "register": "survey",
     "inference_depth": "surface",
     "domain_notes": "Sourcing: university/AICTE curriculum and project guidelines, IEEE student/conference papers, vendor application notes (TI, Analog Devices, Espressif, Xilinx), and reputable electronics education sites; low-quality project-selling listicles only as evidence of what is common, never as authority. Evidence norms: prefer projects with documented implementations or published papers; note component cost and feasibility. Recency: last ~3 years for trending topics; fundamentals are timeless."
+  },
+  "verify": {
+    "passed": true,
+    "at": "2026-09-25T03:31:09.879066+00:00",
+    "failed_checks": []
   }
 }

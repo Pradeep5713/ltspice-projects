@@ -32,6 +32,7 @@ summary: 'arXiv preprint (physics.ins-det, Jul 2026) by Gonzalez, Zajdel & Carle
   SDR/RF/MIMO/beam-steering teaching labs relevant to ECE capstone or lab-course design.'
 raw_file: raw/leveraging-inexpensive-lab-tools.pdf
 doi: arXiv:2607.23911
+citation_count: 0
 ---
 
 Leveraging Inexpensive Lab Tools

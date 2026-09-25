@@ -41,6 +41,6 @@ yosys -q -p "read_verilog $RTL; synth_xilinx -family xc7 -top mul8x8_beh; \
 echo "synthesised BEH_DSP"
 
 # FPGA demo top (checks that the Basys-3 design synthesises cleanly)
-yosys -q -p "read_verilog $RTL fpga/basys3_top.v; synth_xilinx -family xc7 -nodsp -top basys3_top; \
+yosys -q -p "read_verilog $RTL fpga/basys3_top.v; synth_xilinx -family xc7 -nodsp -top basys3_top; flatten; \
              tee -o synth/reports/BASYS3_TOP.stat stat" >/dev/null
 echo "synthesised BASYS3_TOP"

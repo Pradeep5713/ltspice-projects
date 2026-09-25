@@ -1,7 +1,10 @@
 ---
 title: Application Note
 id: application-note
+tags:
+- btech-ece-projects-259aee
 created: '2026-09-25T03:12:17.849540Z'
+updated: '2026-09-25T03:19:33.471358Z'
 source: https://www.ti.com/lit/an/sloa049d/sloa049d.pdf
 source_domain: www.ti.com
 fetched_at: '2026-09-25T03:12:17.848250Z'
@@ -11,6 +14,11 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'TI application note SLOA049D ''Active Low-Pass Filter Design'' (Karki):
+  unity-gain and equal-component Sallen-Key and multiple-feedback low-pass topologies,
+  Butterworth/Bessel/Chebyshev coefficient tables, component-value design procedure
+  for 2nd-order and cascaded higher-order filters. Canonical vendor reference for
+  an op-amp active-filter student project.'
 raw_file: raw/application-note.pdf
 ---
 

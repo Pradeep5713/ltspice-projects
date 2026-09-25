@@ -305,9 +305,11 @@ def main():
         im = ax.imshow(red, origin="lower", cmap="viridis", vmin=0, vmax=25)
         ax.set_title(LABEL[d])
         ax.set_xlabel("B")
-        ax.set_xticks([0, 128, 255])
-        ax.set_yticks([0, 128, 255])
+        first = d == DESIGNS[1]
+        ax.set_xticks([0, 255] if first else [])
+        ax.set_yticks([0, 255] if first else [])
     axs[0].set_ylabel("A")
+    fig.subplots_adjust(wspace=0.15)
     fig.colorbar(im, ax=axs, shrink=0.8, label="Rel. error (%)")
     fig.savefig(RES / "fig_error_map.pdf", bbox_inches="tight")
     fig.savefig(RES / "fig_error_map.png", dpi=200, bbox_inches="tight")

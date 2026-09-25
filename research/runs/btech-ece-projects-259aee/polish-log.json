@@ -1,0 +1,7 @@
+{"applied": [
+  {"category": "hygiene", "description": "removed non-verbatim decorative quote around \"C\" in section 2.4 intro; rephrased as plain prose", "chars_removed": -8},
+  {"category": "filler", "description": "deleted 'A counterpoint is worth noting.' opener in section 5", "chars_removed": 29},
+  {"category": "meta_discourse", "description": "rewrote 'This guide surveys...' intro sentence to state the scope directly", "chars_removed": 22},
+  {"category": "meta_discourse", "description": "replaced section-number cross-reference 'in section 2.1' with 'above'", "chars_removed": 9},
+  {"category": "readability", "description": "split ~200-word TinyML paragraph (2.5) at the Edge Impulse workflow hinge", "chars_removed": -1}
+], "escalations": []}

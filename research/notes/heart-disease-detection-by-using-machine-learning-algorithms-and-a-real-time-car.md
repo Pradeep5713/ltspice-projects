@@ -34,6 +34,9 @@ summary: 'Open-access paper (World Journal of Engineering and Technology, 2018, 
   monitoring project design with concrete BOM and reported detection accuracy, complementary
   to the AD8232/ESP32 architecture in the citing IoT-ECG paper.'
 doi: 10.4236/wjet.2018.64057
+citation_count: 241
+venue: World Journal of Engineering and Technology
+is_retracted: false
 ---
 
 *Suggested by [[iot-enabled-hemodynamic-surveillance-system-ad8232]] — cited primary source on ML-based heart disease detection + real-time monitoring, ref [6]*

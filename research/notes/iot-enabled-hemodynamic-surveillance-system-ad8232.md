@@ -38,6 +38,8 @@ summary: 'arXiv preprint (2505.18173) describing an IoT-enabled ECG/hemodynamic 
   + ESP32 + Blynk).'
 raw_file: raw/iot-enabled-hemodynamic-surveillance-system-ad8232.pdf
 doi: arXiv:2505.18173
+citation_count: 2
+venue: arXiv.org
 ---
 
 IoT-Enabled Hemodynamic Surveillance System: AD8232 

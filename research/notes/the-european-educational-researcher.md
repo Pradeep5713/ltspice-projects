@@ -39,6 +39,9 @@ summary: 'Peer-reviewed study (Shurin, Davidovitch & Shoval, Ariel University & 
   if restructured, better preparing students for a rapidly changing professional environment.'
 raw_file: raw/the-european-educational-researcher.pdf
 doi: 10.31757/euer.414
+citation_count: 15
+venue: The European Educational Researcher
+is_retracted: false
 ---
 
 THE EUROPEAN EDUCATIONAL RESEARCHER      

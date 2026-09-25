@@ -32,6 +32,9 @@ summary: 'Springer conference chapter (COMIA 2025, Universidad Panamericana/Tecn
   wheelchair projects (CNN/LSTM/SVM-based) that are directly relevant prior-art for
   ECE embedded speech-control projects.'
 doi: 10.1007/978-3-031-97907-1_17
+citation_count: 1
+venue: Communications in computer and information science
+is_retracted: false
 ---
 
 Deploying Real-Time Speech Recognition on ESP32 Using TinyML and Edge Impulse | Springer Nature Link

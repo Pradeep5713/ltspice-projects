@@ -29,6 +29,9 @@ summary: Open-access Journal of Big Data (Springer, 2021) paper proposing a remo
   focus, useful for a B.Tech ECE project that wants to add cloud-based ML classification
   on top of a hardware ECG front end.
 doi: 10.1186/s40537-021-00507-w
+citation_count: 76
+venue: Journal Of Big Data
+is_retracted: false
 ---
 
 *Suggested by [[iot-enabled-hemodynamic-surveillance-system-ad8232]] — cited primary source on IoT remote patient monitoring + cloud computing, ref [4]*

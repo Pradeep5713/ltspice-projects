@@ -3,7 +3,11 @@ title: ADDITION IS ALL YOU NEED
 id: addition-is-all-you-need
 tags:
 - fpga-verilog-publishable-project-e0cabb
+- l-mul-algorithm
+- energy-efficient-arithmetic
+- publishable-project-example
 created: '2026-09-25T03:37:41.989933Z'
+updated: '2026-09-25T03:38:03.457367Z'
 source: https://arxiv.org/pdf/2410.00907
 source_domain: arxiv.org
 fetched_at: '2026-09-25T03:37:41.989246Z'
@@ -13,6 +17,33 @@ type: note
 tier: institutional
 content_type: paper
 deprecated: false
+summary: 'Luo & Sun, arXiv:2410.00907, ''Addition Is All You Need for Energy-Efficient
+  Language Models'' (2024). This is the original algorithm paper behind L-Mul, cited
+  as reference [2] by the FPGA hardware-implementation paper (arXiv:2412.18948). Proposes
+  the linear-complexity multiplication (L-Mul) algorithm, which approximates floating-point
+  multiplication using integer addition: L-Mul(x,y) = (1 + xm + ym + 2^-l(m)) * 2^(xe+ye),
+  removing the O(m^2) mantissa-multiplication term and replacing it with O(m) addition,
+  implementable with a single integer adder. Cites Horowitz (2014) energy-cost table:
+  multiplying two fp32 numbers costs 4x the energy of fp32 addition and 37x the energy
+  of int32 addition; approximating fp32 multiplication with int32 addition therefore
+  consumes only about 2.7% of the energy (about 4.7% relative to fp16). Authors estimate
+  applying L-Mul in tensor processing hardware can reduce energy cost by 95% for element-wise
+  floating-point tensor multiplication and 80% for dot products. Numerical/theoretical
+  error analysis shows L-Mul with 4-bit mantissa achieves comparable precision to
+  float8 e4m3 multiplication, and L-Mul with 3-bit mantissa outperforms float8 e5m2.
+  Training-free evaluation replacing standard multiplication with L-Mul in the attention
+  mechanism of pretrained transformer LLMs shows average performance loss of only
+  0.07% on language reasoning tasks (commonsense, structured reasoning, language understanding)
+  and a 0.12% accuracy gain on vision tasks (VQA, object hallucination, free-form
+  visual instruction). Fine-tuning a model with all multiplications replaced by 3-bit-mantissa
+  L-Mul matches the performance of a standard model using float8 e4m3 accumulation.
+  Notes GPUs cannot fully exploit L-Mul without native hardware support, motivating
+  dedicated hardware implementations such as the downstream FPGA paper (2412.18948)
+  -- this is the primary source establishing the algorithmic novelty that the FPGA
+  paper hardware-izes; the algorithm-to-hardware pairing (arXiv:2410.00907 for algorithm,
+  arXiv:2412.18948 for FPGA realization) is a strong template for a publishable student
+  project: take a very recent (within ~1 year) algorithmic paper and be first to realize
+  it in Verilog/FPGA hardware.'
 raw_file: raw/addition-is-all-you-need.pdf
 doi: arXiv:2410.00907
 ---

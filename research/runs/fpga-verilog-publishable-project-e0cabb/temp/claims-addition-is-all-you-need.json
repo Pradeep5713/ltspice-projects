@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "L-Mul approximates floating-point multiplication with integer addition, reducing the mantissa operation from O(m^2) complexity to O(m).",
+    "stance": "supports",
+    "stance_target": "L-Mul is a genuinely novel, low-complexity approximate-multiplication algorithm suitable for hardware realization",
+    "evidence_type": "theoretical",
+    "scope_conditions": "floating-point multiplication of numbers with m-bit mantissas",
+    "quoted_support": "We propose L-Mul, a FP multiplication algorithm with O(n) complexity, where n is the bit size of its FP operands... We remove this operation and introduce a new multiplication algorithm that processes mantissas with a computational complexity of O(m).",
+    "numbers": ["O(m^2) to O(m) complexity reduction"],
+    "entities": ["L-Mul"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "addition-is-all-you-need"
+  },
+  {
+    "claim": "Applying L-Mul in tensor processing hardware can theoretically reduce energy cost by 95% for element-wise floating-point tensor multiplication and 80% for dot products, based on Horowitz (2014) energy figures where fp32 multiplication costs 37x the energy of int32 addition.",
+    "stance": "supports",
+    "stance_target": "approximate arithmetic replacing multiplication with addition yields large, quantifiable energy savings -- the core motivation cited by downstream FPGA hardware papers",
+    "evidence_type": "theoretical",
+    "scope_conditions": "tensor processing hardware, fp32/fp16 accumulation precision assumptions",
+    "quoted_support": "applying the L-Mul operation in tensor processing hardware can potentially reduce 95% energy cost by element-wise floating point tensor multiplications and 80% energy cost of dot products.",
+    "numbers": ["95% energy reduction (element-wise)", "80% energy reduction (dot product)", "37x energy cost fp32 mult vs int32 add", "4x energy cost fp32 mult vs fp32 add"],
+    "entities": ["Horowitz 2014"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "addition-is-all-you-need"
+  },
+  {
+    "claim": "L-Mul with a 4-bit mantissa achieves comparable numerical precision to float8 e4m3 multiplication, and L-Mul with a 3-bit mantissa outperforms float8 e5m2 multiplication.",
+    "stance": "supports",
+    "stance_target": "L-Mul can substitute for FP8 multiplication with equal or better precision at lower hardware cost -- the direct justification for building an FP8 L-Mul multiplier in hardware",
+    "evidence_type": "theoretical",
+    "scope_conditions": "theoretical error estimation and numerical analysis experiments across textual, visual, symbolic tasks",
+    "quoted_support": "L-Mul with 4-bit mantissa achieves comparable precision as float8 e4m3 multiplications, and L-Mul with 3-bit mantissa outperforms float8 e5m2.",
+    "numbers": ["4-bit mantissa comparable to e4m3", "3-bit mantissa outperforms e5m2"],
+    "entities": ["float8 e4m3", "float8 e5m2"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "addition-is-all-you-need"
+  },
+  {
+    "claim": "Replacing standard multiplication with L-Mul in the attention mechanism of pretrained transformer LLMs (no additional training) causes only 0.07% average performance loss on language reasoning benchmarks and a 0.12% accuracy gain on vision tasks.",
+    "stance": "supports",
+    "stance_target": "L-Mul is near-lossless when substituted into real, deployed LLM/vision-transformer pipelines without retraining",
+    "evidence_type": "empirical",
+    "scope_conditions": "training-free substitution into pretrained transformer models, commonsense/structured-reasoning/language-understanding and visual QA/object-hallucination/instruction-following benchmarks",
+    "quoted_support": "the average performance loss of L-Mul-based attention is 0.07% across commonsense, structured reasoning, language understanding. On vision tasks, L-Mul-based attention gained 0.12% accuracy improvement on visual question answering, object hallucination, and free-form visual instruction tasks.",
+    "numbers": ["0.07% average performance loss (language)", "0.12% accuracy gain (vision)"],
+    "entities": ["transformer LLM"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "addition-is-all-you-need"
+  },
+  {
+    "claim": "GPUs cannot fully exploit the L-Mul algorithm's efficiency because they lack native hardware support, motivating dedicated hardware/FPGA implementations.",
+    "stance": "supports",
+    "stance_target": "L-Mul's benefits require purpose-built digital hardware (e.g., FPGA), directly motivating a hardware-implementation research/student project rather than a software-only replication",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Nvidia GPU simulation of L-Mul via inline PTX assembly",
+    "quoted_support": "Due to the absence of native implementation, GPUs cannot fully exploit the efficiency of the L-Mul algorithm. We recommend training and hosting L-Mul-based models on devices integrated with specialized architectural designs.",
+    "numbers": [],
+    "entities": ["Nvidia GPU", "PTX Assembly"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "addition-is-all-you-need"
+  }
+]

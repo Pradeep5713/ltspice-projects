@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Among machine-learning algorithms compared in WEKA on open UCI/Statlog heart-disease datasets, SVM achieved the best performance at 97.53% accuracy, with 97.50% sensitivity and 94.94% specificity via 10-fold cross-validation.",
+    "stance": "supports",
+    "stance_target": "SVM is a strong, low-cost algorithm choice for a student heart-disease-prediction ML project",
+    "evidence_type": "empirical",
+    "scope_conditions": "two open-access heart-disease datasets, WEKA 3.8.2, 10-fold cross-validation",
+    "quoted_support": "An accuracy level of 97.53% accuracy was found from the SVM algorithm along with sensitivity and specificity of 97.50% and 94.94% respectively.",
+    "numbers": ["97.53%", "97.50%", "94.94%"],
+    "entities": ["SVM", "WEKA", "UCI dataset", "Statlog"],
+    "time_period": "2018",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "heart-disease-detection-by-using-machine-learning-algorithms-and-a-real-time-car"
+  },
+  {
+    "claim": "A low-cost real-time cardiac monitoring prototype was built with Arduino/Genuino Uno (ATmega328P), a heartbeat sensor, a DHT11 temperature/humidity sensor, and a GSM module, updating a cloud server every 10 seconds and alerting the prescribed doctor via SMS when a threshold is exceeded.",
+    "stance": "neutral",
+    "stance_target": "concrete low-cost BOM and update interval for an Arduino-based patient vital-signs monitor",
+    "evidence_type": "empirical",
+    "scope_conditions": "prototype hardware system, published paper",
+    "quoted_support": "All the sensor real-time data are stored and updated on the cloud server database automatically after a specific time (every 10 sec) and if any unwanted value of the sensors is encountered then prescribed doctor from any location in the world is notified via mobile SMS using GSM module.",
+    "numbers": ["10 seconds update interval"],
+    "entities": ["Arduino Uno", "ATmega328P", "DHT11", "GSM"],
+    "time_period": "2018",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "heart-disease-detection-by-using-machine-learning-algorithms-and-a-real-time-car"
+  },
+  {
+    "claim": "According to WHO data cited in the paper, 17.5 million global deaths occur annually from heart attacks and strokes, with more than 75% of CVD deaths occurring in middle- and low-income countries.",
+    "stance": "supports",
+    "stance_target": "global disease burden motivates low-cost cardiac monitoring projects, particularly in developing regions",
+    "evidence_type": "statistical",
+    "scope_conditions": "global, WHO survey data as cited",
+    "quoted_support": "According to the survey of the World Health Organization (WHO), 17.5 million total global deaths occur because of heart attacks and strokes. More than 75% of deaths from cardiovascular diseases occur mostly in middle-income and low-income countries.",
+    "numbers": ["17.5 million", "75%", "80%"],
+    "entities": ["WHO", "CVD"],
+    "time_period": null,
+    "region": "global, especially low/middle-income countries",
+    "confidence": "medium",
+    "source_note_id": "heart-disease-detection-by-using-machine-learning-algorithms-and-a-real-time-car"
+  }
+]

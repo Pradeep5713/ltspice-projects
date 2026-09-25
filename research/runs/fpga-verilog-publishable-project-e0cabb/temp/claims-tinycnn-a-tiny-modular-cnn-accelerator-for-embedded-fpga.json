@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "TinyCNN's 16-bit fixed-point exclusive-mode FPGA accelerator achieves 15.75x speedup over 32-bit floating-point software on ARM, with only ~3% accuracy loss.",
+    "stance": "supports",
+    "stance_target": "tiny CNN accelerators on embedded FPGAs can match near-software accuracy with large speedups, a viable undergraduate novelty angle",
+    "evidence_type": "empirical",
+    "scope_conditions": "PYNQ board, Xilinx Zynq-7000 XC7Z020, CIFAR-10 grayscale, small 4-conv-layer CNN (292,566 params)",
+    "quoted_support": "We used 16-bit fixed-point data in a CNN accelerator (FPGA) and compared it to the exactly similar software version running on an ARM processor (32-bit floating point data). We encounter about 3% accuracy loss in classification of the accelerated (FPGA) version. In return, we got up to 15.75x speedup",
+    "numbers": ["15.75x", "3% accuracy loss", "16-bit fixed-point", "32-bit floating"],
+    "entities": ["TinyCNN", "PYNQ", "Zynq-7000", "CIFAR-10"],
+    "time_period": "2019",
+    "confidence": "high",
+    "source_note_id": "tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga"
+  },
+  {
+    "claim": "Software CIFAR-10 classification (32-bit float, ARM 650MHz) achieves 65.54% accuracy at 42.54 ms/image, versus 62.28% accuracy at 2.7 ms/image for the exclusive-mode 16-bit fixed-point FPGA hardware accelerator.",
+    "stance": "supports",
+    "stance_target": "quantified accuracy/latency tradeoff table for CNN-on-FPGA projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "small CIFAR-10 CNN, PYNQ board",
+    "quoted_support": "SW 65.54 42.54 32-b floating; HW-EM 62.28 2.7 16-b fixed",
+    "numbers": ["65.54%", "42.54 ms", "62.28%", "2.7 ms", "8.12 ms shared mode"],
+    "entities": ["TinyCNN", "CIFAR-10"],
+    "time_period": "2019",
+    "confidence": "high",
+    "source_note_id": "tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga"
+  },
+  {
+    "claim": "TinyCNN's automated hardware backend uses CHISEL to generate configurable, modular convolution units that can run in resource-saving 'shared' mode or higher-throughput 'exclusive' mode.",
+    "stance": "neutral",
+    "stance_target": "methodological design choice available for undergraduate replication",
+    "evidence_type": "theoretical",
+    "scope_conditions": "framework design, not a specific numeric result",
+    "quoted_support": "Shared mode: in the this mode, the convolution unit is shared among all layers of CNN... Exclusive mode: in the exclusive mode, for each convolution layer in the CNN a convolution unit hardware is generated, which results in higher throughput and FPGA resource usage.",
+    "numbers": [],
+    "entities": ["TinyCNN", "CHISEL"],
+    "time_period": "2019",
+    "confidence": "medium",
+    "source_note_id": "tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga"
+  },
+  {
+    "claim": "On-chip BRAM memory, not compute, is the binding hardware resource limitation for CNN accelerators on embedded FPGAs.",
+    "stance": "supports",
+    "stance_target": "memory (not LUT/DSP) is often the practical constraint for student CNN-on-FPGA projects targeting small boards",
+    "evidence_type": "empirical",
+    "scope_conditions": "PYNQ/Zynq-7000 XC7Z020 embedded FPGA",
+    "quoted_support": "As we expected, memory (BRAM) is the hardware resource limitation that we encounter while implementing a CNN on an embedded FPGA.",
+    "numbers": [],
+    "entities": ["TinyCNN", "PYNQ", "BRAM"],
+    "time_period": "2019",
+    "confidence": "medium",
+    "source_note_id": "tinycnn-a-tiny-modular-cnn-accelerator-for-embedded-fpga"
+  }
+]

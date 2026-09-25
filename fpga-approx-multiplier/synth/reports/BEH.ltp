@@ -1,0 +1,15 @@
+7. Executing LTP pass (find longest path).
+
+Longest topological path in mul8x8_beh (length=11):
+    0: \b [3]
+    1: $abc$2840$auto$blifparse.cc:525:parse_blif$2857.A [4] (via $iopadmap$mul8x8_beh.b_3)
+    2: $abc$2840$auto$blifparse.cc:525:parse_blif$2910.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.f1 (via $abc$2840$auto$blifparse.cc:525:parse_blif$2910.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1)
+    3: $abc$2840$auto$blifparse.cc:525:parse_blif$2910.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.f1 (via $abc$2840$auto$blifparse.cc:525:parse_blif$2910.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.mux7)
+    4: $abc$2840$auto$blifparse.cc:525:parse_blif$2913.A [0] (via $abc$2840$auto$blifparse.cc:525:parse_blif$2910.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.mux8)
+    5: $abc$2840$auto$blifparse.cc:525:parse_blif$2913.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.f1 (via $abc$2840$auto$blifparse.cc:525:parse_blif$2913.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1)
+    6: $auto$maccmap.cc:114:fulladd$2091.Y [5] (via $abc$2840$auto$blifparse.cc:525:parse_blif$2913.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.mux7)
+    7: $auto$maccmap.cc:240:synth$2092.X [6] (via $abc$2840$auto$blifparse.cc:525:parse_blif$2921)
+    8: $auto$maccmap.cc:240:synth$2092.CO [7] (via $auto$maccmap.cc:240:synth$2092.genblk1.slice[1].genblk1.carry4)
+    9: $auto$maccmap.cc:240:synth$2092.CO [11] (via $auto$maccmap.cc:240:synth$2092.genblk1.slice[2].genblk1.carry4)
+   10: $iopadmap$p [12] (via $auto$maccmap.cc:240:synth$2092.genblk1.slice[3].genblk1.carry4)
+   11: \p [12] (via $iopadmap$mul8x8_beh.p_12)

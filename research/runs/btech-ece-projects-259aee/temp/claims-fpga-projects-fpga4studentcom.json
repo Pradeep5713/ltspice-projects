@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "fpga4student.com provides full Verilog/VHDL source code for over 65 FPGA projects spanning basic digital-logic components through full processor designs.",
+    "stance": "neutral",
+    "stance_target": "availability of documented reference FPGA project implementations",
+    "evidence_type": "empirical",
+    "scope_conditions": "FPGA project index, ongoing/updated list",
+    "quoted_support": "Many others FPGA projects provide students with full Verilog/ VHDL source code to practice and run on FPGA boards.",
+    "numbers": ["69 listed projects"],
+    "entities": ["FPGA", "Verilog", "VHDL"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "fpga-projects-fpga4studentcom"
+  },
+  {
+    "claim": "A 3-part pipelined MIPS processor implementation on FPGA in Verilog is provided as a full worked reference project, alongside a separate single-cycle MIPS processor and a RISC processor design.",
+    "stance": "neutral",
+    "stance_target": "documented processor-design FPGA project references",
+    "evidence_type": "empirical",
+    "scope_conditions": "FPGA project reference list",
+    "quoted_support": "Pipelined MIPS Processor on FPGA in Verilog (Part-1) ... Pipelined MIPS Processor on FPGA in Verilog (Part-2) ... Pipelined MIPS Processor on FPGA in Verilog (Part-3)",
+    "numbers": [],
+    "entities": ["MIPS processor", "FPGA", "RISC processor"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "fpga-projects-fpga4studentcom"
+  },
+  {
+    "claim": "Application-level FPGA project references include license plate recognition, image processing, camera (OV7670) interfacing on the Basys 3 board, and FSM-based car parking systems.",
+    "stance": "neutral",
+    "stance_target": "buildable applied FPGA final-year project topics",
+    "evidence_type": "empirical",
+    "scope_conditions": "FPGA project reference list",
+    "quoted_support": "License Plate Recognition on FPGA ... Basys 3 FPGA OV7670 Camera ... FPGA car Parking System in VHDL using Finite State Machine (FSM)",
+    "numbers": [],
+    "entities": ["Basys 3", "OV7670", "FSM", "license plate recognition"],
+    "time_period": "",
+    "region": "",
+    "confidence": "high",
+    "source_note_id": "fpga-projects-fpga4studentcom"
+  }
+]

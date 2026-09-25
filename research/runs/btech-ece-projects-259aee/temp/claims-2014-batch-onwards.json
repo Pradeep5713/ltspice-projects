@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "GNDEC ECE Major Project evaluation is split 60% internal / 40% external, totaling 200 marks across five reviews.",
+    "stance": "neutral",
+    "stance_target": "how Indian B.Tech ECE major projects are formally graded",
+    "evidence_type": "empirical",
+    "scope_conditions": "Guru Nanak Dev Engineering College (autonomous, Ludhiana, India), ECE department, 2014 batch onwards",
+    "quoted_support": "Over all Weightage ... 60% (120) [internal, Reviews 1-5] ... 40% (80) [External Evaluation] ... Total 100% (200)",
+    "numbers": ["200 total marks", "60% internal (120 marks)", "40% external (80 marks)"],
+    "entities": ["Guru Nanak Dev Engineering College", "Department of Electronics & Communication Engineering"],
+    "time_period": "2014 batch onwards",
+    "region": "India (Punjab)",
+    "confidence": "high",
+    "source_note_id": "2014-batch-onwards"
+  },
+  {
+    "claim": "The five-review structure moves from proposal (9%) through mid-term (9%), end-semester (15%), report (15%), to guide evaluation (12%).",
+    "stance": "neutral",
+    "stance_target": "structure of Indian B.Tech major project milestone reviews",
+    "evidence_type": "empirical",
+    "scope_conditions": "GNDEC ECE major project rubric",
+    "quoted_support": "Review 1 Project Synopsis/ Proposal Evaluation Rubric R1 9% (18) ... Review 3 End Semester Project Evaluation Rubric R3 15% (30) ... Review 4 Project Report Evaluation Rubric R4 15% (30)",
+    "numbers": ["R1: 9% (18)", "R2: 9% (18)", "R3: 15% (30)", "R4: 15% (30)", "R5: 12% (24)"],
+    "entities": ["Rubric R1", "Rubric R2", "Rubric R3", "Rubric R4", "Rubric R5"],
+    "time_period": "2014 batch onwards",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "2014-batch-onwards"
+  },
+  {
+    "claim": "Project synopsis/proposal rubric grades students on problem identification, feasibility study of existing systems, and clarity of objectives/methodology, each on a 5-tier scale from Excellent to Unacceptable.",
+    "stance": "neutral",
+    "stance_target": "what criteria Indian institutions use to evaluate a proposed B.Tech ECE project topic",
+    "evidence_type": "empirical",
+    "scope_conditions": "GNDEC ECE Rubric R1, Project Synopsis/Proposal Evaluation",
+    "quoted_support": "Identification of Problem Domain and Detailed Analysis ... Study of the Existing Systems and Feasibility of Project Proposal ... Objectives and Methodology of the Proposed Work",
+    "numbers": ["Max marks: 18", "scale 6/5/4/3/2"],
+    "entities": ["Rubric R1"],
+    "time_period": "2014 batch onwards",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "2014-batch-onwards"
+  },
+  {
+    "claim": "Mid-term evaluation explicitly grades design methodology (modular decomposition, framework selection), project planning/team structure (time frame adherence, work distribution), and presentation delivery (eye contact, voice, arrangement).",
+    "stance": "neutral",
+    "stance_target": "what Indian mid-term project reviews assess beyond raw technical output",
+    "evidence_type": "empirical",
+    "scope_conditions": "GNDEC ECE Rubric R2, Mid-Term Project Evaluation",
+    "quoted_support": "Divison of problem into modules and good selection of computing framework ... Time frame properly specified and being followed ... Proper eye contact with audience and clear voice with good spoken language",
+    "numbers": ["Max marks: 18"],
+    "entities": ["Rubric R2"],
+    "time_period": "2014 batch onwards",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "2014-batch-onwards"
+  }
+]

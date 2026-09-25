@@ -10,3 +10,7 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# hyperresearch: local virtualenv + rebuildable SQLite cache (run `hyperresearch sync`)
+.venv/
+.hyperresearch/hyperresearch.db*

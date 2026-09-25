@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "The proposed IoT ECG monitoring system uses the AD8232 single-lead ECG front-end IC with AgCl gel electrodes paired with an ESP32 microcontroller for signal acquisition and Wi-Fi transmission.",
+    "stance": "supports",
+    "stance_target": "AD8232 + ESP32 is a viable low-cost architecture for a B.Tech biomedical ECG project",
+    "evidence_type": "empirical",
+    "scope_conditions": "prototype system, published preprint",
+    "quoted_support": "The ECG signal is obtained using an AD8232 ECG monitoring with AgCl gel electrode as well as a Node MCU microcontroller with inside-the-chip Wi-Fi.",
+    "numbers": [],
+    "entities": ["AD8232", "ESP32", "NodeMCU"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "iot-enabled-hemodynamic-surveillance-system-ad8232"
+  },
+  {
+    "claim": "The system streams ECG, body temperature, alcohol level, and pulse data to the Blynk IoT cloud dashboard for real-time viewing by clinicians and caregivers, with an AMOLED display and GSM-based alarms locally.",
+    "stance": "neutral",
+    "stance_target": "system architecture for cloud-connected ECG monitor",
+    "evidence_type": "empirical",
+    "scope_conditions": "proposed methodology section of the paper",
+    "quoted_support": "The ESP32 capabilities an onboard Wi-Fi module that engages the information it has extracted to the Blynk web system.",
+    "numbers": [],
+    "entities": ["Blynk", "AMOLED", "GSM", "ESP32"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "iot-enabled-hemodynamic-surveillance-system-ad8232"
+  },
+  {
+    "claim": "Cardiovascular disease risk factors are highly prevalent in some developing-country populations, cited as 99.6% of males and 97.9% of females in Bangladesh having at least one identified CVD risk factor.",
+    "stance": "supports",
+    "stance_target": "motivation for low-cost remote ECG monitoring in developing regions",
+    "evidence_type": "statistical",
+    "scope_conditions": "Bangladesh, cited from prior literature not primary data collected by this paper",
+    "quoted_support": "Bangladesh has one of the greatest cases of cardiovascular disease (CVD) among developing countries, with 99.6% of the male population and 97.9% of the female population having at least one identified CVD risk factor.",
+    "numbers": ["99.6%", "97.9%"],
+    "entities": ["Bangladesh", "CVD"],
+    "time_period": null,
+    "region": "Bangladesh",
+    "confidence": "medium",
+    "source_note_id": "iot-enabled-hemodynamic-surveillance-system-ad8232"
+  },
+  {
+    "claim": "A prior openMSP430-based wearable signal-processing system achieved a 10x reduction in response time compared to earlier approaches.",
+    "stance": "supports",
+    "stance_target": "microcontroller choice affects responsiveness of wearable ECG systems",
+    "evidence_type": "empirical",
+    "scope_conditions": "cited prior work [9], not independently verified by this paper",
+    "quoted_support": "The installation outcomes indicate a 10 times reduction in time to response",
+    "numbers": ["10x"],
+    "entities": ["openMSP430"],
+    "time_period": null,
+    "region": null,
+    "confidence": "low",
+    "source_note_id": "iot-enabled-hemodynamic-surveillance-system-ad8232"
+  },
+  {
+    "claim": "A prior ESP32+AD8232 Bluetooth smartphone ECG monitor design (cited as related work) has documented limits in accuracy and reliability for high-risk individuals, motivating future noise-reduction filtering.",
+    "stance": "refutes",
+    "stance_target": "ESP32+AD8232 designs are already fully reliable for clinical-grade ECG monitoring",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "cited prior work [15]",
+    "quoted_support": "it has limits in both accuracy and reliability for individuals with increased risk. Future research may target noise reduction filters to increase system accuracy and dependability",
+    "numbers": [],
+    "entities": ["ESP32", "AD8232"],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "iot-enabled-hemodynamic-surveillance-system-ad8232"
+  }
+]

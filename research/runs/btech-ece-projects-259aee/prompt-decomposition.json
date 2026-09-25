@@ -1,0 +1,35 @@
+{
+  "sub_questions": [
+    "What project ideas suit B.Tech ECE students, organized across the core ECE sub-domains (analog/circuits, digital/VLSI, embedded/IoT, communication/RF/antennas, signal & image processing, power electronics, robotics/control, AI/ML at the edge)?",
+    "Which projects fit which academic level (mini project in 2nd/3rd year vs final-year major project) and what difficulty, cost, and time does each involve?",
+    "What hardware, software, and simulation tools (e.g. LTspice, MATLAB/Simulink, Proteus, Xilinx Vivado, Arduino/ESP32/STM32, Raspberry Pi) do these projects use?",
+    "How should a student choose, scope, and execute an ECE project (evaluation criteria used by universities such as AICTE/NBA outcomes, originality, documentation, publishability)?",
+    "Which current/trending areas (IoT, edge AI/TinyML, EV & renewable power electronics, 5G/SDR, FPGA/RISC-V, biomedical electronics) make stronger final-year projects?"
+  ],
+  "entities": [
+    {"name": "B.Tech ECE project domains", "type": "category", "required_fields": ["example projects", "difficulty level", "key components/tools", "skills learned"]}
+  ],
+  "required_formats": ["categorized catalog of project ideas with per-project fields (tables)"],
+  "required_sections": [],
+  "required_section_headings": [
+    "## 1. How to Choose a B.Tech ECE Project",
+    "## 2. Project Ideas by ECE Domain",
+    "## 3. Mini Projects vs Final-Year Major Projects",
+    "## 4. Tools, Platforms, and Simulation Software",
+    "## 5. Trending Areas and Future-Proof Topics",
+    "## 6. Executing and Documenting the Project"
+  ],
+  "time_horizons": ["current (2024-2026) project trends"],
+  "time_periods": [],
+  "scope_conditions": ["undergraduate B.Tech level (Indian engineering curriculum context) in Electronics and Communication Engineering; all ECE sub-domains, not only one"],
+  "pipeline_tier": "light",
+  "response_format": "structured",
+  "citation_style": "wikilink",
+  "levers": {
+    "register": "survey",
+    "register_confidence": "high",
+    "domain_notes": "Sourcing: university/AICTE curriculum and project guidelines, IEEE student/conference papers, vendor application notes (TI, Analog Devices, Espressif, Xilinx), and reputable electronics education sites; low-quality project-selling listicles only as evidence of what is common, never as authority. Evidence norms: prefer projects with documented implementations or published papers; note component cost and feasibility. Recency: last ~3 years for trending topics; fundamentals are timeless.",
+    "inference_depth": "surface",
+    "rationale": {"register": "bare noun-phrase query asks for the landscape of project options, no verdict requested", "inference_depth": "widely documented topic; authoritative consensus suffices"}
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "claim": "The Ascon v1.2 NIST submission formally defines the cipher suite covering authenticated encryption (ASCON-128, ASCON-128a), a hash function, and an extendable output function, all built on a common permutation.",
+    "stance": "neutral",
+    "stance_target": "ground-truth definition of the algorithm family that student FPGA implementations must faithfully reproduce",
+    "evidence_type": "theoretical",
+    "scope_conditions": "official NIST submission specification, version 1.2, May 31 2021",
+    "quoted_support": "Algorithms in the Ascon Cipher Suite ... Recommended Parameter Sets ... State and Notation ... Authenticated Encryption ... Hashing",
+    "numbers": ["v1.2"],
+    "entities": ["ASCON", "Dobraunig", "Eichlseder", "Mendel", "Schlaffer", "IAIK TU Graz"],
+    "time_period": "2021",
+    "confidence": "high",
+    "source_note_id": "submission-to-nist"
+  },
+  {
+    "claim": "The Ascon permutation operates on a 320-bit state and consists of three layers per round: addition of round constants, a nonlinear substitution layer (5x5 S-box), and a linear diffusion layer using fixed bit rotations per 64-bit word.",
+    "stance": "neutral",
+    "stance_target": "precise algorithmic structure that any Verilog/VHDL implementation (like the ASCON FPGA paper in this batch) must implement bit-exactly",
+    "evidence_type": "theoretical",
+    "scope_conditions": "core Ascon permutation specification",
+    "quoted_support": "Permutation ... Addition of Constants ... Substitution Layer ... Linear Diffusion Layer",
+    "numbers": ["320-bit state"],
+    "entities": ["ASCON permutation", "S-box"],
+    "time_period": "2021",
+    "confidence": "high",
+    "source_note_id": "submission-to-nist"
+  },
+  {
+    "claim": "The specification includes formal security claims and bounds for both the authenticated-encryption and hashing modes, plus an explicit design-rationale section justifying round-number and parameter choices for lightweight vs. high-performance use cases.",
+    "stance": "neutral",
+    "stance_target": "provides the formal security-analysis backbone a student paper needs to argue publishable rigor beyond a bare implementation",
+    "evidence_type": "theoretical",
+    "scope_conditions": "sections 3-5 of the NIST submission document",
+    "quoted_support": "Security Claims ... Authenticated Encryption ... Hashing ... Features ... Features for Lightweight Applications ... Features for High-Performance Applications ... Design Rationale",
+    "numbers": [],
+    "entities": ["ASCON", "security claims"],
+    "time_period": "2021",
+    "confidence": "medium",
+    "source_note_id": "submission-to-nist"
+  }
+]

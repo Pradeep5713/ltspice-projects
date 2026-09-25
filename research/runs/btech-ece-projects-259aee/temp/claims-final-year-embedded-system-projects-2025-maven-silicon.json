@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "EV battery management system projects, monitoring voltage, temperature, and charge/discharge cycles with STM32/Arduino and sensors, are described as one of the most in-demand automotive-embedded final-year project types in 2025.",
+    "stance": "supports",
+    "stance_target": "trending 2025 embedded-systems final-year project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year embedded systems projects, 2025",
+    "quoted_support": "This is one of the most in-demand project types in automotive embedded careers.",
+    "numbers": [],
+    "entities": ["Battery Management System", "STM32", "Arduino", "electric vehicles"],
+    "time_period": "2025",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "final-year-embedded-system-projects-2025-maven-silicon"
+  },
+  {
+    "claim": "IoT-based smart home automation using NodeMCU, a relay module, and the Blynk app is presented as a top final-year embedded project combining IoT, real-time control, and cloud services.",
+    "stance": "neutral",
+    "stance_target": "common 2025 embedded/IoT final-year project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year embedded systems projects, 2025",
+    "quoted_support": "Combines IoT, real-time control, and cloud services.",
+    "numbers": [],
+    "entities": ["NodeMCU", "Blynk", "relay module"],
+    "time_period": "2025",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "final-year-embedded-system-projects-2025-maven-silicon"
+  },
+  {
+    "claim": "Object detection using Raspberry Pi with a Pi camera and OpenCV is recommended as a project combining AI and embedded systems, valued for resumes.",
+    "stance": "neutral",
+    "stance_target": "AI-embedded convergence final-year project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year embedded systems projects, 2025",
+    "quoted_support": "Combine AI and embedded — great for resumes.",
+    "numbers": [],
+    "entities": ["Raspberry Pi", "OpenCV", "object detection"],
+    "time_period": "2025",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "final-year-embedded-system-projects-2025-maven-silicon"
+  }
+]

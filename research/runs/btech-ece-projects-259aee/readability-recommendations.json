@@ -1,0 +1,190 @@
+{
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "category": "make-list",
+      "severity": "moderate",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.4 Communication systems, SDR and RF/antennas)",
+      "current": "**Hardware tiers.** SDR hardware scales with ambition: a receive-only RTL-SDR for FM, ADS-B and DSP lessons; HackRF for wideband half-duplex work; ADALM-Pluto for transmit/receive digital-communication teaching (BPSK/QPSK/OFDM); bladeRF and USRP for MIMO and research testbeds [[best-sdr-for-gnu-radio-projects-student-to-research-setups]]. GNU Radio itself",
+      "recommended": "**Hardware tiers.** SDR hardware scales with ambition [[best-sdr-for-gnu-radio-projects-student-to-research-setups]]:\n\n- **RTL-SDR** (receive-only): FM, ADS-B and DSP lessons.\n- **HackRF**: wideband half-duplex work.\n- **ADALM-Pluto**: transmit/receive digital-communication teaching (BPSK/QPSK/OFDM).\n- **bladeRF and USRP**: MIMO and research testbeds.\n\nGNU Radio itself",
+      "rationale": "A four-tier semicolon chain is already list-shaped; bullets with bold platform names let readers match hardware to ambition at a glance."
+    },
+    {
+      "id": "rec-2",
+      "category": "make-list",
+      "severity": "moderate",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.6 Power electronics and energy)",
+      "current": "Texas Instruments' application notes give an unusually complete design path. SLVA477 provides the step-by-step power-stage equations: maximum duty cycle D = VOUT/(VIN(max) × η), inductor sizing for 20–40% ripple current, diode and capacitor selection [[application-note-2]]. SLVA432 walks through Type-III compensation for a synchronous buck converter, targeting a crossover near fSW/5 with about 60° phase margin, with measured efficiency up to 95% on its reference design [[application-report]]. The classic SLVA057 derives the buck power stage's steady-state and small-signal behaviour in both continuous and discontinuous conduction [[note-3973e022]]. A team can simulate",
+      "recommended": "Texas Instruments' application notes give an unusually complete design path:\n\n- **SLVA477** provides the step-by-step power-stage equations: maximum duty cycle D = VOUT/(VIN(max) × η), inductor sizing for 20–40% ripple current, diode and capacitor selection [[application-note-2]].\n- **SLVA432** walks through Type-III compensation for a synchronous buck converter, targeting a crossover near fSW/5 with about 60° phase margin, with measured efficiency up to 95% on its reference design [[application-report]].\n- **SLVA057**, the classic reference, derives the buck power stage's steady-state and small-signal behaviour in both continuous and discontinuous conduction [[note-3973e022]].\n\nA team can simulate",
+      "rationale": "Three parallel app-note descriptions read as a reference list; bulleting them with bold document numbers makes each source findable when a student returns to look it up."
+    },
+    {
+      "id": "rec-3",
+      "category": "make-table",
+      "severity": "moderate",
+      "section": "## 6. Executing and Documenting the Project (### Make results measurable)",
+      "current": "Examples include cutoff frequency and attenuation for filters, efficiency and ripple for converters, accuracy and latency for TinyML, S11 and gain for antennas, and pipeline CPI or maximum clock frequency for processors.",
+      "recommended": "Examples by project type:\n\n| Project type | Quantitative targets to state and measure |\n|---|---|\n| Filters | Cutoff frequency, attenuation |\n| Converters | Efficiency, ripple |\n| TinyML | Accuracy, latency |\n| Antennas | S11, gain |\n| Processors | Pipeline CPI or maximum clock frequency |",
+      "rationale": "Five project types mapped to their metrics is a lookup, and a table makes it the quick-reference students will scan when writing their R1 targets."
+    },
+    {
+      "id": "rec-4",
+      "category": "make-list",
+      "severity": "moderate",
+      "section": "## 6. Executing and Documenting the Project (### Avoid the classic failure modes)",
+      "current": "The countermeasures from the same source: review requirements as a team monthly, keep a year-long schedule plus a rolling few-week plan updated weekly with explicit slack for failure, time-box routine decisions, and write a prototype test plan with photo and video documentation [[keep-the-big-picture-in-mind-the-byu-design-review]].",
+      "recommended": "The countermeasures from the same source [[keep-the-big-picture-in-mind-the-byu-design-review]]:\n\n- Review requirements as a team monthly.\n- Keep a year-long schedule plus a rolling few-week plan, updated weekly with explicit slack for failure.\n- Time-box routine decisions.\n- Write a prototype test plan with photo and video documentation.",
+      "rationale": "The countermeasures mirror the bulleted failure list directly above, so matching bullet form lets readers pair each mistake with its fix."
+    },
+    {
+      "id": "rec-5",
+      "category": "make-list",
+      "severity": "moderate",
+      "section": "## 1. How to Choose a B.Tech ECE Project (### Map the project to Program Outcomes)",
+      "current": "The official SAR lists PO1 Engineering Knowledge, PO2 Problem Analysis, PO3 Design/Development of Solutions, PO4 Conduct Investigations of Complex Problems, PO5 Engineering Tool Usage, PO6 The Engineer and the World, PO7 Ethics, PO8 Individual and Collaborative Team Work, PO9 Communication, PO10 Project Management and Finance, and PO11 Life-Long Learning [[national-board-of-accreditation-2]].",
+      "recommended": "The official SAR lists them as follows [[national-board-of-accreditation-2]]:\n\n- **PO1** Engineering Knowledge\n- **PO2** Problem Analysis\n- **PO3** Design/Development of Solutions\n- **PO4** Conduct Investigations of Complex Problems\n- **PO5** Engineering Tool Usage\n- **PO6** The Engineer and the World\n- **PO7** Ethics\n- **PO8** Individual and Collaborative Team Work\n- **PO9** Communication\n- **PO10** Project Management and Finance\n- **PO11** Life-Long Learning",
+      "rationale": "An 11-item run-on enumeration is hard to scan, and students need to look up individual PO numbers when writing the PO mapping recommended in Section 6."
+    },
+    {
+      "id": "rec-6",
+      "category": "make-list",
+      "severity": "minor",
+      "section": "## 3. Mini Projects vs Final-Year Major Projects",
+      "current": "A good strategy is to make the mini project a stepping stone. An LTspice filter mini project becomes the analog front end of a final-year ECG system. An FSM mini project grows into a RISC-V core. An FM receiver becomes an ADALM-Pluto digital link. Each final-year review then builds on work the student already understands.",
+      "recommended": "A good strategy is to make the mini project a stepping stone:\n\n- **Analog:** an LTspice filter mini project becomes the analog front end of a final-year ECG system.\n- **Digital:** an FSM mini project grows into a RISC-V core.\n- **Communication:** an FM receiver becomes an ADALM-Pluto digital link.\n\nEach final-year review then builds on work the student already understands.",
+      "rationale": "Three parallel mini-to-major progressions written as short sentences read choppily; as a list with domain labels they form a scannable upgrade path."
+    },
+    {
+      "id": "rec-7",
+      "category": "break-paragraph",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.4 Communication systems, SDR and RF/antennas)",
+      "current": "fraction of that setup. For a 5G angle, a 2024",
+      "recommended": "fraction of that setup.\n\nFor a 5G angle, a 2024",
+      "rationale": "The paragraph moves from low-cost lab equipment to a separate 28 GHz simulation case study, so splitting at that hinge gives each topic its own paragraph (both halves stay within the target length)."
+    },
+    {
+      "id": "rec-8",
+      "category": "break-paragraph",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.3 Embedded systems and IoT)",
+      "current": "[[final-year-embedded-system-projects-2025-maven-silicon]]. **How to lift a common IoT idea:**",
+      "recommended": "[[final-year-embedded-system-projects-2025-maven-silicon]].\n\n**How to lift a common IoT idea:**",
+      "rationale": "Section 2.1 gives its 'How to make it final-year grade' advice as a standalone bold-led paragraph; doing the same here keeps the domain sections consistent and makes the advice easy to spot."
+    },
+    {
+      "id": "rec-9",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.4 Communication systems, SDR and RF/antennas)",
+      "current": "Carnegie Mellon's board-level RF course runs six labs, from transmission-line network analysis through patch antenna design and characterisation to live beam steering, for under $9,000 in one-time equipment, using the open-source LibreVNA (100 kHz–6 GHz) rather than the NanoVNA, which is limited to 1 GHz [[leveraging-inexpensive-lab-tools]].",
+      "recommended": "Carnegie Mellon's board-level RF course runs six labs, from transmission-line network analysis through patch antenna design and characterisation to live beam steering, for under $9,000 in one-time equipment. It uses the open-source LibreVNA (100 kHz–6 GHz) rather than the NanoVNA, which is limited to 1 GHz [[leveraging-inexpensive-lab-tools]].",
+      "rationale": "At about 300 characters with four stacked clauses, the sentence reads more easily if it is split where the course description ends and the instrument choice begins."
+    },
+    {
+      "id": "rec-10",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.4 Communication systems, SDR and RF/antennas)",
+      "current": "a 28 GHz patch with a U-shaped parasitic ground-plane element, reporting −21.4 dB return loss, VSWR 1.18, 2.026 GHz bandwidth and 8.19 dBi gain in CST, and benchmarks it against earlier designs [[2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024]].",
+      "recommended": "a 28 GHz patch with a U-shaped parasitic ground-plane element. In CST it reports −21.4 dB return loss, VSWR 1.18, 2.026 GHz bandwidth and 8.19 dBi gain, and it benchmarks the design against earlier ones [[2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024]].",
+      "rationale": "Moving the four-figure result string into its own sentence keeps the design description and its numbers from competing in one sentence of about 250 characters."
+    },
+    {
+      "id": "rec-11",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.1 Analog circuits and circuit simulation)",
+      "current": "Northeastern University's biomedical circuits lab gives a ready methodology: build first-order active filters in LTspice, run `.ac dec 100 1 1000000` to find the cutoff and compare it with the RC-time-constant prediction, then drive a 200 Hz pulse and inspect the output spectrum with an FFT [[eece-2510-circuits-and-signals-biomedical]].",
+      "recommended": "Northeastern University's biomedical circuits lab gives a ready methodology. First, build first-order active filters in LTspice and run `.ac dec 100 1 1000000` to find the cutoff, then compare it with the RC-time-constant prediction. Next, drive a 200 Hz pulse and inspect the output spectrum with an FFT [[eece-2510-circuits-and-signals-biomedical]].",
+      "rationale": "The sentence holds a multi-step procedure of about 330 characters; splitting it into ordered steps makes the method easy to follow."
+    },
+    {
+      "id": "rec-12",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.1 Analog circuits and circuit simulation)",
+      "current": "with coefficient tables for Butterworth, Bessel and Chebyshev responses, so it is enough to carry a filter project from specification to component values [[application-note]].",
+      "recommended": "with coefficient tables for Butterworth, Bessel and Chebyshev responses. That is enough to carry a filter project from specification to component values [[application-note]].",
+      "rationale": "The opening sentence runs to about 290 characters; ending it after the list of contents and stating the takeaway separately improves the pacing."
+    },
+    {
+      "id": "rec-13",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.2 Digital design, VLSI and FPGA)",
+      "current": "a hazard unit that implements both forwarding and stalling, verified with ModelSim testbenches, and lists its limitations (no ISA extensions, no branch prediction) [[design-and-simulate-risc-v-procesor-using-verilog]].",
+      "recommended": "a hazard unit that implements both forwarding and stalling. The design is verified with ModelSim testbenches, and the dissertation lists its limitations (no ISA extensions, no branch prediction) [[design-and-simulate-risc-v-procesor-using-verilog]].",
+      "rationale": "The sentence runs to about 270 characters; splitting architecture from verification and limitations sets up the following sentence, which builds on the limitations."
+    },
+    {
+      "id": "rec-14",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.2 Digital design, VLSI and FPGA)",
+      "current": "whose smallest RV32I variant is about 400 documented lines of Verilog, and its SoC fits in under 1280 LUTs on a Lattice IceStick [[readmemd]].",
+      "recommended": "whose smallest RV32I variant is about 400 documented lines of Verilog. Its SoC fits in under 1280 LUTs on a Lattice IceStick [[readmemd]].",
+      "rationale": "Splitting the core-size fact from the SoC-footprint fact gets rid of an awkward change of subject partway through the sentence."
+    },
+    {
+      "id": "rec-15",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 1. How to Choose a B.Tech ECE Project (### Map the project to Program Outcomes)",
+      "current": "down from 12, because the old \"Society\" and \"Environment and Sustainability\" outcomes were merged into PO6 \"The Engineer and the World\" [[the-11-program-outcomes-pos-of-nba-gapc-v40-explained]].",
+      "recommended": "down from 12. The old \"Society\" and \"Environment and Sustainability\" outcomes were merged into PO6 \"The Engineer and the World\" [[the-11-program-outcomes-pos-of-nba-gapc-v40-explained]].",
+      "rationale": "The sentence runs to about 250 characters; stating the count first and the merge explanation second makes both facts easier to take in."
+    },
+    {
+      "id": "rec-16",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 2. Project Ideas by ECE Domain (### 2.7 Biomedical electronics)",
+      "current": "(97.53% accuracy, 97.50% sensitivity, 94.94% specificity) alongside an Arduino telemetry prototype [[heart-disease-detection-by-using-machine-learning-algorithms-and-a-real-time-car]]. Biomedical projects must be framed as prototypes: none of these devices is a certified medical instrument, and the report should say so, which also scores under the ethics and safety factors NBA lists [[national-board-of-accreditation-2]].",
+      "recommended": "(97.53% accuracy, 97.50% sensitivity, 94.94% specificity). The same study also builds an Arduino telemetry prototype [[heart-disease-detection-by-using-machine-learning-algorithms-and-a-real-time-car]]. Biomedical projects must be framed as prototypes: none of these devices is a certified medical instrument, and the report should say so. Doing so also scores under the ethics and safety factors NBA lists [[national-board-of-accreditation-2]].",
+      "rationale": "This splits two sentences of about 230 characters each, separating the metrics from the prototype and the safety caveat from its accreditation payoff."
+    },
+    {
+      "id": "rec-17",
+      "category": "split-sentence",
+      "severity": "minor",
+      "section": "## 5. Trending Areas and Future-Proof Topics",
+      "current": "A trendy topic delivered with an old-fashioned process is therefore not automatically industry-relevant. How the team plans, iterates and tests matters as much.",
+      "recommended": "A trendy topic delivered with an old-fashioned process is therefore not automatically industry-relevant, because how the team plans, iterates and tests matters as much.",
+      "rationale": "This is the opposite of a split: per the survey-register kicker budget of zero, it folds the short standalone closing line into the preceding sentence as plain prose."
+    },
+    {
+      "id": "rec-18",
+      "category": "bold-keyterms",
+      "severity": "minor",
+      "section": "## 6. Executing and Documenting the Project (### Avoid the classic failure modes)",
+      "current": "- Ignoring one requirement because others seem more urgent, so the customer is disappointed.\n- Ordering parts too late (\"We forget to order parts early when they may take weeks to arrive\").\n- Leaving no time for things to fail, even though debugging unseen failures is part of the process.\n- Building only one prototype, then having nothing to show after destructive testing, and not photographing it first.\n- Over-researching trivial component choices.",
+      "recommended": "- **Ignoring one requirement** because others seem more urgent, so the customer is disappointed.\n- **Ordering parts too late** (\"We forget to order parts early when they may take weeks to arrive\").\n- **Leaving no time for things to fail**, even though debugging unseen failures is part of the process.\n- **Building only one prototype**, then having nothing to show after destructive testing, and not photographing it first.\n- **Over-researching** trivial component choices.",
+      "rationale": "Bolding the opening phrase of each failure mode matches the bold-led checklist in Section 1 and makes the list scannable."
+    },
+    {
+      "id": "rec-19",
+      "category": "bold-keyterms",
+      "severity": "minor",
+      "section": "## 6. Executing and Documenting the Project (### Report structure that scores)",
+      "current": "1. Problem statement and a survey of existing systems, with at least two or three published comparators.\n2. Specifications with numeric targets.\n3. Design alternatives considered and the reason for the chosen one.\n4. Simulation results (LTspice, ModelSim, CST/HFSS, Edge Impulse) before hardware.\n5. Hardware implementation, with photographs of each prototype iteration.\n6. Test results against the specifications, including failures and fixes.\n7. A PO mapping, covering sustainability, safety, ethics and cost as the NBA criteria expect [[national-board-of-accreditation-2]].\n8. Limitations and future work, modelled on the RISC-V dissertation's explicit list of missing features [[design-and-simulate-risc-v-procesor-using-verilog]].",
+      "recommended": "1. **Problem statement** and a survey of existing systems, with at least two or three published comparators.\n2. **Specifications** with numeric targets.\n3. **Design alternatives** considered and the reason for the chosen one.\n4. **Simulation results** (LTspice, ModelSim, CST/HFSS, Edge Impulse) before hardware.\n5. **Hardware implementation**, with photographs of each prototype iteration.\n6. **Test results** against the specifications, including failures and fixes.\n7. **A PO mapping**, covering sustainability, safety, ethics and cost as the NBA criteria expect [[national-board-of-accreditation-2]].\n8. **Limitations and future work**, modelled on the RISC-V dissertation's explicit list of missing features [[design-and-simulate-risc-v-procesor-using-verilog]].",
+      "rationale": "Bold chapter labels turn the list into a report outline that reads at a glance."
+    }
+  ],
+  "summary": {
+    "total_recommendations": 19,
+    "by_category": {
+      "merge-paragraphs": 0,
+      "break-paragraph": 2,
+      "make-list": 5,
+      "make-table": 1,
+      "bold-keyterms": 2,
+      "split-sentence": 9,
+      "remove-hr": 0,
+      "add-whitespace": 0
+    },
+    "highest_severity": "moderate",
+    "expected_net_char_delta": 420
+  }
+}

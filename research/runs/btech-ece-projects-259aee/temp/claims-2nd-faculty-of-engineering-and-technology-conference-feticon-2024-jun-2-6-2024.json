@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "An improved 28 GHz microstrip patch antenna using a Roger RT5880LZ substrate and a U-shaped parasitic ground-plane element achieves a return loss of -21.4 dB and gain of 8.19 dBi.",
+    "stance": "supports",
+    "stance_target": "feasibility of compact high-gain microstrip patch antennas for 28 GHz 5G mmWave applications",
+    "evidence_type": "empirical",
+    "scope_conditions": "CST Microwave Studio simulation, not physically fabricated/measured",
+    "quoted_support": "The proposed MPA has a return loss of -21.4 dB, resonating at the desired resonant frequency of 28 GHz and covering a frequency band of 27.185 GHz – 29.211 GHz with a bandwidth of 2.026 GHz.",
+    "numbers": ["-21.4 dB return loss", "1.18 VSWR", "2.026 GHz bandwidth", "8.19 dBi gain", "28 GHz resonant frequency"],
+    "entities": ["Roger RT5880LZ substrate", "CST Microwave Studio", "University of Ilorin"],
+    "time_period": "2024",
+    "region": "Nigeria",
+    "confidence": "high",
+    "source_note_id": "2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024"
+  },
+  {
+    "claim": "Adding a U-shaped parasitic element to the ground plane of a microstrip patch antenna improves gain and bandwidth relative to conventional patch designs without such an element.",
+    "stance": "supports",
+    "stance_target": "ground-plane defect/parasitic-element techniques as a low-cost antenna performance enhancement method for student projects",
+    "evidence_type": "theoretical",
+    "scope_conditions": "28 GHz mmWave band, simulated design",
+    "quoted_support": "The proposed antenna exhibits a performance improvement in terms of gain and bandwidth due to the addition of U-shaped element when benchmarked with existing designs in the literature work.",
+    "numbers": [],
+    "entities": ["U-shaped parasitic element"],
+    "time_period": "2024",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024"
+  },
+  {
+    "claim": "The 28 GHz band is preferred among mmWave 5G bands due to lower atmospheric absorption/attenuation compared with other mmWave frequencies.",
+    "stance": "supports",
+    "stance_target": "28 GHz as a practical target frequency for student mmWave antenna projects",
+    "evidence_type": "theoretical",
+    "scope_conditions": "5G mmWave spectrum (24-100 GHz)",
+    "quoted_support": "Among the existing millimeter waves spectrum, 28-GHz is notably preferred for 5G applications due to its lower atmospheric absorptions and attenuations rates.",
+    "numbers": ["24-100 GHz mmWave range"],
+    "entities": ["5G", "mmWave"],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024"
+  },
+  {
+    "claim": "The proposed 28 GHz antenna outperforms several previously published 28 GHz microstrip antenna designs on bandwidth and gain simultaneously (Gaid et al. 2024: -45 dB/1.43 GHz/8.1 dB; Farahat & Hussein 2022: -34.5 dB/1.23 GHz/6.6 dB; Raheel et al. 2021: -25 dB/1 GHz/7.1 dB).",
+    "stance": "supports",
+    "stance_target": "comparative superiority of the proposed antenna design over prior published designs",
+    "evidence_type": "empirical",
+    "scope_conditions": "simulation-based comparison table, not independently verified",
+    "quoted_support": "From the table, the proposed 5G antenna is found to perform better than the majority of the counterparts in terms of the bandwidth and gain.",
+    "numbers": ["-21.4 dB / 2.02 GHz / 8.19 dB (proposed)", "-45 dB / 1.43 GHz / 8.1 dB (Gaid et al. 2024)", "-34.5 dB / 1.23 GHz / 6.6 dB (Farahat & Hussein 2022)", "-25 dB / 1 GHz / 7.1 dB (Raheel et al. 2021)"],
+    "entities": ["Gaid et al.", "Farahat & Hussein", "Raheel et al."],
+    "time_period": "2021-2024",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "2nd-faculty-of-engineering-and-technology-conference-feticon-2024-jun-2-6-2024"
+  }
+]

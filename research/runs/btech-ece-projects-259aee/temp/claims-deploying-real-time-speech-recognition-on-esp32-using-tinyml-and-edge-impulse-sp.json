@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A TinyML speech-recognition model deployed on ESP32 via Edge Impulse's EON Compiler achieved 87.14% test accuracy with 266 ms real-time inference latency.",
+    "stance": "supports",
+    "stance_target": "feasibility of real-time on-device speech/voice-command recognition on low-cost microcontrollers for ECE embedded projects",
+    "evidence_type": "empirical",
+    "scope_conditions": "curated subset of Google Speech Commands Dataset, ESP32 microcontroller, Edge Impulse tooling",
+    "quoted_support": "The final model attained 87.14% accuracy on testing data and 97.1% average classification confidence during real-time inference, with excellent noise rejection (99.6%) and latency of 266 ms.",
+    "numbers": ["87.14% accuracy", "97.1% average classification confidence", "99.6% noise rejection", "266 ms latency"],
+    "entities": ["ESP32", "Edge Impulse", "TensorFlow Lite for Microcontrollers", "Google Speech Commands Dataset"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "deploying-real-time-speech-recognition-on-esp32-using-tinyml-and-edge-impulse-sp"
+  },
+  {
+    "claim": "Quantization/optimization via Edge Impulse's EON Compiler reduced RAM usage by 37% and ROM usage by 27% for the deployed speech-recognition model.",
+    "stance": "supports",
+    "stance_target": "quantization as an effective resource-reduction technique for deploying ML models on ultra-low-power microcontrollers",
+    "evidence_type": "empirical",
+    "scope_conditions": "ESP32 target, EON Compiler-specific optimization",
+    "quoted_support": "Using Edge Impulse's EON Compiler, the model was fully quantized and optimized, achieving a 37% reduction in RAM usage and 27% in ROM.",
+    "numbers": ["37% RAM reduction", "27% ROM reduction"],
+    "entities": ["Edge Impulse EON Compiler", "ESP32"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "deploying-real-time-speech-recognition-on-esp32-using-tinyml-and-edge-impulse-sp"
+  },
+  {
+    "claim": "On-device TinyML speech recognition on ESP32 is positioned as competitive with cloud-dependent ASR systems while reducing latency, power consumption, and bandwidth requirements, making it suitable for battery-powered IoT, robotics, and embedded automation.",
+    "stance": "supports",
+    "stance_target": "TinyML/edge-AI as a viable ECE project direction over cloud-based speech recognition",
+    "evidence_type": "theoretical",
+    "scope_conditions": "constrained microcontroller hardware",
+    "quoted_support": "Compared to state-of-the-art systems deployed on more powerful platforms, the proposed approach achieves competitive accuracy while maintaining real-time inference and minimal resource consumption on ultra-low-power hardware.",
+    "numbers": [],
+    "entities": ["TinyML", "IoT", "robotics"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "deploying-real-time-speech-recognition-on-esp32-using-tinyml-and-edge-impulse-sp"
+  }
+]

@@ -1,0 +1,44 @@
+[
+{
+  "claim": "Lack of originality/novelty is a leading cause of academic paper rejection, mitigated by an in-depth literature review that clearly articulates what distinguishes the study from prior work.",
+  "stance": "supports",
+  "stance_target": "novelty framing is essential for FPGA-Verilog student papers to avoid rejection",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "general academic publishing",
+  "quoted_support": "Paper rejection often stems from research that lacks originality or novelty... Make sure to express clearly what sets your study apart from others.",
+  "numbers": [],
+  "entities": [],
+  "time_period": "2023",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "understanding-the-reasons-for-paper-rejection"
+},
+{
+  "claim": "Failure to meet a venue's manuscript requirements (word count, formatting, referencing style) is a distinct, avoidable cause of rejection separate from scientific content quality.",
+  "stance": "supports",
+  "stance_target": "formatting compliance as a rejection-avoidance strategy",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "general academic/conference publishing",
+  "quoted_support": "Journals impose specific requirements for manuscript submissions, such as word count, formatting, and referencing style. Ignoring these requirements may lead to your academic paper's rejection.",
+  "numbers": [],
+  "entities": [],
+  "time_period": "2023",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "understanding-the-reasons-for-paper-rejection"
+},
+{
+  "claim": "Methodological flaws such as small sample sizes and faulty statistical analysis are a common, distinct rejection cause, mitigated by collaborating with a statistician and following rigorous design practices.",
+  "stance": "supports",
+  "stance_target": "methodological rigor requirements for publishable student research",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "general academic publishing",
+  "quoted_support": "Rejection might result from methodological issues in research design or analysis, such as small sample sizes, biased participant selection, or faulty statistical analyses.",
+  "numbers": [],
+  "entities": [],
+  "time_period": "2023",
+  "region": "global",
+  "confidence": "medium",
+  "source_note_id": "understanding-the-reasons-for-paper-rejection"
+}
+]

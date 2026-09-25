@@ -1,0 +1,27 @@
+
+7. Printing statistics.
+
+=== basys3_top ===
+
+   Number of wires:                637
+   Number of wire bits:           3134
+   Number of public wires:         487
+   Number of public wire bits:    2012
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                866
+     BUFG                            1
+     CARRY4                         78
+     FDRE                           75
+     IBUF                           20
+     INV                             4
+     LUT2                          142
+     LUT3                          128
+     LUT4                          228
+     LUT5                           23
+     LUT6                          136
+     MUXF7                           2
+     MUXF8                           1
+     OBUF                           28
+

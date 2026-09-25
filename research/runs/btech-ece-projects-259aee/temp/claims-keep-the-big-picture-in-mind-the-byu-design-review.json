@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Capstone teams commonly ignore one design requirement in favor of others that seem more urgent, disappointing the end customer at delivery.",
+    "stance": "supports",
+    "stance_target": "common failure modes in student engineering capstone/major projects",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "28 undergraduate engineering capstone teams coached over 17 years, BYU",
+    "quoted_support": "We forget about or ignore one of the requirements because several others seem so important, and in the end the customer is disappointed.",
+    "numbers": ["28 projects", "17 years"],
+    "entities": ["BYU Capstone", "Terri Bateman"],
+    "time_period": "17-year coaching span, published 2021",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "keep-the-big-picture-in-mind-the-byu-design-review"
+  },
+  {
+    "claim": "Teams routinely underestimate component lead times and fail to order parts early enough, and also fail to budget time for debugging unforeseen failures.",
+    "stance": "supports",
+    "stance_target": "scheduling failure modes in student hardware capstone projects",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "BYU engineering capstone coaching experience",
+    "quoted_support": "We forget to order parts early when they may take weeks to arrive. We don't allow time for things to fail. Debugging and fixing unseen failures is part of the process.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "17-year span",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "keep-the-big-picture-in-mind-the-byu-design-review"
+  },
+  {
+    "claim": "Teams fail to build multiple prototype copies before destructive testing, leaving nothing to demonstrate afterward, and forget to photograph prototypes before destruction.",
+    "stance": "supports",
+    "stance_target": "prototyping-process failure modes in hardware capstone projects",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "BYU engineering capstone coaching experience",
+    "quoted_support": "We forget to make two (or three or four) copies of our prototype so that when the destructive testing is over we still have something to use and show off. We forget to take photos of these prototypes before they are destroyed as well.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "17-year span",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "keep-the-big-picture-in-mind-the-byu-design-review"
+  },
+  {
+    "claim": "Recommended countermeasures include monthly requirement-by-requirement team review, dual-timescale scheduling (year-long plus rolling few-week plan updated weekly in 10-15 minutes) with explicit slack for failure, time-boxing decisions on mundane components, and a written prototype test plan with photo/video documentation.",
+    "stance": "neutral",
+    "stance_target": "practical project-management practices for student engineering capstone teams",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "BYU capstone coaching, mechanical/general engineering design",
+    "quoted_support": "Review your requirements as a team monthly... Create an overall project schedule for the year and then a more detailed schedule for just the next few weeks... Make a prototype plan. Decide what the purpose of each prototype is, and what it will be used to demonstrate and test.",
+    "numbers": ["weekly update takes 10-15 minutes"],
+    "entities": [],
+    "time_period": "current practice, published 2021",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "keep-the-big-picture-in-mind-the-byu-design-review"
+  }
+]

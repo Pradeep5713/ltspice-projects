@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "An LSTM deep-neural-network classifier running on cloud infrastructure fed by IoT sensor data over 5G achieved 97.13% accuracy in remotely classifying patient health status, a 10.41% average improvement over compared prior methods.",
+    "stance": "supports",
+    "stance_target": "cloud-based ML classification meaningfully improves accuracy of IoT remote patient monitoring over prior methods",
+    "evidence_type": "empirical",
+    "scope_conditions": "simulated in MATLAB across static (smart-home) and dynamic (mobile-health) scenarios",
+    "quoted_support": "the accuracy of the proposed method is 97.13%, which has been improved by 10.41% in average over the other methods.",
+    "numbers": ["97.13%", "10.41%"],
+    "entities": ["LSTM", "5G", "IoT", "cloud computing"],
+    "time_period": "2021",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "remote-patient-monitoring-and-classifying-using-the-internet-of-things-platform"
+  },
+  {
+    "claim": "Cloud computing combined with IoT sensor networks is positioned as a way to increase speed and accuracy of remote patient monitoring by offloading data storage, processing and classification off the edge device.",
+    "stance": "supports",
+    "stance_target": "architectural pattern of pairing a lightweight IoT sensing front end with cloud-side analytics",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general e-health IoT architecture discussion",
+    "quoted_support": "Using cloud computing and IoT in this process can significantly improve the monitoring of patients.",
+    "numbers": [],
+    "entities": ["cloud computing", "IoT", "e-health"],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "remote-patient-monitoring-and-classifying-using-the-internet-of-things-platform"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A vendor listing of 25 final-year ECE project ideas for 2025-2026 groups projects into embedded/IoT, VLIS/FPGA, DSP/image processing, and wireless/AI domains, reflecting broad common categories requested by ECE final-year students.",
+    "stance": "neutral",
+    "stance_target": "taxonomy of common ECE final-year project domains",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year BE/BTech ECE projects, 2025-2026, India (Bangalore-based vendor)",
+    "quoted_support": "Domains Covered: Electronics and Communication Engineering, Embedded Systems and Microcontrollers, Internet of Things (IoT), VLSI and FPGA Design, Digital Signal Processing, Wireless Communication, AI and Image Processing",
+    "numbers": ["25 project ideas listed"],
+    "entities": ["Aislyn Technologies", "ECE", "IoT", "VLSI", "DSP"],
+    "time_period": "2025-2026",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "top-final-year-project-ideas-for-ece-students-20252026"
+  },
+  {
+    "claim": "Automatic accident detection/alert systems and GPS/GSM-based vehicle tracking are listed among common safety-oriented embedded ECE final-year projects.",
+    "stance": "neutral",
+    "stance_target": "common safety-automotive embedded ECE project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE projects, 2025-2026",
+    "quoted_support": "Automatic Accident Detection and Alert System ... Vehicle Tracking System Using GPS and GSM",
+    "numbers": [],
+    "entities": ["GPS", "GSM", "accident detection"],
+    "time_period": "2025-2026",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "top-final-year-project-ideas-for-ece-students-20252026"
+  },
+  {
+    "claim": "VLSI design of a low-power arithmetic logic unit (ALU) is listed as one of the 25 recommended final-year ECE project ideas.",
+    "stance": "neutral",
+    "stance_target": "common VLSI final-year project topics",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "final-year ECE projects, 2025-2026",
+    "quoted_support": "VLSI Design of Low Power Arithmetic Logic Unit",
+    "numbers": [],
+    "entities": ["VLSI", "ALU", "low power"],
+    "time_period": "2025-2026",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "top-final-year-project-ideas-for-ece-students-20252026"
+  }
+]

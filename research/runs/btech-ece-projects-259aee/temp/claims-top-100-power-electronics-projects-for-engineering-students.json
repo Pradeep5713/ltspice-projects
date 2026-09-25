@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Commonly listed final-year power-electronics project categories for engineering students include DC-DC converters (buck, boost, flyback, forward, LLC resonant, dual active bridge), inverters (single/three-phase, IGBT-based), and motor drives (PWM DC motor control, sensorless BLDC/PMSM, switched reluctance).",
+    "stance": "neutral",
+    "stance_target": "what power-electronics project topics are commonly assigned/searched",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "SEO listicle aimed at final-year engineering students, no implementation detail or peer review",
+    "quoted_support": "Here is a detailed list of 100 Power Electronics projects prepared for final-year engineering students.",
+    "numbers": ["100 project titles"],
+    "entities": ["buck converter", "boost converter", "LLC resonant converter", "IGBT inverter", "BLDC motor drive"],
+    "time_period": null,
+    "region": null,
+    "confidence": "low",
+    "source_note_id": "top-100-power-electronics-projects-for-engineering-students"
+  },
+  {
+    "claim": "The listicle includes renewable-energy and grid-integration projects (solar MPPT, grid-tied solar inverter, dynamic voltage restorer, microgrid load sharing) and protection/monitoring circuits (battery management system, solid-state breaker, fault detection in converters) as common student project ideas.",
+    "stance": "neutral",
+    "stance_target": "breadth of power-electronics project categories",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "same low-authority listicle source",
+    "quoted_support": "Solar MPPT System Implement a Maximum Power Point Tracking system for optimizing solar power extraction.",
+    "numbers": [],
+    "entities": ["MPPT", "battery management system", "dynamic voltage restorer"],
+    "time_period": null,
+    "region": null,
+    "confidence": "low",
+    "source_note_id": "top-100-power-electronics-projects-for-engineering-students"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Integration technology is categorized by transistor count into SSI, MSI, LSI, VLSI, ULSI, and GSI tiers.",
+    "stance": "neutral",
+    "stance_target": "VLSI terminology / integration scale definitions",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general semiconductor integration classification, no date given",
+    "quoted_support": "VLSI (Very Large Scale Integration): 10000-1 million transistors",
+    "numbers": ["SSI: 1-100 transistors", "MSI: 100-1000", "LSI: 1000-10000", "VLSI: 10000-1 million", "ULSI: 1m-10m", "GSI: more than 10 million"],
+    "entities": ["SSI", "MSI", "LSI", "VLSI", "ULSI", "GSI"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "final-year-projects-on-vlsi-for-electronicsece-students"
+  },
+  {
+    "claim": "VLSI is presented as conceived in the late 1970s and is used across commercial electronics, automobiles, computers, DSP, data/voice communication networks, and medicine.",
+    "stance": "neutral",
+    "stance_target": "VLSI history and application domains",
+    "evidence_type": "historical",
+    "scope_conditions": "general, no specific citation given",
+    "quoted_support": "VLSI was conceived during the late 1970s. It is now one of the used technologies for component designing, integrated circuit, and microchip processor.",
+    "numbers": ["late 1970s"],
+    "entities": ["VLSI"],
+    "time_period": "1970s",
+    "region": "",
+    "confidence": "low",
+    "source_note_id": "final-year-projects-on-vlsi-for-electronicsece-students"
+  },
+  {
+    "claim": "VLSI's advantages relative to discrete components are cited as reduced circuit size, lower space/power requirements, higher reliability, higher operating speed, and lower effective device cost.",
+    "stance": "supports",
+    "stance_target": "VLSI's value proposition for ECE education/projects",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "general, vendor blog claim without citation",
+    "quoted_support": "Comparing to Discrete components, it requires only less power ... The operating speed of circuits are increased by VLSI",
+    "numbers": [],
+    "entities": ["VLSI"],
+    "time_period": "",
+    "region": "",
+    "confidence": "low",
+    "source_note_id": "final-year-projects-on-vlsi-for-electronicsece-students"
+  }
+]

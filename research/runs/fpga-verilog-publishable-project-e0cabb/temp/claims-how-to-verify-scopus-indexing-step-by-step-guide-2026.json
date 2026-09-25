@@ -1,0 +1,58 @@
+[
+{
+  "claim": "The only reliable way to verify Scopus indexing is the free Scopus Preview source list at Scopus.com/sources, searching by ISSN rather than title.",
+  "stance": "supports",
+  "stance_target": "students should independently verify indexing before submitting/paying for a venue",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "global, as of 2026",
+  "quoted_support": "The only 100% reliable way to verify indexing is through the official Elsevier Scopus database... Using the ISSN (for journals) is more accurate than typing the title, as slight spelling variations can lead to zero results.",
+  "numbers": [],
+  "entities": ["Scopus", "Elsevier"],
+  "time_period": "2026",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "how-to-verify-scopus-indexing-step-by-step-guide-2026"
+},
+{
+  "claim": "A Scopus record showing coverage ending in a past year (e.g., '2010 to 2023') means the title has likely been discontinued and papers should not be submitted there.",
+  "stance": "supports",
+  "stance_target": "practical red-flag check for predatory/discontinued journals",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "global academic publishing",
+  "quoted_support": "Danger: The record shows a specific end year that is in the past... Meaning: This title has likely been discontinued or dropped by Scopus. Do not submit your paper here.",
+  "numbers": [],
+  "entities": ["Scopus"],
+  "time_period": "2026",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "how-to-verify-scopus-indexing-step-by-step-guide-2026"
+},
+{
+  "claim": "Scopus indexes conference proceedings by publication series (e.g., IEEE Conference Proceedings, LNCS), not by the individual conference event website, so students should verify the series ISBN rather than trusting the event's own branding.",
+  "stance": "supports",
+  "stance_target": "how to verify a conference proceedings' Scopus status",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "conference proceedings publishing",
+  "quoted_support": "Scopus indexes the publication series, not the individual event website... A legitimate conference organizer should be able to provide the ISBN of the upcoming proceedings or a link to the previous year's volume in Scopus.",
+  "numbers": [],
+  "entities": ["IEEE", "Springer", "ACM", "IOP", "LNCS"],
+  "time_period": "2026",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "how-to-verify-scopus-indexing-step-by-step-guide-2026"
+},
+{
+  "claim": "Red flags of predatory/fake Scopus-indexed conferences include guaranteed acceptance, unrealistically fast review (e.g., 3-day acceptance), organizer use of free email (Gmail/Hotmail) instead of institutional domains, and lack of fee transparency.",
+  "stance": "supports",
+  "stance_target": "identifying predatory conference venues before submission",
+  "evidence_type": "expert-opinion",
+  "scope_conditions": "global conference publishing",
+  "quoted_support": "\"Guaranteed Acceptance\": No legitimate academic venue guarantees acceptance before peer review... \"Unrealistically Fast Review\": If they promise paper acceptance in 3 days, it is likely a predatory conference.",
+  "numbers": ["3 days"],
+  "entities": [],
+  "time_period": "2026",
+  "region": "global",
+  "confidence": "high",
+  "source_note_id": "how-to-verify-scopus-indexing-step-by-step-guide-2026"
+}
+]

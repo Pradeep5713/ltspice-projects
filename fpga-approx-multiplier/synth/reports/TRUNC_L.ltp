@@ -1,0 +1,13 @@
+8. Executing LTP pass (find longest path).
+
+Longest topological path in mul8x8 (length=9):
+    0: \b [7]
+    1: $iopadmap$b [7] (via $iopadmap$mul8x8.b_7)
+    2: \u_lh.g_exact.u_lh.p [1] (via $flatten\u_lh.\g_exact.u_lh.$abc$2372$auto$blifparse.cc:525:parse_blif$2374)
+    3: $flatten\u_lh.$auto$maccmap.cc:114:fulladd$2206.Y [3] (via $flatten\u_lh.$abc$2363$auto$blifparse.cc:525:parse_blif$2365)
+    4: $flatten\u_lh.$auto$maccmap.cc:240:synth$2207.CO [3] (via $flatten\u_lh.$auto$maccmap.cc:240:synth$2207.genblk1.slice[0].genblk1.carry4)
+    5: \u_lh.p [4] (via $flatten\u_lh.$auto$maccmap.cc:240:synth$2207.genblk1.slice[1].genblk1.carry4)
+    6: $auto$maccmap.cc:240:synth$2074.X [9] (via $abc$2377$auto$blifparse.cc:525:parse_blif$2390)
+    7: $auto$maccmap.cc:240:synth$2074.CO [11] (via $auto$maccmap.cc:240:synth$2074.genblk1.slice[2].genblk1.carry4)
+    8: $iopadmap$p [12] (via $auto$maccmap.cc:240:synth$2074.genblk1.slice[3].genblk1.carry4)
+    9: \p [12] (via $iopadmap$mul8x8.p_12)

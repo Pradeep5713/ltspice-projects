@@ -1,0 +1,17 @@
+
+5. Printing statistics.
+
+=== mul8x8_beh ===
+
+   Number of wires:                  7
+   Number of wire bits:             96
+   Number of public wires:           3
+   Number of public wire bits:      32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 33
+     DSP48E1                         1
+     IBUF                           16
+     OBUF                           16
+

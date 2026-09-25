@@ -1,0 +1,14 @@
+8. Executing LTP pass (find longest path).
+
+Longest topological path in mul8x8 (length=10):
+    0: \b [3]
+    1: $iopadmap$b [3] (via $iopadmap$mul8x8.b_3)
+    2: \g_ll.u_ll.g_approx.u_lh.p [1] (via $flatten\g_ll.u_ll.\g_approx.u_lh.$abc$2484$auto$blifparse.cc:525:parse_blif$2486)
+    3: $flatten\g_ll.u_ll.$auto$maccmap.cc:114:fulladd$2238.Y [3] (via $flatten\g_ll.u_ll.$abc$2475$auto$blifparse.cc:525:parse_blif$2477)
+    4: $flatten\g_ll.u_ll.$auto$maccmap.cc:240:synth$2239.CO [3] (via $flatten\g_ll.u_ll.$auto$maccmap.cc:240:synth$2239.genblk1.slice[0].genblk1.carry4)
+    5: \g_ll.u_ll.p [4] (via $flatten\g_ll.u_ll.$auto$maccmap.cc:240:synth$2239.genblk1.slice[1].genblk1.carry4)
+    6: $auto$maccmap.cc:240:synth$2081.X [5] (via $abc$2493$auto$blifparse.cc:525:parse_blif$2502)
+    7: $auto$maccmap.cc:240:synth$2081.CO [7] (via $auto$maccmap.cc:240:synth$2081.genblk1.slice[1].genblk1.carry4)
+    8: $auto$maccmap.cc:240:synth$2081.CO [11] (via $auto$maccmap.cc:240:synth$2081.genblk1.slice[2].genblk1.carry4)
+    9: $iopadmap$p [12] (via $auto$maccmap.cc:240:synth$2081.genblk1.slice[3].genblk1.carry4)
+   10: \p [12] (via $iopadmap$mul8x8.p_12)

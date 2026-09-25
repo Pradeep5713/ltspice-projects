@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "CFU Playground's iterative deploy-profile-optimize design loop for custom function units achieves 55x-75x speedups over an unaccelerated baseline soft CPU on embedded TinyML workloads.",
+    "stance": "supports",
+    "stance_target": "open-source full-stack co-design frameworks can deliver order-of-magnitude ML accelerator speedups on FPGAs, a viable basis for a publishable undergraduate accelerator project",
+    "evidence_type": "empirical",
+    "scope_conditions": "VexRiscv soft CPU + Custom Function Unit on FPGA, TensorFlow Lite Micro workloads",
+    "quoted_support": "Using CFU Playground's design and evaluation loop, we show substantial speedups between 55x and 75x.",
+    "numbers": ["55x", "75x"],
+    "entities": ["CFU Playground", "VexRiscv", "TensorFlow Lite Micro", "Vizier"],
+    "time_period": "2022-2023",
+    "confidence": "high",
+    "source_note_id": "cfu-playground-full-stack-open-source"
+  },
+  {
+    "claim": "CFU Playground is a fully open-source stack combining TFLM, GCC, LiteX/VexRiscv/Migen/Amaranth RTL generation, and yosys/nextpnr/F4PGA FPGA toolchains, avoiding vendor lock-in for custom ML accelerator research.",
+    "stance": "neutral",
+    "stance_target": "toolchain choice for reproducible, low-cost FPGA TinyML student projects (relevant to Basys-3/open-source-tool angle)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "framework architecture description",
+    "quoted_support": "The framework is unique in that it couples together various open-source software (TensorFlow Lite Micro/TFLM, GCC), open-source RTL generation IP and toolkits (LiteX, VexRiscv, Migen, Amaranth), and open-source FPGA tools for synthesis, place, and route (yosys, nextpnr, F4PGA/SymbiFlow, etc.).",
+    "numbers": [],
+    "entities": ["CFU Playground", "yosys", "nextpnr", "F4PGA", "LiteX", "VexRiscv"],
+    "time_period": "2022-2023",
+    "confidence": "high",
+    "source_note_id": "cfu-playground-full-stack-open-source"
+  },
+  {
+    "claim": "TinyML systems operate at MHz frequencies with only KBs of memory, few MB of storage, uW-mW power budgets, and <$10 unit cost, in stark contrast to Cloud (GHz, 10+GB, 100W-kW, $1000+) and Mobile ML tiers.",
+    "stance": "neutral",
+    "stance_target": "quantifies the extreme resource constraints that justify custom lightweight FPGA accelerator research for undergraduate projects",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general TinyML vs Cloud/Mobile ML system comparison table",
+    "quoted_support": "Tiny MHz KBs Few MB uW~mW < $10",
+    "numbers": ["MHz", "KBs", "uW-mW", "<$10"],
+    "entities": ["TinyML"],
+    "time_period": "2022-2023",
+    "confidence": "medium",
+    "source_note_id": "cfu-playground-full-stack-open-source"
+  },
+  {
+    "claim": "CFU Playground bundles Vizier, Google's open-source black-box optimizer, to automate design-space exploration of CPU-plus-custom-function-unit configurations.",
+    "stance": "neutral",
+    "stance_target": "automated design-space exploration methodology reproducible in a student project's methodology section",
+    "evidence_type": "theoretical",
+    "scope_conditions": "framework feature",
+    "quoted_support": "We bundle CFU Playground with Vizier, an open-source black-box optimizer from Google to enable automated design space exploration of the CPU paired with a CFU.",
+    "numbers": [],
+    "entities": ["CFU Playground", "Vizier"],
+    "time_period": "2022-2023",
+    "confidence": "medium",
+    "source_note_id": "cfu-playground-full-stack-open-source"
+  }
+]

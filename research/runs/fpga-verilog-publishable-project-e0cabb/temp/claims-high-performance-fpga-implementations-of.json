@@ -1,0 +1,68 @@
+[
+  {
+    "claim": "A round-folded ASCON-128 permutation (6 rounds/cycle) on Artix-7 achieves 3535.91 Mbps throughput at 1.19 Mbps/LUT efficiency.",
+    "stance": "supports",
+    "stance_target": "FPGA lightweight-crypto Verilog/VHDL projects can achieve publishable, quantifiable throughput-to-area improvements",
+    "evidence_type": "empirical",
+    "scope_conditions": "Artix-7 xc7a200tfbg676-2, Vivado 2023.2, VHDL implementation",
+    "quoted_support": "the ASCON-128 implementation in this work achieves a throughput of 3535.91 Mbps with an efficiency of 1.19 Mbps/LUT.",
+    "numbers": ["3535.91 Mbps", "1.19 Mbps/LUT", "792.56 Mbps prior work", "0.208 Mbps/LUT prior work"],
+    "entities": ["ASCON-128", "Artix-7", "Vivado"],
+    "time_period": "2025",
+    "region": "n/a",
+    "confidence": "high",
+    "source_note_id": "high-performance-fpga-implementations-of"
+  },
+  {
+    "claim": "ASCON-128a with a 4-round-per-cycle permutation on Artix-7 reaches 5333.3 Mbps throughput at 2.44 Mbps/LUT, beating the best prior design's 1683.2 Mbps / 0.887 Mbps/LUT.",
+    "stance": "supports",
+    "stance_target": "throughput-to-area optimization is a viable novelty angle for undergraduate crypto-FPGA papers",
+    "evidence_type": "empirical",
+    "scope_conditions": "Artix-7, Vivado 2023.2",
+    "quoted_support": "The ASCON-128a implementation from this work further improves upon these results, achieving the highest throughput of 5333.3 Mbps with an better efficiency of 2.44 Mbps/LUT.",
+    "numbers": ["5333.3 Mbps", "2.44 Mbps/LUT", "1683.2 Mbps prior", "0.887 Mbps/LUT prior"],
+    "entities": ["ASCON-128a", "Artix-7"],
+    "time_period": "2025",
+    "confidence": "high",
+    "source_note_id": "high-performance-fpga-implementations-of"
+  },
+  {
+    "claim": "On Kintex-7, the proposed ASCON-128a design reaches 10158 Mbps throughput with 3.32 Mbps/LUT efficiency, the highest among compared implementations.",
+    "stance": "supports",
+    "stance_target": "novel throughput-to-area FPGA crypto architecture claim",
+    "evidence_type": "empirical",
+    "scope_conditions": "Kintex-7 xc7k160tfbg676-3, Vivado 2023.2",
+    "quoted_support": "The ASCON-128a implementation in this work further enhances these results, demonstrating a throughput of 10158 Mbps and an efficiency of 3.32 Mbps/LUT, which is the highest among the implementations compared.",
+    "numbers": ["10158 Mbps", "3.32 Mbps/LUT"],
+    "entities": ["ASCON-128a", "Kintex-7"],
+    "time_period": "2025",
+    "confidence": "high",
+    "source_note_id": "high-performance-fpga-implementations-of"
+  },
+  {
+    "claim": "ASCON was selected as the NIST Lightweight Cryptography standard winner in February 2023, with the official standard published June 16, 2023.",
+    "stance": "neutral",
+    "stance_target": "background legitimacy of ASCON as a research topic",
+    "evidence_type": "historical",
+    "scope_conditions": "NIST standardization process 2018-2023",
+    "quoted_support": "After further evaluations, the ASCON family was declared the winner in February 2023, and the official NIST standard was published on June 16, 2023.",
+    "numbers": ["57 submissions", "32 second round", "10 finalists"],
+    "entities": ["NIST", "ASCON"],
+    "time_period": "2018-2023",
+    "confidence": "high",
+    "source_note_id": "high-performance-fpga-implementations-of"
+  },
+  {
+    "claim": "The paper's Spartan-7 implementation of ASCON-128a reaches 5333.33 Mbps at 2.45 Mbps/LUT, a 98.63% throughput-to-area improvement versus best Spartan-6 design (1116.4 Mbps, 0.584 Mbps/LUT).",
+    "stance": "supports",
+    "stance_target": "older/cheaper FPGA families still show large gains from modern toolchain and round-folding design",
+    "evidence_type": "empirical",
+    "scope_conditions": "Spartan-7 vs Spartan-6 comparison; caveat that some improvement is due to platform generation not just design",
+    "quoted_support": "Our ASCON-128 implementation on the Spartan-7 FPGA achieves a throughput of 3440.86 Mbps with an efficiency of 1.16 Mbps/LUT, and the ASCON-128a implementation reaches an impressive 5333.33 Mbps with an efficiency of 2.45 Mbps/LUT.",
+    "numbers": ["5333.33 Mbps", "2.45 Mbps/LUT", "1116.4 Mbps Spartan-6", "0.584 Mbps/LUT Spartan-6", "98.63%"],
+    "entities": ["ASCON-128a", "Spartan-7", "Spartan-6"],
+    "time_period": "2025",
+    "confidence": "medium",
+    "source_note_id": "high-performance-fpga-implementations-of"
+  }
+]

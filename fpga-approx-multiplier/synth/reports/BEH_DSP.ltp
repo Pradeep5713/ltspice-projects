@@ -1,0 +1,7 @@
+6. Executing LTP pass (find longest path).
+
+Longest topological path in mul8x8_beh (length=3):
+    0: \b [7]
+    1: $iopadmap$b [7] (via $iopadmap$mul8x8_beh.b_7)
+    2: $iopadmap$p [0] (via $mul$rtl/mul8x8.v:25$24)
+    3: \p [0] (via $iopadmap$mul8x8_beh.p)

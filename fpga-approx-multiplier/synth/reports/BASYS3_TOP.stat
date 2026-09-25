@@ -1,0 +1,243 @@
+
+6. Printing statistics.
+
+=== $paramod\mul4x4\APPROX=1'0 ===
+
+   Number of wires:                 10
+   Number of wire bits:             56
+   Number of public wires:           7
+   Number of public wire bits:      32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     CARRY4                          2
+     LUT3                            4
+     LUT4                            1
+     LUT6                            3
+     mul2x2_exact                    4
+
+=== $paramod\mul4x4\APPROX=1'1 ===
+
+   Number of wires:                 10
+   Number of wire bits:             56
+   Number of public wires:           7
+   Number of public wire bits:      32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     CARRY4                          2
+     LUT3                            4
+     LUT4                            1
+     LUT6                            3
+     mul2x2_approx                   4
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000000 ===
+
+   Number of wires:                 10
+   Number of wire bits:            112
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     $paramod\mul4x4\APPROX=1'0      4
+     CARRY4                          4
+     LUT3                            8
+     LUT4                            1
+     LUT6                            7
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000001 ===
+
+   Number of wires:                 10
+   Number of wire bits:            112
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     $paramod\mul4x4\APPROX=1'0      3
+     $paramod\mul4x4\APPROX=1'1      1
+     CARRY4                          4
+     LUT3                            8
+     LUT4                            1
+     LUT6                            7
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000010 ===
+
+   Number of wires:                 10
+   Number of wire bits:            112
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     $paramod\mul4x4\APPROX=1'0      1
+     $paramod\mul4x4\APPROX=1'1      3
+     CARRY4                          4
+     LUT3                            8
+     LUT4                            1
+     LUT6                            7
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000011 ===
+
+   Number of wires:                 10
+   Number of wire bits:            112
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     $paramod\mul4x4\APPROX=1'1      4
+     CARRY4                          4
+     LUT3                            8
+     LUT4                            1
+     LUT6                            7
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000100 ===
+
+   Number of wires:                 10
+   Number of wire bits:            108
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 23
+     $paramod\mul4x4\APPROX=1'0      3
+     CARRY4                          4
+     LUT2                            4
+     LUT3                            4
+     LUT4                            4
+     LUT5                            1
+     LUT6                            3
+
+=== $paramod\mul8x8\MODE=s32'00000000000000000000000000000101 ===
+
+   Number of wires:                 10
+   Number of wire bits:            108
+   Number of public wires:           7
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 23
+     $paramod\mul4x4\APPROX=1'0      1
+     $paramod\mul4x4\APPROX=1'1      2
+     CARRY4                          4
+     LUT2                            4
+     LUT3                            4
+     LUT4                            4
+     LUT5                            1
+     LUT6                            3
+
+=== basys3_top ===
+
+   Number of wires:                 93
+   Number of wire bits:            534
+   Number of public wires:          27
+   Number of public wire bits:     220
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                220
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000000      1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000001      1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000010      1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000011      1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000100      1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000101      1
+     BUFG                            1
+     CARRY4                         10
+     FDRE                           75
+     IBUF                           20
+     INV                             4
+     LUT2                            6
+     LUT4                           10
+     LUT5                           21
+     LUT6                           36
+     MUXF7                           2
+     MUXF8                           1
+     OBUF                           28
+
+=== mul2x2_approx ===
+
+   Number of wires:                  3
+   Number of wire bits:              8
+   Number of public wires:           3
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     LUT2                            2
+     LUT4                            1
+
+=== mul2x2_exact ===
+
+   Number of wires:                  3
+   Number of wire bits:              8
+   Number of public wires:           3
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     LUT2                            1
+     LUT4                            3
+
+=== design hierarchy ===
+
+   basys3_top                        1
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000000      1
+       $paramod\mul4x4\APPROX=1'0      4
+         mul2x2_exact                4
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000001      1
+       $paramod\mul4x4\APPROX=1'0      3
+         mul2x2_exact                4
+       $paramod\mul4x4\APPROX=1'1      1
+         mul2x2_approx               4
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000010      1
+       $paramod\mul4x4\APPROX=1'0      1
+         mul2x2_exact                4
+       $paramod\mul4x4\APPROX=1'1      3
+         mul2x2_approx               4
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000011      1
+       $paramod\mul4x4\APPROX=1'1      4
+         mul2x2_approx               4
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000100      1
+       $paramod\mul4x4\APPROX=1'0      3
+         mul2x2_exact                4
+     $paramod\mul8x8\MODE=s32'00000000000000000000000000000101      1
+       $paramod\mul4x4\APPROX=1'0      1
+         mul2x2_exact                4
+       $paramod\mul4x4\APPROX=1'1      2
+         mul2x2_approx               4
+
+   Number of wires:                637
+   Number of wire bits:           3134
+   Number of public wires:         487
+   Number of public wire bits:    2012
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                866
+     BUFG                            1
+     CARRY4                         78
+     FDRE                           75
+     IBUF                           20
+     INV                             4
+     LUT2                          142
+     LUT3                          128
+     LUT4                          228
+     LUT5                           23
+     LUT6                          136
+     MUXF7                           2
+     MUXF8                           1
+     OBUF                           28
+

@@ -1,0 +1,24 @@
+
+6. Printing statistics.
+
+=== mul8x8_beh ===
+
+   Number of wires:                 80
+   Number of wire bits:            340
+   Number of public wires:           3
+   Number of public wire bits:      32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                172
+     CARRY4                          4
+     IBUF                           16
+     LUT2                            9
+     LUT3                           12
+     LUT4                           10
+     LUT5                            6
+     LUT6                           76
+     MUXF7                          22
+     MUXF8                           1
+     OBUF                           16
+
